@@ -1,33 +1,69 @@
-# Project
+# UniPrompt Repository
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+📄 This repository contains code to implement our paper **UniPrompt**.
 
-As the maintainer of this project, please make a few updates:
+## 🛠️ Setting Up
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+1. **Set Environment Variables**
 
-## Contributing
+   You need to set the following environment variables before running the code:
+   - `API_KEY`
+   - `ENDPOINT`
+   - `API_VERSION`
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+   ### Example Commands
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+   For **Windows Command Prompt**:
+   ```cmd
+   set API_KEY=your_api_key
+   set ENDPOINT=your_endpoint
+   set API_VERSION=your_api_version
+   ```
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+   For **Windows PowerShell**:
+   ```powershell
+   $env:API_KEY = "your_api_key"
+   $env:ENDPOINT = "your_endpoint"
+   $env:API_VERSION = "your_api_version"
+   ```
 
-## Trademarks
+2. **Update the Config File**
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+   Modify the `config/dataset_name.json` file as per your use case. The configuration includes the following parameters:
+   ```json
+   {
+       "dataset_path": "dataset/ethos.jsonl",
+       "mini_batch": 5,
+       "batch_size": 7,
+       "iterations": 1,
+       "epochs": 10,
+       "logging_file_path": "logs/ethos.jsonl",
+       "initial_prompt": "introduction: In this task, you are given a question. You have to solve the question.",
+       "task": "question_answering"
+   }
+   ```
+
+3. **Prepare the Dataset**
+
+   The dataset format is very important. Ensure your dataset is a JSONL file with the following format:
+   - `split`: (train, test, validation)
+   - `question`: Full question that you want to get answered, including any prefix or postfix statements
+   - `choices`: If the answer has choices, it should be a list, like `[monkey, zebra, lion, tiger]`
+   - `answer`: Either a digit or an option like `A`, `B`, `C`, etc.
+
+   Example:
+   ```jsonl
+   {"split": "train", "question": "What is the largest land animal?", "choices": ["monkey", "zebra", "lion", "tiger"], "answer": "D"}
+   ```
+
+## 🚀 Running the Optimization
+
+To get the final optimized prompt, run the following command:
+
+```bash
+python .\optimize_k_fold.py --config config/ethos.json
+```
+
+---
+
+Feel free to contribute and raise issues! 🛠️✨
