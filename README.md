@@ -48,16 +48,12 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
    For **Windows Command Prompt**:
    ```cmd
-   set API_KEY=your_api_key
-   set ENDPOINT=your_endpoint
-   set API_VERSION=your_api_version
+   set OPENAI_API_KEY=your_api_key
    ```
 
    For **Windows PowerShell**:
    ```powershell
-   $env:API_KEY = "your_api_key"
-   $env:ENDPOINT = "your_endpoint"
-   $env:API_VERSION = "your_api_version"
+   $env:OPENAI_API_KEY = "your_api_key"
    ```
 
 1. **Update the Config File**
