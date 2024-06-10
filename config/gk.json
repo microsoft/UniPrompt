@@ -1,0 +1,22 @@
+{
+    "dataset_path": "data/gk.jsonl",
+    "mini_batch": 5,
+    "batch_size": 7,
+    "iterations": 1,
+    "epochs": 10,
+    "logging_file_path": "logs/gk.jsonl",
+    "initial_prompt": "introduction: In this task, you are given a question. You have to solve the question.",
+    "solver_llm": {
+        "model": "gpt-4-turbo",
+        "temperature": 0
+    },
+    "expert_llm": {
+        "model": "gpt-4-turbo",
+        "temperature": 0
+    },
+    "grouping_llm": {
+        "model": "gpt-4-turbo",
+        "temperature": 0
+    }
+}
+  

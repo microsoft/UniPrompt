@@ -1,14 +1,22 @@
 {
-    "dataset_path": "dataset/ethos.jsonl",
+    "dataset_path": "data/ethos.jsonl",
     "mini_batch": 5,
     "batch_size": 7,
     "iterations": 1,
     "epochs": 10,
     "logging_file_path": "logs/ethos.jsonl",
     "initial_prompt": "introduction: In this task, you have to tell if the given statement expresses hate speech or not.",
-    "task": "hate speech detection",
-    "solver_llm": "gpt-4",
-    "expert_llm": "gpt-4",
-    "grouping_llm": "gpt-4"
+    "solver_llm": {
+        "model": "gpt-4",
+        "temperature": 0
+    },
+    "expert_llm": {
+        "model": "gpt-4",
+        "temperature": 0
+    },
+    "grouping_llm": {
+        "model": "gpt-4",
+        "temperature": 0
+    }
 }
   
