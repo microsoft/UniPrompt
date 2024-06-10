@@ -1,12 +1,13 @@
 import json
-from typing import Dict, Sequence
 import os
+from typing import Dict, Sequence
+
 from openai import OpenAI
 
 
 def chat_completion(**kwargs):
     client = OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY"),   
+        api_key=os.environ.get("OPENAI_API_KEY"),
     )
     return client.chat.completions.create(**kwargs)
 

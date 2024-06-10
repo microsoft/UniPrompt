@@ -112,7 +112,11 @@ final_prompt = optimize(config=config)
 
 For a working example, run
 ```bash
-python examples/main.py --config=config/gk.json
+python examples/gk.py --config=config/gk.json
+```
+Or
+```bash
+python examples/ethos.py --config=config/ethos.json
 ```
 
 ## Contributing

@@ -19,8 +19,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Read configuration from a JSON file.")
     parser.add_argument("--config", type=str, required=True, help="Path to the configuration file")
-
-    # Parse the command-line arguments
     args = parser.parse_args()
 
     main(args)
