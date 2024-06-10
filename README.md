@@ -42,11 +42,8 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
 1. **Set Environment Variables**
 
-   You need to set the following environment variables before running the code:
-   - `API_KEY`
-   - `ENDPOINT`
-   - `API_VERSION`
-
+   You need to set the `OPENAI_API_KEY` environment variables before running the code:
+   
    ### Example Commands
 
    For **Windows Command Prompt**:
