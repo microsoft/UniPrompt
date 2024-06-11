@@ -9,7 +9,7 @@ def main(args):
     config_file = args.config
 
     # Loading the configuration file
-    with open(config_file, "r") as f:
+    with open(config_file) as f:
         config = json.load(f)
 
     final_prompt = optimize(config=config)

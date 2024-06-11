@@ -88,13 +88,13 @@ def feedback_one_example(
         The feedback given to the student.
     """
 
-    Examples = ""
+    examples = ""
     for i in range(len(pred_answers)):
-        Examples += f"### Question\n{questions[i]}### Answer\n{answers[i]}### Predicted answer\n{pred_answers[i]}### Explanation\n{cots[i]}\n\n"
+        examples += f"### Question\n{questions[i]}### Answer\n{answers[i]}### Predicted answer\n{pred_answers[i]}### Explanation\n{cots[i]}\n\n"
 
     input_prompt = f"""You are a teacher and you have to give feedback to your students on their answers.
 
-You are teaching hate speach detection to your students. You are given a question and it's answer. You are also given the explanations written by your students while solving the questions.
+You are given a question and it's answer. You are also given the explanations written by your students while solving the questions.
 
 The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
 
@@ -109,7 +109,7 @@ You can also give examples to make the concept more clear.
 ## Background Knowledge
 {prompt}
 
-{Examples}
+{examples}
 
 Now, it is your turn to give feedbacks to the students.
 """
@@ -182,9 +182,9 @@ def feedback_with_history(
         The feedback given to the student.
     """
 
-    Examples = ""
+    examples = ""
     for i in range(len(pred_answers)):
-        Examples += f"""
+        examples += f"""
 ### Question
     {questions[i]}
 ### True Answer
@@ -205,7 +205,7 @@ def feedback_with_history(
 """
     input_prompt = f"""You are a teacher and you have to give feedback to your students on their answers.
 
-You are teaching how to solve math problems to your students. You are given a question, it's true answer and answer given by student. You are also given the explanations written by your students while solving the questions.
+You are given a question, it's true answer and answer given by student. You are also given the explanations written by your students while solving the questions.
 
 The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
 
@@ -224,7 +224,7 @@ Give very granular feedbacks, like if the student has made a mistake in the calc
 {history_string}
 
 
-{Examples}
+{examples}
 
 Now, it is your turn to give feedbacks to the students.
 You can only provide a one line feedback.
@@ -265,7 +265,7 @@ To achieve your task, try to follow the following steps;
 
 You may use the following function templates-
 
-add_section(sectioname)
+add_section(section_name)
 add_subsection(section_name, subsection_name)
 set_section_content(section_name, new_content)
 set_subsection_content(section_name, subsection_name, new_content)

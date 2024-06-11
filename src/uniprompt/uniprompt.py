@@ -122,7 +122,7 @@ def make_groups(
 
     prompt = f"""You are given a set of feedbacks, you need to cluster them into five groups based on similarity, and then provide a summary of each group. You can use the following feedbacks to cluster: \n {feedback}
 
-Provide each cluster explnation within the following tags: <Cluster></Cluster>"""
+Provide each cluster explanation within the following tags: <Cluster></Cluster>"""
 
     messages = [{"role": "user", "content": prompt}]
     cluster = chat_completion(**config["grouping_llm"], messages=messages)
@@ -253,8 +253,6 @@ def optimize(
     log_iteration(logging_information, logging_file_path)
 
     for epoch in range(epochs):
-        breakpoint()
-
         # Initializing edits history
         edit_history_dict = {}
         for group in groups:

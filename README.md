@@ -141,16 +141,8 @@ pip install -e "./[dev]"
 
 ### 🖌️ Style guide
 
-To ensure your code follows the style guidelines, install `black>=23.1` and `isort>=5.11`
+To ensure your code follows the style guidelines, install `ruff ~= 4.0`
 
 ```shell
-pip install black>=24.1.0
-pip install isort>=5.12.0
-```
-
-then run,
-
-```shell
-isort . --sp=pyproject.toml
-black . --config=pyproject.toml
+ruff check --fix
 ```
