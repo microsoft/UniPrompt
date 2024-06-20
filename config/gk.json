@@ -1,18 +1,17 @@
 {
-    "dataset_path": "data/ethos.jsonl",
+    "dataset_path": "data/gk.jsonl",
     "mini_batch": 5,
     "batch_size": 7,
     "iterations": 1,
-    "epochs": 3,
-    "logging_file_path": "logs/ethos.jsonl",
-    "initial_prompt": "Introduction: In this task, you have to tell if the given statement expresses hate speech or not.",
+    "epochs": 1,
+    "logging_file_path": "logs/gk.jsonl",
+    "initial_prompt": "Introduction: In this task, you are given a question. You have to solve the question.",
     "metric_kwargs": {
-        "type": "weighted_accuracy",
-        "weights": [0.45, 0.55]
+        "type": "accuracy"
     },
     "solver_llm": {
         "model_kwargs": {
-            "model": "gpt-4",
+            "model": "gpt-4-turbo",
             "temperature": 0
         },
         "api_kwargs": {
@@ -23,7 +22,7 @@
     },
     "expert_llm": {
         "model_kwargs": {
-            "model": "gpt-4",
+            "model": "gpt-4-turbo",
             "temperature": 0
         },
         "api_kwargs": {
@@ -34,7 +33,7 @@
     },
     "grouping_llm": {
         "model_kwargs": {
-            "model": "gpt-4",
+            "model": "gpt-4-turbo",
             "temperature": 0
         },
         "api_kwargs": {

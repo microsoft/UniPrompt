@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uniprompt"
+version = "0.1.2"
+authors = [
+    { name="Gurusha Juneja", email="t-gujuneja@microsoft.com" },
+    { name="Anush Kini", email="t-anushkini@microsoft.com" },
+    { name="Amit Sharma", email="amshar@microsoft.com" },
+    { name="Nagarajan Natarajan", email="nagarajan.natarajan@microsoft.com" },
+]
+description = "Python implementation of UniPrompt."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "openai>=1.3.0",
+    "tqdm>=4.66.0"
+]
+
+[project.urls]
+Homepage = "https://aka.ms/UniPrompt"
+Code = "https://github.com/microsoft/UniPrompt"
+
+[project.optional-dependencies]
+dev = ["ruff ~= 0.4"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = [
+    "ANN",    # flake8-annotations
+    "B",      # flake8-bugbear
+    "A",      # flake8-builtins
+    "C4",     # flake8-comprehensions
+    "T",      # flake8-debugger, flake8-print
+    "Q",      # flake8-quotes
+    "SIM",    # flake8-simplify
+    "RET503", # implicit-return
+    "I",      # isort
+    "C90",    # mccabe
+    "N",      # pep8-naming
+    "E",      # pycodestyle
+    "W",      # pycodestyle warnings
+    "F",      # Pyflakes
+    "UP",     # pyupgrade
+]
+ignore = [
+    "ANN101", # Missing type annotation for `self` in method
+    "ANN204", # Missing return type annotation for special method
+    "D105",   # Missing docstring in magic method
+    "UP036",  # Version block is outdated for minimum Python version
+]
+mccabe = { max-complexity = 14 }
+pydocstyle = { convention = "google" }
+
+[tool.ruff.lint.per-file-ignores]
+"**/examples/*.py" = [
+    "T201", # `print` used
+]
