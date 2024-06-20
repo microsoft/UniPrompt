@@ -9,14 +9,25 @@ def create_ethos_dataset(output_path):
     def write_to_jsonl(f, split, data):
         questions = data["text"]
         answers = data["label"]
-        choices = ['["Non-Hate", "Hate"]'] * len(questions)
+        choices = [["Non-Hate", "Hate"]] * len(questions)
         for i in range(len(questions)):
-            f.write(
-                f'{{"split": "{split}", "question": "{questions[i]}", "choices": {choices[i]}, "answer": "{chr(answers[i]+65)}"}}\n'
-            )
+            write_data = {
+                "split": split,
+                "question": questions[i],
+                "choices": choices[i],
+                "answer": chr(answers[i] + 65),
+            }
+            json.dump(write_data, f)
+            f.write("\n")
 
-    dataset = load_dataset("ethos", "binary")["train"]
+    dataset = load_dataset(
+                "ethos",
+                "binary",
+                trust_remote_code=True, split="train",
+            ).shuffle(seed=4)
 
+
+    dataset = dataset.select(range(100)) # Select 100 examples for this test run
     train_ratio, val_ratio = 0.4, 0.2
     train_len = int(len(dataset) * train_ratio)
     val_len = int(len(dataset) * val_ratio)
@@ -45,4 +56,4 @@ if __name__ == "__main__":
     parser.add_argument("--config", type=str, required=True, help="Path to the configuration file")
     args = parser.parse_args()
 
-    main()
+    main(args)

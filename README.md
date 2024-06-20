@@ -4,11 +4,6 @@
 
 ![UniPrompt: Generating Multiple Facets of a Task in the Prompt](assets/banner.png)
 
-[License](https://github.com/microsoft/UniPrompt/blob/main/LICENSE) |
-[Security](https://github.com/microsoft/UniPrompt/blob/main/SECURITY.md) |
-[Support](https://github.com/microsoft/UniPrompt/blob/main/SUPPORT.md) |
-[Code of Conduct](https://github.com/microsoft/UniPrompt/blob/main/CODE_OF_CONDUCT.md)
-
 </div>
 
 ## About
@@ -32,12 +27,6 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
     python3 -m pip install .
     ```
 
-    Or
-
-    ```bash
-    python3 -m pip install git+https://github.com/microsoft/UniPrompt.git
-    ```
-
 ### 🔧 Setting up
 
 1. **Set Environment Variables**
@@ -58,7 +47,10 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
 1. **Update the Config File**
 
-   Modify the `config/dataset_name.json` file as per your use case. The configuration includes the following parameters:
+   Modify the `config/dataset_name.json` file as per your use case.
+   If you are using an internal endpoint, make sure to set `api_type` to `azure`, `api_base` to your endpoint URL and `api_version` in your dataset config file. If you are using an OpenAI endpoint, then just set api_type to `oai`.
+   
+   The configuration includes the following parameters:
    ```json
    {
       "dataset_path": "dataset/ethos.jsonl",
@@ -68,21 +60,49 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
       "epochs": 10,
       "logging_file_path": "logs/ethos.jsonl",
       "initial_prompt": "introduction: In this task, you are given a question. You have to solve the question.",
+      "metric_kwargs": {
+        "type": "hinge_accuracy",
+        "weights": [0.45, 0.55],
+        "thresholds": [0.6, 0.75]
+      },
       "solver_llm": {
-         "model": "gpt-4",
-         "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
       },
       "expert_llm": {
-         "model": "gpt-4",
-         "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
       },
       "grouping_llm": {
-         "model": "gpt-4",
-         "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
       }
    }
    ```
-   Example config files can be found at [config/ethos.json](config/ethos.json) and [config/gk.json](config/gk.json).
+   Metric `type` can be one of `['accuracy', 'weighted_accuracy', 'hinge_accuracy']` 
+   Example config files can be found at [config/ethos.json](config/ethos.json), [config/gk.json](config/gk.json).
+   Make sure to set `api_kwargs` before using them.
 
 1. **Prepare the Dataset**
 
@@ -112,26 +132,15 @@ final_prompt = optimize(config=config)
 
 For a working example, run
 ```bash
-python examples/gk.py --config=config/gk.json
+python examples/main.py --config=config/gk.json
 ```
 Or
 ```bash
+pip install datasets
 python examples/ethos.py --config=config/ethos.json
 ```
 
 ## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ### 🛠️ Setup
 

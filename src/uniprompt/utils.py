@@ -1,15 +1,90 @@
 import json
 import os
+import sqlite3
+import time
 from typing import Dict, Sequence
 
-from openai import OpenAI
+import numpy as np
+from openai import AzureOpenAI, OpenAI
 
 
-def chat_completion(**kwargs):
-    client = OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY"),
-    )
-    return client.chat.completions.create(**kwargs)
+def get_confusion_matrix(y_true, y_pred, normalize=False):
+    y_true = np.asarray(y_true)
+    y_pred = np.asarray(y_pred)
+
+    classes = np.unique(y_true)
+    n_classes = len(classes)
+
+    cm = np.zeros((n_classes, n_classes))
+
+    for i in range(n_classes):
+        for j in range(n_classes):
+            cm[i, j] = np.sum((y_true == classes[i]) & (y_pred == classes[j]))
+
+    if normalize is True:
+        for i in range(n_classes):
+            if np.sum(cm[i, :]) == 0:
+                cm[i, :] = 0
+            else:
+                cm[i, :] = cm[i, :]/np.sum(cm[i, :])
+
+    return cm
+
+
+def chat_completion(cache_path="sm.db", **kwargs):
+    if kwargs["api_kwargs"]["api_type"] == "azure":
+        client = AzureOpenAI(
+            api_key=os.environ.get("OPENAI_API_KEY"),
+            azure_endpoint=kwargs["api_kwargs"]["api_base"],
+            api_version=kwargs["api_kwargs"]["api_version"]
+        )
+    else:
+        client = OpenAI(
+            api_key=os.environ.get("OPENAI_API_KEY"),
+        )
+
+    # while True:
+    #     try:
+    #         response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
+    #         break
+    #     except Exception as e:
+    #         print(f"Got error {e}. Sleeping for 5 seconds...")
+    #         time.sleep(5)
+
+    # return response.choices[0].message.content
+
+    if cache_path is not None:
+        messages_hash = str(kwargs["messages"])
+        model = kwargs["model_kwargs"]["model"]
+
+        conn = sqlite3.connect(cache_path, timeout=5)
+        cursor = conn.cursor()
+        if "llm_cache" not in [table[0] for table in cursor.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;").fetchall()]:
+            print("Cache was not present, building from scratch")
+            cursor.execute("CREATE TABLE llm_cache(prompt, response)")
+        key = str((messages_hash, model))
+        results = cursor.execute("SELECT * FROM llm_cache WHERE prompt == ?", (str(key),)).fetchall()
+
+        if len(results) == 0:
+            while True:
+                try:
+                    response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
+                    # print("Got response!", model)
+                    break
+                except Exception as e:
+                    print(f"Got error {e}. Sleeping for 5 seconds...")
+                    time.sleep(5)
+
+            cursor.execute("INSERT INTO llm_cache (prompt, response) VALUES (?,?)", (str(key), str(response.choices[0].message.content)))
+            conn.commit()
+            conn.close()
+            return response.choices[0].message.content
+        else:
+            # print("Cache hit:", model)
+            conn.close()
+            return results[0][1]
+    else:
+        return client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"]).choices[0].message.content
 
 
 def load_dataset(dataset_path: str) -> Dict:

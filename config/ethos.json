@@ -3,20 +3,45 @@
     "mini_batch": 5,
     "batch_size": 7,
     "iterations": 1,
-    "epochs": 10,
+    "epochs": 3,
     "logging_file_path": "logs/ethos.jsonl",
-    "initial_prompt": "introduction: In this task, you have to tell if the given statement expresses hate speech or not.",
+    "initial_prompt": "Introduction: In this task, you have to tell if the given statement expresses hate speech or not.",
+    "metric_kwargs": {
+        "type": "weighted_accuracy",
+        "weights": [0.45, 0.55]
+    },
     "solver_llm": {
-        "model": "gpt-4",
-        "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
     },
     "expert_llm": {
-        "model": "gpt-4",
-        "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
     },
     "grouping_llm": {
-        "model": "gpt-4",
-        "temperature": 0
+        "model_kwargs": {
+            "model": "gpt-4",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
     }
 }
   

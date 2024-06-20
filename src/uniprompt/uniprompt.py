@@ -3,12 +3,15 @@ import os
 import re
 from typing import Dict, List, Sequence
 
+from tqdm.auto import tqdm
+
 from .utils import (
     apply_edits,
     chat_completion,
     combine_multiple_feedbacks_with_examples,
     feedback_one_example,
     feedback_with_history,
+    get_confusion_matrix,
     load_dataset,
 )
 
@@ -61,15 +64,50 @@ def evaluate_prompt(
     """
     acc = 0
 
+    y_true = []
+    y_pred = []
+
     for question, answer, choice in zip(questions, answers, choices):
         prompt = make_prompt(prompt=new_prompt, question=question, choices=choice)
         messages = [{"role": "user", "content": prompt}]
         answer_cot = chat_completion(**config["solver_llm"], messages=messages)
         answer_llm = extract_answer(answer_cot)
-        if str(answer) in str(answer_llm) or str(answer_llm) in str(answer):
-            acc += 1 / len(questions)
 
-    return acc
+        y_true.append(answer)
+        y_pred.append(answer_llm)
+
+    acc = get_metric(y_true, y_pred, config)
+    return {
+        "acc": acc,
+        "cm": get_confusion_matrix(y_true, y_pred, normalize=False).tolist(),
+    }
+
+def get_metric(y_true, y_pred, config):
+    cm = get_confusion_matrix(y_true, y_pred, normalize=True)
+    metric = config["metric_kwargs"]["type"]
+
+    if metric == "accuracy":
+        diagonal = cm.diagonal()
+        return sum(diagonal) / diagonal.shape[0]
+
+    elif metric == "weighted_accuracy":
+        weights = config["metric_kwargs"]["weights"]
+        diagonal = cm.diagonal()
+        return sum(diagonal * weights) / sum(weights)
+
+    elif metric == "hinge_accuracy":
+        thresholds = config["metric_kwargs"]["thresholds"]
+        weights = config["metric_kwargs"]["weights"]
+        diagonal = cm.diagonal()
+        diagonal.setflags(write=1)
+        for i in range(diagonal.shape[0]):
+            if diagonal[i] < thresholds[i]:
+                diagonal[i] = diagonal[i] / thresholds[i] * diagonal[i]
+
+        return sum(diagonal * weights) / sum(weights)
+
+    else:
+        raise ValueError(f"Metric {metric} not supported")
 
 
 def log_iteration(iteration_data, file_path):
@@ -97,29 +135,31 @@ def make_groups(
         A dictionary with the cluster number as the key and the list of indices of the questions in that cluster as the value.
     """
     feedbacks = []
-    for question, choice, answer in zip(questions, choices, answers):
+    for question, choice, answer in tqdm(zip(questions, choices, answers)):
         prompt = make_prompt(prompt=initial_prompt, question=question, choices=choice)
         messages = [{"role": "user", "content": prompt}]
         answer_cot = chat_completion(**config["solver_llm"], messages=messages)
         answer_llm = extract_answer(answer_cot)
-        if answer_llm is not None and str(answer_llm) != str(answer):
-            wrong_choices = choice[ord(answer_llm) - 65]
-            wrong_cots = answer_cot
-            correct_choices = choice[ord(answer) - 65]
-            question_feedback = feedback_one_example(
-                prompt=initial_prompt,
-                questions=[question],
-                answers=[correct_choices],
-                pred_answers=[wrong_choices],
-                cots=[wrong_cots],
-                config=config,
-            )
-            feedbacks.append(question_feedback)
-        else:
-            feedbacks.append("Correct Answer")
+        try:
+            if answer_llm is not None and str(answer_llm) != str(answer):
+                wrong_choices = choice[ord(answer_llm) - 65]
+                wrong_cots = answer_cot
+                correct_choices = choice[ord(answer) - 65]
+                question_feedback = feedback_one_example(
+                    prompt=initial_prompt,
+                    questions=[question],
+                    answers=[correct_choices],
+                    pred_answers=[wrong_choices],
+                    cots=[wrong_cots],
+                    config=config,
+                )
+                feedbacks.append(question_feedback)
+            else:
+                feedbacks.append("Correct Answer")
+        except:
+            continue
 
     feedback = "\n Feedback: ".join(feedbacks)
-
     prompt = f"""You are given a set of feedbacks, you need to cluster them into five groups based on similarity, and then provide a summary of each group. You can use the following feedbacks to cluster: \n {feedback}
 
 Provide each cluster explanation within the following tags: <Cluster></Cluster>"""
@@ -169,8 +209,9 @@ def optimize(
     iterations = config["iterations"]
     epochs = config["epochs"]
 
-    if not os.path.exists(logging_file_path):
-        os.makedirs(logging_file_path, exist_ok=True)
+    logging_dir = os.path.dirname(logging_file_path)
+    if not os.path.exists(logging_dir):
+        os.makedirs(logging_dir, exist_ok=True)
 
     dataset_dict = load_dataset(dataset_path)
     train_questions, train_choices, train_answers = (
@@ -190,6 +231,7 @@ def optimize(
     )
 
     # Clustering train set based on feedback
+    print("Grouping data...")
     groups = make_groups(
         initial_prompt=initial_prompt,
         questions=train_questions,
@@ -198,6 +240,7 @@ def optimize(
         config=config,
     )
 
+    print("Optimization started...")
     # Initializing the lists to store accuracies
     accuracies_val = []
     accuracies_test = []
@@ -241,7 +284,6 @@ def optimize(
     training_step.append(0)
 
     logging_information = {
-        "K-fold": 0,
         "epoch": "-1",
         "group": "-1",
         "accuracies_test": accuracies_test[-1],
@@ -250,9 +292,14 @@ def optimize(
         "training_step": training_step[-1],
         "prompt": prompt_1,
     }
-    log_iteration(logging_information, logging_file_path)
 
-    for epoch in range(epochs):
+    print(f"Epoch -1 Prompt:\n{prompt_1}")
+    print(f"\nAccuracy: Train: {accuracies_train[-1]['acc']:.3f} Val: {accuracies_val[-1]['acc']:.3f} Test: {accuracies_test[-1]['acc']:.3f}\n\n")
+    log_iteration(logging_information, logging_file_path)
+    with open(logging_file_path, "a") as json_file:
+        json_file.write("\n\n")
+
+    for epoch in tqdm(range(epochs)):
         # Initializing edits history
         edit_history_dict = {}
         for group in groups:
@@ -333,30 +380,30 @@ def optimize(
                     # Evaluating the new prompts
                     acc_0 = evaluate_prompt(
                         new_prompt=prompt_0,
-                        questions=batch_questions,
-                        answers=batch_answers,
-                        choices=batch_choices,
+                        questions=val_questions,
+                        answers=val_answers,
+                        choices=val_choices,
                         config=config,
                     )
                     acc_1 = evaluate_prompt(
                         new_prompt=prompt_1,
-                        questions=batch_questions,
-                        answers=batch_answers,
-                        choices=batch_choices,
+                        questions=val_questions,
+                        answers=val_answers,
+                        choices=val_choices,
                         config=config,
                     )
                     acc_2 = evaluate_prompt(
                         new_prompt=prompt_2,
-                        questions=batch_questions,
-                        answers=batch_answers,
-                        choices=batch_choices,
+                        questions=val_questions,
+                        answers=val_answers,
+                        choices=val_choices,
                         config=config,
                     )
                     acc_3 = evaluate_prompt(
                         new_prompt=prompt_3,
-                        questions=batch_questions,
-                        answers=batch_answers,
-                        choices=batch_choices,
+                        questions=val_questions,
+                        answers=val_answers,
+                        choices=val_choices,
                         config=config,
                     )
 
@@ -367,7 +414,7 @@ def optimize(
                             [acc_0, acc_1, acc_2, acc_3],
                         )
                     )
-                    sorted_pairs = sorted(text_number_pairs, key=lambda x: x[1], reverse=True)
+                    sorted_pairs = sorted(text_number_pairs, key=lambda x: x[1]["acc"], reverse=True)
                     top_pair1, top_pair2 = sorted_pairs[:2]
                     prompt_1, prompt_0 = top_pair1[0], top_pair2[0]
                     acc_top, acc_sec_top = top_pair1[1], top_pair2[1]
@@ -402,22 +449,24 @@ def optimize(
                     )
                     training_step.append(training_step[-1] + 1)
 
-                    # Logging the information
-                    logging_information = {
-                        "K-fold": 0,
-                        "epoch": epoch,
-                        "group": group,
-                        "accuracies_test": accuracies_test[-1],
-                        "accuracies_val": accuracies_val[-1],
-                        "accuracies_train": accuracies_train[-1],
-                        "training_step": training_step[-1],
-                        "prompt": prompt_1,
-                    }
-                    log_iteration(logging_information, logging_file_path)
-
-                    with open(logging_file_path, "a") as json_file:
-                        json_file.write("\n\n")
-
                     # Updating edit history
-                    edit_history_dict[group].append([final_feedback, acc_top - acc_sec_top])
+                    edit_history_dict[group].append([final_feedback, acc_top["acc"] - acc_sec_top["acc"]])
+
+                # Logging the information
+                logging_information = {
+                    "epoch": epoch,
+                    "group": group,
+                    "accuracies_test": accuracies_test[-1],
+                    "accuracies_val": accuracies_val[-1],
+                    "accuracies_train": accuracies_train[-1],
+                    "training_step": training_step[-1],
+                    "prompt": prompt_1,
+                }
+                log_iteration(logging_information, logging_file_path)
+
+            with open(logging_file_path, "a") as json_file:
+                json_file.write("\n\n")
+
+        print(f"Epoch #{epoch} Prompt:\n{prompt_1}")
+        print(f"\nAccuracy: Train: {accuracies_train[-1]['acc']:.3f} Val: {accuracies_val[-1]['acc']:.3f} Test: {accuracies_test[-1]['acc']:.3f}\n\n")
     return prompt_1
