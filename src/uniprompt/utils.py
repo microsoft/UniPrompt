@@ -1,18 +1,30 @@
+import copy
 import json
 import os
 import sqlite3
 import time
-from typing import Dict, Sequence
+from typing import Any, Dict, List, Sequence, Tuple, Union
 
+import msal
 import numpy as np
+import pkg_resources
+import requests
+import yaml
 from openai import AzureOpenAI, OpenAI
 
 
-def get_confusion_matrix(y_true, y_pred, normalize=False):
+def load_prompts() -> Dict[str, str]:
+    prompt_path = pkg_resources.resource_filename("uniprompt", os.path.join("prompts", "default.yaml"))
+    with open(prompt_path) as f:
+        prompts = yaml.safe_load(f)
+    return prompts
+
+def get_confusion_matrix(y_true: Sequence[Any], y_pred: Sequence[Any], normalize: bool = False) -> np.ndarray:
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
 
     classes = np.unique(y_true)
+    classes.sort()
     n_classes = len(classes)
 
     cm = np.zeros((n_classes, n_classes))
@@ -30,64 +42,60 @@ def get_confusion_matrix(y_true, y_pred, normalize=False):
 
     return cm
 
+def chat_completion(cache_path=None, **kwargs):
+    def make_api_call(client, **kwargs):
+        while True:
+            try:
+                response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
+                return response.choices[0].message.content
+            except Exception as e:
+                print(f"Got error {e}. Sleeping for 5 seconds...")
+                time.sleep(5)
 
-def chat_completion(cache_path="sm.db", **kwargs):
-    if kwargs["api_kwargs"]["api_type"] == "azure":
-        client = AzureOpenAI(
-            api_key=os.environ.get("OPENAI_API_KEY"),
-            azure_endpoint=kwargs["api_kwargs"]["api_base"],
-            api_version=kwargs["api_kwargs"]["api_version"]
-        )
-    else:
-        client = OpenAI(
-            api_key=os.environ.get("OPENAI_API_KEY"),
-        )
+    api_key = os.environ.get("OPENAI_API_KEY")
+    client = OpenAI(api_key=api_key)
 
-    # while True:
-    #     try:
-    #         response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
-    #         break
-    #     except Exception as e:
-    #         print(f"Got error {e}. Sleeping for 5 seconds...")
-    #         time.sleep(5)
+    if not cache_path:
+        return make_api_call(client, **kwargs)
 
-    # return response.choices[0].message.content
+    cache_dir = os.path.dirname(cache_path)
+    os.makedirs(cache_dir, exist_ok=True)
 
-    if cache_path is not None:
-        messages_hash = str(kwargs["messages"])
-        model = kwargs["model_kwargs"]["model"]
+    # Connect to SQLite database
+    conn = sqlite3.connect(cache_path)
+    cursor = conn.cursor()
 
-        conn = sqlite3.connect(cache_path, timeout=5)
-        cursor = conn.cursor()
-        if "llm_cache" not in [table[0] for table in cursor.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;").fetchall()]:
-            print("Cache was not present, building from scratch")
-            cursor.execute("CREATE TABLE llm_cache(prompt, response)")
-        key = str((messages_hash, model))
-        results = cursor.execute("SELECT * FROM llm_cache WHERE prompt == ?", (str(key),)).fetchall()
+    # Create table if it doesn't exist
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS api_cache
+    (model TEXT, messages TEXT, response TEXT)
+    """)
 
-        if len(results) == 0:
-            while True:
-                try:
-                    response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
-                    # print("Got response!", model)
-                    break
-                except Exception as e:
-                    print(f"Got error {e}. Sleeping for 5 seconds...")
-                    time.sleep(5)
+    # Create a unique key from model and messages
+    model = json.dumps(kwargs["model_kwargs"])
+    messages = json.dumps(kwargs["messages"])
 
-            cursor.execute("INSERT INTO llm_cache (prompt, response) VALUES (?,?)", (str(key), str(response.choices[0].message.content)))
-            conn.commit()
-            conn.close()
-            return response.choices[0].message.content
-        else:
-            # print("Cache hit:", model)
-            conn.close()
-            return results[0][1]
-    else:
-        return client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"]).choices[0].message.content
+    # Check if the response is in the cache
+    cursor.execute("SELECT response FROM api_cache WHERE model = ? AND messages = ?", (model, messages))
+    cached_response = cursor.fetchone()
+
+    if cached_response:
+        conn.close()
+        return cached_response[0]
+
+    # If not in cache, make the API call
+    response_content = make_api_call(client, **kwargs)
+
+    # Store the response in the cache
+    cursor.execute("INSERT INTO api_cache (model, messages, response) VALUES (?, ?, ?)",
+                   (model, messages, response_content))
+    conn.commit()
+    conn.close()
+
+    return response_content
 
 
-def load_dataset(dataset_path: str) -> Dict:
+def load_dataset(dataset_path: str) -> Dict[str, List[Union[str, List[str]]]]:
     """
     Reads the dataset from a jsonl file where the dataset is stored in the following format
     split, question, choices, answer
@@ -142,11 +150,12 @@ def load_dataset(dataset_path: str) -> Dict:
 
 def feedback_one_example(
     prompt: str,
+    prompt_template: str,
     questions: Sequence[str],
     answers: Sequence[str],
     pred_answers: Sequence[str],
     cots: Sequence[str],
-    config: Dict,
+    config: Dict[str, Any]
 ) -> str:
     """
     Given a prompt, questions, answers, predicted answers and explanations, provide feedback to the student.
@@ -167,34 +176,13 @@ def feedback_one_example(
     for i in range(len(pred_answers)):
         examples += f"### Question\n{questions[i]}### Answer\n{answers[i]}### Predicted answer\n{pred_answers[i]}### Explanation\n{cots[i]}\n\n"
 
-    input_prompt = f"""You are a teacher and you have to give feedback to your students on their answers.
-
-You are given a question and it's answer. You are also given the explanations written by your students while solving the questions.
-
-The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
-
-Be explicit and tell the exact information that can be dded without further modification / addition.
-
-You can  add a section, add a subsection, set the content of a section, set the content of a subsection, delete a section or delete a subsection in the background knowledge part.
-
-Give very granular feedbacks, like if the student has made a mistake in the calculation, then tell what is the mistake in the calculation and how to correct it, if the student has made a mistake in the concept, then tell what is the mistake in the concept and how to correct it.
-
-You can also give examples to make the concept more clear.
-
-## Background Knowledge
-{prompt}
-
-{examples}
-
-Now, it is your turn to give feedbacks to the students.
-"""
-
+    input_prompt = prompt_template.format(prompt=prompt, examples=examples)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(**config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
     return output
 
 
-def apply_edits(prompt: str, edits: str, config: Dict) -> str:
+def apply_edits(prompt: str, prompt_template: str, edits: str, config: Dict[str, Any]) -> str:
     """
     Apply the edits to the prompt and return the final prompt.
 
@@ -207,40 +195,22 @@ def apply_edits(prompt: str, edits: str, config: Dict) -> str:
         The final prompt after applying the edits.
     """
 
-    input_prompt = f"""You are given an input prompt and a feedback, you have to incorporate the feedback into the input prompt and output the final prompt.
-An example of the task is given below
-
-### Input Prompt
-Introduction: In this task you have to answer the given question.
-
-### Feedback
-The background knowledge is incomplete, it does not include what are the factors that affect the water usage and how many water sources are there.
-\\add_subsection("Background Knowledge")
-\\add_subsection_content(water usage depends on the population, climate, economic development, and availability of water sources. There are two sources of water, surface water and groundwater.)
-
-### Final Prompt
-Introduction: In this task you have to answer the given question.
-Background Knowledge: water usage depends on the population, climate, economic development, and availability of water sources. There are two sources of water, surface water and groundwater.
-
-Only output the final prompt nothing else.
-
-### INPUT PROMPT
-{prompt}
-
-### FEEDBACK
-{edits}
-
-
-### FINAL PROMPT
-"""
+    input_prompt = prompt_template.format(prompt=prompt, edits=edits)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(**config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
     return output
 
 
 def feedback_with_history(
-    prompt: str, questions: Sequence[str], answers: Sequence[str], pred_answers: Sequence[str], cots, history, config
-):
+    prompt: str,
+    prompt_template: str,
+    questions: Sequence[str],
+    answers: Sequence[str],
+    pred_answers: Sequence[str],
+    cots: Sequence[str],
+    history: List[Tuple[str, float]],
+    config: Dict[str, Any]
+) -> str:
     """
     Given a history of feedbacks, provide a single line feedback to the student.
 
@@ -278,39 +248,19 @@ def feedback_with_history(
 ### Accuracy Change
     {history[i][1]}
 """
-    input_prompt = f"""You are a teacher and you have to give feedback to your students on their answers.
 
-You are given a question, it's true answer and answer given by student. You are also given the explanations written by your students while solving the questions.
-
-The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
-
-## IMPORTANT: You are also given a history of changes you made to the background knowledge part and the change in student's accuracy after making the change. You have to use this history to make your feedback.
-
-Be explicit and tell the exact information that can be added without further modification / addition.
-
-### IMPORTANT: Give feedback in form of instructions like  add a section, add a subsection, set the content of a section, set the content of a subsection, delete a section or delete a subsection in the background knowledge part.
-
-Give very granular feedbacks, like if the student has made a mistake in the calculation, then tell what is the mistake in the calculation and how to correct it, if the student has made a mistake in the concept, then tell what is the mistake in the concept and how to correct it.
-
-## Background Knowledge
-{prompt}
-
-## History
-{history_string}
-
-
-{examples}
-
-Now, it is your turn to give feedbacks to the students.
-You can only provide a one line feedback.
-"""
-
+    input_prompt = prompt_template.format(prompt=prompt, examples=examples, history_string=history_string)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(**config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
     return output
 
 
-def combine_multiple_feedbacks_with_examples(edits, wrong_examples, config):
+def combine_multiple_feedbacks_with_examples(
+    prompt_template: str,
+    edits: str,
+    wrong_examples: Sequence[str],
+    config: Dict[str, Any]
+) -> str:
     """
     Combine multiple feedbacks into a summary and provide edits to the prompt.
 
@@ -327,36 +277,7 @@ def combine_multiple_feedbacks_with_examples(edits, wrong_examples, config):
     for i in range(len(wrong_examples)):
         wrong_examples_string += f"\n### Question{wrong_examples[i]}\n"
 
-    input_prompt = f"""You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
-You have to summarize the feedbacks into a final feedback.
-You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
-
-To achieve your task, try to follow the following steps;
-1. Identify the general problem that is being solved by all the feedbacks.
-2. Once you have identified the problem, try to make a new feedback that covers most of the feedbacks given. Let's say the problem in the first feedback is the absence of methods to solve linear equation and in the second feedback it is the method to inverse a matrix. You know that both of these problems can be caused by adding how to solve convert a matrix into row rediced echolon form. So, add that.
-3. Try and validate your feedback. Once, you have a feedback try to see if it covers every feedback, if it does not cover any feedback, add that to your new feedback.
-4. See the wrong questions and try to identify what is the problem in the question. If the problem is not covered by your feedback, add that to your feedback.
-5. You can add specifics like examples, definitions etc make sure that the feedback is enough to be directly added without any modification.
-
-You may use the following function templates-
-
-add_section(section_name)
-add_subsection(section_name, subsection_name)
-set_section_content(section_name, new_content)
-set_subsection_content(section_name, subsection_name, new_content)
-delete_section(section_name)
-delete_subsection(section_name, subsection_name)
-
-Your summary cannot include more than four functions. Make sure that the content is useful, not just a very general statement. Something specific.
-
-Instructions:
-{edits}
-
-Wrong Questions:
-{wrong_examples_string}
-
-Summary:
-"""
+    input_prompt = prompt_template.format(edits=edits, wrong_examples_string=wrong_examples_string)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(**config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
     return output

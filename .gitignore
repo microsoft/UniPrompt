@@ -166,3 +166,6 @@ logs/
 
 # Exclude data files
 data/ethos.jsonl
+
+# Exclude cached data
+cache/

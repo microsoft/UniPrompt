@@ -1,7 +1,7 @@
 import argparse
 import json
 
-from uniprompt import optimize
+from uniprompt import UniPrompt
 
 
 def main(args):
@@ -12,7 +12,8 @@ def main(args):
     with open(config_file) as f:
         config = json.load(f)
 
-    final_prompt = optimize(config=config)
+    optimizer = UniPrompt(config=config)
+    final_prompt = optimizer.optimize()
     print(f"Optimization is done! The final prompt is: \n\n{final_prompt}")
 
 

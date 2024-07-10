@@ -1,1 +1,1 @@
-from .uniprompt import optimize
+from .uniprompt import UniPrompt

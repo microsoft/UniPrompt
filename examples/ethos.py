@@ -2,7 +2,7 @@ import argparse
 import json
 
 from datasets import load_dataset
-from uniprompt import optimize
+from uniprompt import UniPrompt
 
 
 def create_ethos_dataset(output_path):
@@ -15,7 +15,7 @@ def create_ethos_dataset(output_path):
                 "split": split,
                 "question": questions[i],
                 "choices": choices[i],
-                "answer": chr(answers[i] + 65),
+                "answer": choices[i][answers[i]],
             }
             json.dump(write_data, f)
             f.write("\n")
@@ -47,7 +47,8 @@ def main(args):
 
     create_ethos_dataset(output_path=config["dataset_path"])
 
-    final_prompt = optimize(config=config)
+    optimizer = UniPrompt(config=config)
+    final_prompt = optimizer.optimize()
     print(f"Optimization is done! The final prompt is: \n\n{final_prompt}")
 
 

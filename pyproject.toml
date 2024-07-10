@@ -4,23 +4,25 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uniprompt"
-version = "0.1.3"
+version = "0.2.0"
 authors = [
-    { name="Gurusha Juneja", email="t-gujuneja@microsoft.com" },
     { name="Anush Kini", email="t-anushkini@microsoft.com" },
+    { name="Gurusha Juneja", email="t-gujuneja@microsoft.com" },
     { name="Amit Sharma", email="amshar@microsoft.com" },
     { name="Nagarajan Natarajan", email="nagarajan.natarajan@microsoft.com" },
 ]
 description = "Python implementation of UniPrompt."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 dependencies = [
     "openai>=1.3.0",
-    "tqdm>=4.66.0"
+    "tqdm>=4.66.0",
+    "PyYAML>=6.0",
+    "numpy>=1.26.0"
 ]
 
 [project.urls]
@@ -29,6 +31,9 @@ Code = "https://github.com/microsoft/UniPrompt"
 
 [project.optional-dependencies]
 dev = ["ruff ~= 0.4"]
+
+[tool.setuptools.package-data]
+uniprompt = ["prompts/*.yaml"] 
 
 [tool.ruff]
 line-length = 120

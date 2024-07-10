@@ -1,0 +1,43 @@
+{"split": "train", "question": "What is the capital of France?", "choices": ["Paris", "London", "Berlin", "Madrid"], "answer": "Paris"}
+{"split": "train", "question": "Which planet is known as the Red Planet?", "choices": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Mars"}
+{"split": "validation", "question": "What is the largest ocean on Earth?", "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], "answer": "Pacific Ocean"}
+{"split": "test", "question": "Who wrote 'Pride and Prejudice'?", "choices": ["Emily Bronte", "Charles Dickens", "Jane Austen", "Mark Twain"], "answer": "Jane Austen"}
+{"split": "train", "question": "What is the chemical symbol for gold?", "choices": ["Au", "Ag", "Pb", "Fe"], "answer": "Au"}
+{"split": "validation", "question": "In which year did the Titanic sink?", "choices": ["1912", "1905", "1898", "1923"], "answer": "1912"}
+{"split": "test", "question": "What is the speed of light?", "choices": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"], "answer": "300,000 km/s"}
+{"split": "train", "question": "What is the largest mammal on Earth?", "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], "answer": "Blue Whale"}
+{"split": "validation", "question": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": "Canberra"}
+{"split": "test", "question": "What is the largest planet in our solar system?", "choices": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Jupiter"}
+{"split": "train", "question": "What is the largest country in the world?", "choices": ["Canada", "China", "Russia", "United States"], "answer": "Russia"}
+{"split": "validation", "question": "What is the smallest planet in our solar system?", "choices": ["Earth", "Mars", "Jupiter", "Mercury"], "answer": "Mercury"}
+{"split": "test", "question": "What is the capital of Brazil?", "choices": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"], "answer": "Brasilia"}
+{"split": "train", "question": "What is the largest desert in the world?", "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"], "answer": "Sahara Desert"}
+{"split": "validation", "question": "What is the capital of South Africa?", "choices": ["Cape Town", "Johannesburg", "Durban", "Pretoria"], "answer": "Pretoria"}
+{"split": "test", "question": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": "Ottawa"}
+{"split": "train", "question": "What is the largest mountain in the world?", "choices": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"], "answer": "Mount Everest"}
+{"split": "validation", "question": "What is the capital of Italy?", "choices": ["Milan", "Rome", "Venice", "Florence"], "answer": "Rome"}
+{"split": "test", "question": "What is the capital of Japan?", "choices": ["Kyoto", "Osaka", "Tokyo", "Yokohama"], "answer": "Tokyo"}
+{"split": "train", "question": "What is the largest ocean on Earth?", "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], "answer": "Pacific Ocean"}
+{"split": "validation", "question": "What is the capital of Spain?", "choices": ["Barcelona", "Madrid", "Valencia", "Seville"], "answer": "Madrid"}
+{"split": "test", "question": "What is the capital of France?", "choices": ["Paris", "London", "Berlin", "Madrid"], "answer": "Paris"}
+{"split": "train", "question": "Which planet is known as the Red Planet?", "choices": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Mars"}
+{"split": "validation", "question": "What is the largest ocean on Earth?", "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], "answer": "Pacific Ocean"}
+{"split": "test", "question": "Who wrote 'Pride and Prejudice'?", "choices": ["Emily Bronte", "Charles Dickens", "Jane Austen", "Mark Twain"], "answer": "Jane Austen"}
+{"split": "train", "question": "What is the chemical symbol for gold?", "choices": ["Au", "Ag", "Pb", "Fe"], "answer": "Au"}
+{"split": "validation", "question": "In which year did the Titanic sink?", "choices": ["1912", "1905", "1898", "1923"], "answer": "1912"}
+{"split": "test", "question": "What is the speed of light?", "choices": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"], "answer": "300,000 km/s"}
+{"split": "train", "question": "What is the largest mammal on Earth?", "choices": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], "answer": "Blue Whale"}
+{"split": "validation", "question": "What is the capital of Australia?", "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"], "answer": "Canberra"}
+{"split": "test", "question": "What is the largest planet in our solar system?", "choices": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Jupiter"}
+{"split": "train", "question": "What is the largest country in the world?", "choices": ["Canada", "China", "Russia", "United States"], "answer": "Russia"}
+{"split": "validation", "question": "What is the smallest planet in our solar system?", "choices": ["Earth", "Mars", "Jupiter", "Mercury"], "answer": "Mercury"}
+{"split": "test", "question": "What is the capital of Brazil?", "choices": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"], "answer": "Brasilia"}
+{"split": "train", "question": "What is the largest desert in the world?", "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"], "answer": "Sahara Desert"}
+{"split": "validation", "question": "What is the capital of South Africa?", "choices": ["Cape Town", "Johannesburg", "Durban", "Pretoria"], "answer": "Pretoria"}
+{"split": "test", "question": "What is the capital of Canada?", "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": "Ottawa"}
+{"split": "train", "question": "What is the largest mountain in the world?", "choices": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"], "answer": "Mount Everest"}
+{"split": "validation", "question": "What is the capital of Italy?", "choices": ["Milan", "Rome", "Venice", "Florence"], "answer": "Rome"}
+{"split": "test", "question": "What is the capital of Japan?", "choices": ["Kyoto", "Osaka", "Tokyo", "Yokohama"], "answer": "Tokyo"}
+{"split": "train", "question": "What is the largest ocean on Earth?", "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], "answer": "Pacific Ocean"}
+{"split": "validation", "question": "What is the capital of Spain?", "choices": ["Barcelona", "Madrid", "Valencia", "Seville"], "answer": "Madrid"}
+{"split": "test", "question": "What is the capital of France?", "choices": ["Paris", "London", "Berlin", "Madrid"], "answer": "Paris"}

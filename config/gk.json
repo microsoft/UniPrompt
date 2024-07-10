@@ -1,17 +1,23 @@
 {
     "dataset_path": "data/gk.jsonl",
-    "mini_batch": 5,
+    "mini_batch_size": 5,
     "batch_size": 7,
     "iterations": 1,
     "epochs": 1,
     "logging_file_path": "logs/gk.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 3,
+    "group_frequency": 2,
+    "create_sub_prompts": false,
+    "num_sub_prompts": 1,
+    "cache_path": "cache/gk.db",
     "initial_prompt": "Introduction: In this task, you are given a question. You have to solve the question.",
     "metric_kwargs": {
         "type": "accuracy"
     },
     "solver_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
+            "model": "",
             "temperature": 0
         },
         "api_kwargs": {
@@ -22,8 +28,8 @@
     },
     "expert_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
-            "temperature": 0
+            "model": "",
+            "temperature": 0  
         },
         "api_kwargs": {
             "api_type": "",
@@ -33,7 +39,7 @@
     },
     "grouping_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
+            "model": "",
             "temperature": 0
         },
         "api_kwargs": {

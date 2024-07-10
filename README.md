@@ -31,7 +31,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
 1. **Set Environment Variables**
 
-   You need to set the `OPENAI_API_KEY` environment variables before running the code:
+   **OpenAI Endpoint**: You need to set the `OPENAI_API_KEY` environment variables before running the code.
    
    ### Example Commands
 
@@ -45,64 +45,94 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
    $env:OPENAI_API_KEY = "your_api_key"
    ```
 
+   For **Linux systems (Bash)**:
+   ```bash
+   export OPENAI_API_KEY = "your_api_key"
+   ```
+
 1. **Update the Config File**
 
    Modify the `config/dataset_name.json` file as per your use case.
+   
    If you are using an internal endpoint, make sure to set `api_type` to `azure`, `api_base` to your endpoint URL and `api_version` in your dataset config file. If you are using an OpenAI endpoint, then just set api_type to `oai`.
    
    The configuration includes the following parameters:
    ```json
-   {
-      "dataset_path": "dataset/ethos.jsonl",
-      "mini_batch": 5,
-      "batch_size": 7,
-      "iterations": 1,
-      "epochs": 10,
-      "logging_file_path": "logs/ethos.jsonl",
-      "initial_prompt": "introduction: In this task, you are given a question. You have to solve the question.",
-      "metric_kwargs": {
-        "type": "hinge_accuracy",
-        "weights": [0.45, 0.55],
-        "thresholds": [0.6, 0.75]
-      },
-      "solver_llm": {
+    "dataset_path": "data/gk.jsonl",
+    "mini_batch_size": 5,
+    "batch_size": 7,
+    "iterations": 1,
+    "epochs": 5,
+    "logging_file_path": "logs/gk.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 3,
+    "group_frequency": 2,
+    "create_sub_prompts": true,
+    "num_sub_prompts": 5,
+    "cache_path": "cache/gk.db",
+    "initial_prompt": "<initial_prompt>",
+    "metric_kwargs": {
+        "type": "weighted_accuracy",
+        "weights": [0.4, 0.6]
+    },
+    "solver_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
-            "temperature": 0
+            "model": "gpt4turbo",
+            "temperature": 0,
+            "max_tokens": 512,
+            "stream": false
         },
         "api_kwargs": {
             "api_type": "",
             "api_base": "",
             "api_version": ""
         }
-      },
-      "expert_llm": {
+    },
+    "expert_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
-            "temperature": 0
+            "model": "gpt4turbo",
+            "temperature": 0,
+            "max_tokens": 512,
+            "stream": false  
         },
         "api_kwargs": {
             "api_type": "",
             "api_base": "",
             "api_version": ""
         }
-      },
-      "grouping_llm": {
+    },
+    "grouping_llm": {
         "model_kwargs": {
-            "model": "gpt-4-turbo",
-            "temperature": 0
+            "model": "gpt4turbo",
+            "temperature": 0,
+            "max_tokens": 512,
+            "stream": false
         },
         "api_kwargs": {
             "api_type": "",
             "api_base": "",
             "api_version": ""
         }
-      }
-   }
+    }
    ```
    Metric `type` can be one of `['accuracy', 'weighted_accuracy', 'hinge_accuracy']` 
-   Example config files can be found at [config/ethos.json](config/ethos.json), [config/gk.json](config/gk.json).
+   Example config files can be found at [config/ethos.json](config/ethos.json) and [config/gk.json](config/gk.json).
    Make sure to set `api_kwargs` before using them.
+
+   A brief explanations on the config parameters:
+   - `dataset_path`: Path to the dataset file
+   - `mini_batch_size`: Number of examples processed in each mini-batch
+   - `batch_size`: Number of mini-batches processed before updating the prompt
+   - `iterations`: Number of times to iterate over the dataset in each epoch
+   - `epochs`: Total number of training epochs
+   - `logging_file_path`: Path to save the log file
+   - `epsilon`: An exploration parameter with range [0, 1]
+   - `beam_width`: Number of top-performing prompts to maintain in the beam search
+   - `group_frequency`: Group questions every nth epoch
+   - `create_sub_prompts`: Boolean flag to enable/disable creation of sub-prompts
+   - `num_sub_prompts`: Number of sub-prompts to generate if create_sub_prompts is true
+   - `cache_path`: Path to store/retrieve cached results
+   - `initial_prompt`: The starting prompt for optimization
 
 1. **Prepare the Dataset**
 
@@ -110,11 +140,11 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
    - `split`: (train, test, validation)
    - `question`: Full question that you want to get answered, including any prefix or postfix statements
    - `choices`: If the answer has choices, it should be a list, like `[monkey, zebra, lion, tiger]`
-   - `answer`: Either a digit or an option like `A`, `B`, `C`, etc.
+   - `answer`: The answer from the options
 
    Example:
    ```jsonl
-   {"split": "train", "question": "What is the largest land animal?", "choices": ["monkey", "zebra", "lion", "tiger"], "answer": "D"}
+   {"split": "train", "question": "What is the largest land animal?", "choices": ["monkey", "zebra", "lion", "tiger"], "answer": "tiger"}
    ```
 
 ### 🚀 Running the Optimization
@@ -122,12 +152,13 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 To get the final optimized prompt, you need to run the `optimize` function from the library:
 
 ```python
-from uniprompt import optimize
+from uniprompt import UniPrompt
 
 with open(config_file, "r") as f:
       config = json.load(f)
 
-final_prompt = optimize(config=config)
+optimizer = UniPrompt(config=config)
+final_prompt = optimizer.optimize()
 ```
 
 For a working example, run
