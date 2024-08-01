@@ -1,5 +1,6 @@
 {
     "dataset_path": "data/gk.jsonl",
+    "experiment_details": "Search relevance -- gk",
     "mini_batch_size": 5,
     "batch_size": 7,
     "iterations": 1,
@@ -8,6 +9,7 @@
     "epsilon": 0.5,
     "beam_width": 3,
     "group_frequency": 2,
+    "papyrus": false,
     "create_sub_prompts": false,
     "num_sub_prompts": 1,
     "cache_path": "cache/gk.db",

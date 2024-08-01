@@ -1,0 +1,495 @@
+{"split": "train", "question": "First Query: biopure keto gummies\nSecond Query: weight loss gummies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: flights to chicago o hare\nSecond Query: flights to chicago\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: msp to glasgow mt\nSecond Query: flights to glasgow mt\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: holly creek village littleton co\nSecond Query: littleton developments\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: commercial real estate contractor\nSecond Query: commercial a c contractor\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: are there any over the counter sleep aids that don't contain melatonin\nSecond Query: sleep remedy\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: first digital credit card\nSecond Query: the credit card\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: agile scrum certification\nSecond Query: certified scrum master certification\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: aaa auto repair\nSecond Query: car repair\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: data analyst cv example\nSecond Query: career resume\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: verizon store ellicott city md\nSecond Query: shop verizon\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: mercedes suv\nSecond Query: mercedes benz auto\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: best fitness watch for senior men\nSecond Query: fitness tracker\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: ocean at taino beach resort bahamas\nSecond Query: bahamas resort\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: space hotel\nSecond Query: space hotel hostel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: romeo santos concert 2023 miami\nSecond Query: romeo santos miami\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: what is dynatrace\nSecond Query: dynatrace sap\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: freeway insurance infinity pa\nSecond Query: car insurance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: caregiver experiences assistant over 60\nSecond Query: respite caregiver\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: itil prioritization matrix\nSecond Query: itil\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: true religion jeans\nSecond Query: true religion clothes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: minwax stain colors\nSecond Query: wood maintenance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: hp dv8000 battery\nSecond Query: battery for hp computer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: harley davidson men's passage adventure jacket\nSecond Query: mens clothes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: adobe express\nSecond Query: www adobe com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: ancor 14 2 duplex marine wire\nSecond Query: marine wiring components\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: bachelors arts and entertainment management\nSecond Query: bachelor s degree\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: robin bruce slipcover sofa\nSecond Query: couches\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: toro striping kit for timecutter riding mower 42\nSecond Query: toro lawn striping kit\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: harvest lighting\nSecond Query: lights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: brighthouse annuities\nSecond Query: annuity providers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: dreamhost\nSecond Query: web hosting platforms\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: homeowners insurance quotes texas\nSecond Query: home insurance companies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: arthritis supplements\nSecond Query: supplemental plans\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: additive free beet root powder\nSecond Query: supplements\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: sna las flights\nSecond Query: air flights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: invoice technology\nSecond Query: invoicing\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: apple solo loop band\nSecond Query: solo braided loop band for apple watch\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: samaritan's purse\nSecond Query: care charity organization\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: www travelocity com flights\nSecond Query: book airfare\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: injectable schizophrenia meds\nSecond Query: schizophrenia disease\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: how long does gopro hero 11 battery charge\nSecond Query: gopro 11\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: virgin cruise travelzoo\nSecond Query: european cruise\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: filling out home instead care professional snapshot\nSecond Query: home instead application\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: mesothelioma support\nSecond Query: mesothelioma\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: compare the saatva latex hybrid mattress with saatva classic\nSecond Query: dreamcloud vs saatva\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: home appraisals of winchester\nSecond Query: home inspector\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: mgm biloxi ms\nSecond Query: accommodation biloxi\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: jann's netcraft\nSecond Query: fishing retail stores\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: causes of afib\nSecond Query: atrial fibrillation strokes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: holiday company gifts\nSecond Query: business gifts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: sba palm springs\nSecond Query: sba loan\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: oklahoma colleges that offer online degrees\nSecond Query: education degree college\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: 2020 passat trailer wiring with led\nSecond Query: wiring for trailer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: best masters of public policy\nSecond Query: politics degree\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: 2023 kia sportage 2 5 ex hybrid at awd specs\nSecond Query: 2023 kia sportage hybrid dimensions\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: www southwest airlines com official site\nSecond Query: swa card\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: sheraton niagara hotel\nSecond Query: places to stay niagara falls ny\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: lowes power tools\nSecond Query: tool machine\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: with joy wedding website\nSecond Query: wedding website builder\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: panic alarm\nSecond Query: security devices\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: quizzes\nSecond Query: quiz maker\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: 2012 gasoline cars that get 40 mpg\nSecond Query: good gas mileage cars\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: low pressure battery powered sprayers\nSecond Query: battery operated water sprayer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: amazing grass protein\nSecond Query: protein powder\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: when did cit bank start\nSecond Query: www cit com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: 1000 views on youtube money\nSecond Query: how to make money on youtube\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: revolution flea treatment\nSecond Query: cat flea prevention treatment\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: home like rentals 53154\nSecond Query: rent home\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: ford dealerships near me\nSecond Query: ford auto shop\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: online bachelor's degree in accounting\nSecond Query: online business bachelors degree\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: managed cloud security services\nSecond Query: cloud operation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: sewer gas detector for home\nSecond Query: home leak detection\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: fedramp server audit\nSecond Query: fedramp\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: how to get paid for caring for elderly parent\nSecond Query: caregivers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: proximity sensor grainger\nSecond Query: www grainger com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: life insurance buy online\nSecond Query: life insurance company\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: vacation bnb rentals\nSecond Query: vacation rental system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: millersville university retention\nSecond Query: millersville university\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: target com girls sleeping bags\nSecond Query: girls sleeping bags for kids\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: how many days to spend at myrtle beach\nSecond Query: myrtle beach sc vacation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: alaskan cruises 2013\nSecond Query: cruises to alaska\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: dificid 200 mg tablet\nSecond Query: dificid info\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: https www ancestry com au search name frank g kratofil\nSecond Query: ancestry com search\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: janky shelves\nSecond Query: shelving\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: indoor wedding venues near calera oklahoma\nSecond Query: indoor wedding venues near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: hiv test confidential\nSecond Query: hiv health\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: ambunu wholesale\nSecond Query: wholesale distributors\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: mwf smartwater filter\nSecond Query: filter smart filters\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: christian master's degree in nursing ohio\nSecond Query: nursing masters\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: why do acute myeloid leukemia patients need blood transfusions so often\nSecond Query: acute myeloid leukemia regimen\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: paramount network\nSecond Query: tv series\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: nonprofit monroe la medical devices\nSecond Query: medical alert devices\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: tmobile plans\nSecond Query: phone plan\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: what good is mental health in the workplace\nSecond Query: mental health industry\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: humana hmo physician listing\nSecond Query: humana hmo plans\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "train", "question": "First Query: kenmore refrigerator drawer replacement\nSecond Query: kenmore fridge replacement parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: hyundai dealership kansas city\nSecond Query: hyundai dealerships in my area\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "train", "question": "First Query: construction management software for subcontractors\nSecond Query: construction cost management software\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: nonwhite paraben free sunscreen\nSecond Query: non toxic sunscreen\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: pos options for makeup store\nSecond Query: retail pos providers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: best things to see in dublin cork and galway\nSecond Query: dublin activities\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: intex 18 x 52 salt water pool\nSecond Query: salt water pool\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: navage reviews\nSecond Query: navage nasal irrigation system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: san jose mineta airport southwest airlines\nSecond Query: airlines to sjd\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: get the pill online\nSecond Query: online medical treatment\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: royal caribbean cruises\nSecond Query: cruise ship royal caribbean\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: foundation mold repair richmond va\nSecond Query: foundation repair virginia\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: toyota avalon car seat covers\nSecond Query: toyota car seat covers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: nike dunk low men's\nSecond Query: nike sport\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: hse performance evaluations\nSecond Query: performance review tools\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: sherpa lined hoodies mens\nSecond Query: sherpa jackets men\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: european rotors\nSecond Query: brake rotors\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: pigeon repellent\nSecond Query: bird deterrent\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: best multivitamin for diabetic men\nSecond Query: vitamins\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: how to ship a package to pakistan\nSecond Query: local shipping\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: budget rent a car msy\nSecond Query: car rental orleans airport\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: does a waterproofing company test for mold\nSecond Query: mold detection and testing\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: staycation tagaytay albizia\nSecond Query: tagaytay\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: s loth\nSecond Query: sloths\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: dpoa form\nSecond Query: durable medical power of attorney\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: mustang gt 1969\nSecond Query: preowned mustang\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: sony rx100\nSecond Query: sony cyber shot\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: us rx care providers\nSecond Query: provider medicare\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: bookkeeping side jobs\nSecond Query: bookkeeper job search\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: bmw 530i 2023 price\nSecond Query: bmw 3 series cars\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: nurse practitioner liability insurance tactics\nSecond Query: nurse practitioner insurance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: xbox controller series x\nSecond Query: xbox controller\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: ornamental bicycle planters\nSecond Query: pots planter\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: package picked up by agent at post office stickermule\nSecond Query: sticker mule\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: net zero carbon guidelines\nSecond Query: net zero carbon emissions\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: overhead door warehouse\nSecond Query: warehouse door gates\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: air and cabin filter\nSecond Query: vehicle filter replacement\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: best cd rates in sc\nSecond Query: best interest rates savings\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: free texas online public school kindergarten\nSecond Query: kindergarten homeschool online\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: rheem 5 ton 16 seer a v furnace parts\nSecond Query: rheem ac parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: how much would it cost to ship a bed\nSecond Query: furniture shipping\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: clovis online school\nSecond Query: california online school\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: manulife travel insurance\nSecond Query: travel insurance policy\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: 7 seas casino games\nSecond Query: online casino\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: mulching companies near me\nSecond Query: tree services\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: resource property management\nSecond Query: property management erp\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: linkedin qr code generator\nSecond Query: how to create a qr code\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: review jjbest financing\nSecond Query: jgwentworth\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: garrick load board\nSecond Query: trucking load board\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: probiotics for weight loss at walmart\nSecond Query: wal art\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: westlaw com\nSecond Query: legal software\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: unlock google locked galaxy note 20\nSecond Query: samsung note 20 unlock\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: daytona beach fl llc small business free checking account allowing shared account\nSecond Query: llc checking account\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: sporty's pilot shop\nSecond Query: pilot supplies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: 2006 cadillac dts used abs module 15844351 for sale\nSecond Query: abs module\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: inline roller blades canada\nSecond Query: rollerblades\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: hanix rt300 dumper\nSecond Query: drum dumper\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: 300 thread count sheets\nSecond Query: bed sheets\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: breitling montbrillant prices\nSecond Query: breitling price\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: outside antenna for tmobile\nSecond Query: outdoor tv antenna\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: mercedes warranty coverage\nSecond Query: aftermarket car warranty\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: best it masters programs\nSecond Query: courses in masters\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: giant white calla lily bulb free shipping\nSecond Query: lillies bulbs\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: upmc health information department release of information\nSecond Query: upmc medical center\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: new balance 840 v5\nSecond Query: new balance shoes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: brooks and dunn concert greensboro nc\nSecond Query: brooks and dunn greensboro\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: williams sonoma kitchenware\nSecond Query: cookware\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: get a business phone number\nSecond Query: business phone numbers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: drift oceanside inn camden maine\nSecond Query: camden maine motels\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: brett robinson vacation rentals florida\nSecond Query: florida vacation rental\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: weight of 6 32 x 1 4 phillips pan head mach screw steel zinc\nSecond Query: 6 32 machine screws\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: solving inverse functions practice\nSecond Query: learn to do math\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: allswell 2 full size memory foam mattress topper\nSecond Query: allswell mattress topper\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: bank of america credit card balance transfer\nSecond Query: bank of america credit card\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: best men's shoes for ne\nSecond Query: short men shoes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: 20x25x1 furnace filters walmart\nSecond Query: furnaces filters\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: plus size under armour women tights\nSecond Query: plus size lady tights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: pittsburgh pirates june 4 game\nSecond Query: pirates\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: create a digital signature\nSecond Query: signature maker\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: bermuda resorts adults only\nSecond Query: where to stay in bermuda\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: masters in education degree online\nSecond Query: mba degree program online\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: home air conditioners\nSecond Query: air conditioner sale\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: slip on console sleeve for 2009 chevrolet avalanche\nSecond Query: car console covers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: hplc column selection guide pdf\nSecond Query: liquid chromatography\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: all inclusive st thomas\nSecond Query: caribbean all inclusive resort\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: kearny mesa chevrolet san diego ca\nSecond Query: san diego cadillac dealership\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: finding programmers\nSecond Query: seeking developers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: closest hotel to 620 10th st niagara falls ny\nSecond Query: accommodation in niagara falls ny\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: editor free logo design\nSecond Query: design logo\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: vegas deals\nSecond Query: travel deals las\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: tmobile 5g internet\nSecond Query: 5g wifi providers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: 2023 rav4 hybrid vs 2023 tucson hybrid\nSecond Query: hyundai hybrid suv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: lumigan eye drops manufacturer coupon\nSecond Query: drug savings\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: lock my child's ssn\nSecond Query: social security theft\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: miami dolphins twin bedding\nSecond Query: bed linens\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: sea blue paint\nSecond Query: paint supply\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: moving company near indian wells ca\nSecond Query: local moving service\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: best social security calculator for married\nSecond Query: social security benefits estimator\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: best brokers for mt4\nSecond Query: best forex brokers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: saving to retire goodyear\nSecond Query: saving accounts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "validation", "question": "First Query: seattle what to do june\nSecond Query: what to do in seattle\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "validation", "question": "First Query: range rover dealership near me\nSecond Query: range rover luxury suv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: doordash gift card\nSecond Query: www doordash com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: canadian tire wood filler\nSecond Query: find canadian tire\nMarket: en-c", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: lenovo weight of this\nSecond Query: lenovo laptop\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: southwest airlines\nSecond Query: southwest flights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: honda prelude 1998 2 2l vtec racing seats\nSecond Query: racing seats\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mortgage refinance hubert nc\nSecond Query: home mortgage refinance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: storage garages in freeport il\nSecond Query: freeport self storage location\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: ai enabled inventory optimization\nSecond Query: ai automation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: southwest airlines\nSecond Query: airlines\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: saving account bonus\nSecond Query: saving bank\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: background report for motorcycle history\nSecond Query: background check\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: cissp training isc2\nSecond Query: information security education\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: paycom com\nSecond Query: paycom\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lactaid ice cream\nSecond Query: no dairy ice cream\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: internet business providers\nSecond Query: business line\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: 283 crate engine\nSecond Query: chevy engine\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: right side hub 2018 ford explorer\nSecond Query: explorer wheel hubs\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2006 f350 car double din radio back up cam\nSecond Query: double din camera\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: what are some online associate degree programs for animal lovers\nSecond Query: online degrees\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: right rear door latch for 2012 hyundai tucson\nSecond Query: hyundai parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2023 ford escape phev review\nSecond Query: ford escape\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: www josiemaran com\nSecond Query: josie maran\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: dahlgren naval base jobs\nSecond Query: department of navy career opportunities\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: model qn70q60aafxza\nSecond Query: 4k tv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: cherry hill kia\nSecond Query: www kia com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: vsp vision plans\nSecond Query: vision insurance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: i fidelity com\nSecond Query: fidelity funds\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: 1991 cobalt 243 condurre bimini\nSecond Query: bimini top\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: ai stocks to invest in\nSecond Query: finance ai\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: how to build a kitchen island cabinet\nSecond Query: house kitchen cabinets\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: jim bean mixers\nSecond Query: jim beam distillery\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: flower delivery midlothian va\nSecond Query: flowers delivery close by\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: www psychologytoday com find a therapist\nSecond Query: mental health counseling\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: logos for youtube channel\nSecond Query: banner for youtube channel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: espn3 watch online college baseball\nSecond Query: espn college baseball watch\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: sata ssd hp z2 mini g4\nSecond Query: hp storage\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 3m 1 2 face respirator\nSecond Query: 3m full face respirator masks\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: london bike tours\nSecond Query: tours from london\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lonely planet traveller\nSecond Query: travel books lonely planet\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: columbia southern university ems degree\nSecond Query: columbia southern college\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: subaru crosstrek 2022\nSecond Query: subaru crosstrek\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: amerimark cobbler aprons plus size\nSecond Query: aprons for plus size\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: call someone from computer\nSecond Query: internet phone service\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: destin florida airport rental cars\nSecond Query: auto rentals\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: pool repair newark de\nSecond Query: pool repair service\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: partition recovery\nSecond Query: hard disk file recovery\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: project work plan\nSecond Query: project management\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: rockville holiday inn\nSecond Query: holiday inn indianapolis rockville in\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: tiny travel trailers\nSecond Query: rv travel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ban deodorant 1 5 oz\nSecond Query: stick deodorant\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: margarita with cointreau\nSecond Query: how to make margarita\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: smart blinds wifi\nSecond Query: home automation blinds\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: gu10 recessed light fixture\nSecond Query: lights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: https informddelivery usps com\nSecond Query: post office direct mailing\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: postage stamp dealers southern maine\nSecond Query: stamp supplies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: hp elitebook 1040 g4\nSecond Query: hp work laptops\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: independence blue cross personal choice 65\nSecond Query: bluecross insurance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: all plastic umbrella table for in pool ledge shelf\nSecond Query: pool table for umbrella\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: small cash loan\nSecond Query: small company loans\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: 22 rue de buci hotel com\nSecond Query: hotels com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: belk daily deal\nSecond Query: belk department stores\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: orlando villas near disney\nSecond Query: dvc villa\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ram dealers near me\nSecond Query: dodge truck ram\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: dr kahn oral surgeon\nSecond Query: oral maxillofacial surgeons\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lonestar soccer camps\nSecond Query: soccer camps near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: regions financial corporation\nSecond Query: financial advisor\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ceramics birthday party evite\nSecond Query: invites\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: stifel investment strategy\nSecond Query: liability driven investment strategy\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: mary kay timewise microdermabrasion\nSecond Query: skin products\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: bbb rated corporate relocation moving company rolling hills mi\nSecond Query: top rated moving companies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: bloomingdale's beauty sale\nSecond Query: bloomingdale's\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: elevance health private duty nursing policy\nSecond Query: elevance site\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: grapevine ca weather\nSecond Query: weather forecast\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: www costco com marana az\nSecond Query: costco club\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: italian sink brands\nSecond Query: sink\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lowes 6 5 electric start\nSecond Query: lowes appliances home\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: tnb collagen\nSecond Query: collagen supplements\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: alimony lawyer in orlando\nSecond Query: defense lawyer orlando\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: concerts at the sphere in vegas\nSecond Query: upcoming concerts in las vegas\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: telluride\nSecond Query: kia luxury suv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: consumer reports memory foam mattress toppers\nSecond Query: memory foam mattress toppers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: high return safe investments\nSecond Query: investment risk\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: tanks\nSecond Query: clothing\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: a z foam\nSecond Query: foams\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: payoneer\nSecond Query: mobile payment platform\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: i need the most inexpensive trip to hawaii\nSecond Query: hawaiian travel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: window repair companies near me\nSecond Query: local window\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: hr onboarding software\nSecond Query: hr platform\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: best field service management software\nSecond Query: data management software\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: harley davidson windshield replacement 2006 deluxe\nSecond Query: replacement windshield\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: program management tracking spreadsheet\nSecond Query: track expenses\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: flights to cancun from sfo\nSecond Query: california flight\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: designer wallets for graduation female\nSecond Query: wallets\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: museum of the west scottsdale\nSecond Query: scottsdale things to do\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: simple 16 dump trucks for sale\nSecond Query: boom trucks for sale\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: expedia\nSecond Query: expedia travel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: gmail recovery account\nSecond Query: how to recover my email account\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: celestyal olympia cruise ship\nSecond Query: cruise vacation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: fremont ave etobicoke ontario home sales\nSecond Query: etobicoke property for sale\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: no spill the button makes it easy gas can 5 gallon\nSecond Query: no spill\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: outdoor home security cameras made in japan\nSecond Query: outdoor home security system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: grand ole opry schedule 2023\nSecond Query: grand ole opry live schedule\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: kona hawaii\nSecond Query: big island hawaii\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: divorce lawyers in hamilton ontario\nSecond Query: family lawyer\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: physicians located at 15725 whittier blvd whittier ca\nSecond Query: house physicians\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: new balance men's slip ons with roll bar\nSecond Query: new balance roll bar shoes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: how much is a real estate course\nSecond Query: real estate agent training\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: permanent jewelry around quincy il\nSecond Query: local jewelers\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2013 ford edge hid headlights\nSecond Query: hid lights cars\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: fitbit heart rate monitor\nSecond Query: smartwatch heart rate monitor\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: disneyland hotel deals\nSecond Query: hotels disneyland\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: d k appliances newtown square\nSecond Query: kitchen appliance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: download chromium 32 bit\nSecond Query: edge browser chromium\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: omni scottsdale grand mountain view room\nSecond Query: hotels com scottsdale\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: us internal control questionnaire for accounts receivable\nSecond Query: internal control questionnaire\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mobile homes for rent las vegas nv\nSecond Query: motorhome rentals\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: 2004 ford freestar van\nSecond Query: commercial vans\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: what industry is equifax in\nSecond Query: equifax credit company\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: ring spotlight cam plus outdoor camera\nSecond Query: home security system ring\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: brooks gts 17 women's\nSecond Query: brooks adrenaline women's\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: gooseberry bushes near me\nSecond Query: garden plants\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: pottery barn outlet alameda\nSecond Query: pottery barn store locations\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: drive through safari tour orlando\nSecond Query: activities in orlando\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: meat 1 day sale\nSecond Query: father's day meat specials\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: hoka speedgoat inserts\nSecond Query: hoka gore tex\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: dinner delivered dayton tn\nSecond Query: meals delivered to home\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: how to edit xfa documents\nSecond Query: document edits\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: meraki go firewall vs meraki go firewall plus\nSecond Query: computer network firewall\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: townhomes for sale charleston sc\nSecond Query: townhouses for sale near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: small business payroll softwares\nSecond Query: list of payroll softwares\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: chevy trax 2024 for sale near me\nSecond Query: pre owned chevy\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: elitelearning com book\nSecond Query: elite continuing education\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: adobe acrobat for mac\nSecond Query: acrobat pdf\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: what is debt to income ratio\nSecond Query: debt com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: azores and madeira portuguese traditional gifts for graduation for kids\nSecond Query: gifts for child in portugal\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: amazon portable dvd player 10 best sound quality and speakers\nSecond Query: 10 dvd player portable\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: painter 32703\nSecond Query: painters in my area\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: how much money can i get from a reverse mortgage on my house\nSecond Query: qualify reverse mortgage\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: do you pay taxes on a trust\nSecond Query: paying taxes\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: master of public administration online degree programs\nSecond Query: online master degree program\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: northwestern mutual digital transformation\nSecond Query: digital business transformation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: enterprise network rack\nSecond Query: network equipment racks\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: espn+ login\nSecond Query: espn\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: machu picchu in july\nSecond Query: trip to machu picchu\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: bonded babysitter honolulu\nSecond Query: local babysitter\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: bari to naples bus\nSecond Query: naples italy\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: general liability insurance atlanta georgia\nSecond Query: general liability insurance coverage\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: manuscript proofreading online\nSecond Query: online proof reader\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mycolonialpenn pay your bill\nSecond Query: colonialpenn com\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: resume building executive administrative assistant\nSecond Query: building a resume\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: pentair ccp520\nSecond Query: pentair salt cell\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ritter 222 exam table\nSecond Query: scientific furniture\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: used range rover near me\nSecond Query: used auto sales near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: jjill com\nSecond Query: j jill apparel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: phone numbers related to belinda fernandez from houston texas\nSecond Query: phone numbrs\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: healthcare career choices\nSecond Query: hospital career\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: discount electric dryers\nSecond Query: get appliances\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: best car insurance east peoria illinois\nSecond Query: top auto insurance companies\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2005 mercury 50 hp 4 stroke alternator\nSecond Query: outboard alternator\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: st george island rentals\nSecond Query: vacation rentals st george\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: chevrolet dealer stevens creek\nSecond Query: chevrolet car dealership\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: tree work bid online\nSecond Query: tree services\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 3 inch louver bifold door white 36 x80\nSecond Query: interior door\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: safeguard home and auto\nSecond Query: auto warranty\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: flight from ewr to marseilles\nSecond Query: marseille air travel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lowes salina ks\nSecond Query: lowes appliances home\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: car rentals europe\nSecond Query: book a rental car\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: kayak flights non stop\nSecond Query: kayak flighta\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mailchimp co\nSecond Query: email marketing platform\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: employers practice liability insurance\nSecond Query: professional liability insurance liability insurance\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: bonds rates today\nSecond Query: savings bonds\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: endurance\nSecond Query: warranty extended car\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: boat prop 14m x 19m\nSecond Query: propellers boat parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: edge\nSecond Query: edge suv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: outdoor convertible sofa daybed\nSecond Query: outdoor patio furniture\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: lg dv330aew xaa heating element replacement\nSecond Query: dv330aew xaa\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: today's mortgage rates for investment property\nSecond Query: mortgage loan\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: rope halyard\nSecond Query: rope\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: free simple retirement calculator\nSecond Query: ira calculator\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: www swmric com flexmls\nSecond Query: real estate lead generation websites\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: niu\nSecond Query: universities\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: protac 90x usb protac 90x flashlight\nSecond Query: flashlight led light\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: swann security\nSecond Query: monitoring security system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: scottsdale dui lawyer\nSecond Query: felony dui attorney\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: markup a pdf\nSecond Query: editing pdfs\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: www youtube com youtube com\nSecond Query: youtube add\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: hopper flights\nSecond Query: plane flight tickets\nMarket: en-c", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: dura vent direct vent pro 48 inch pipe for gas fireplace 58dva 48\nSecond Query: dura vent\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mopar 153856 screw tapping\nSecond Query: screw products\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2011 toyota camry le 2 5l charging system sensors\nSecond Query: aut parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: maytag mvwb 835 clutch replacement\nSecond Query: maytag washing machine parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: hyundai dealerships near me\nSecond Query: certified hyundai dealership\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: franchise side hustle\nSecond Query: i need a side hustle\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: 2023 honda cr v hybrid sport touring\nSecond Query: honda crv touring\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: what i can take to guatemala\nSecond Query: guatemala travel\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: pinterest diana ross concert\nSecond Query: diana ross concerts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: amazon seller app scanner\nSecond Query: amazon advertising tool\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ai chat\nSecond Query: artificial intelligence technology\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: condos on east end of galveston\nSecond Query: rentals galveston\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: why bulging eyes in graves\nSecond Query: bulging eye syndrome\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: sunpower installers near me\nSecond Query: solar panel system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: unisex co ord set\nSecond Query: outfits\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: nursing homes in queens new york\nSecond Query: nursing home ny\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: pmbok\nSecond Query: project report book\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: flights to peru lima\nSecond Query: international flights\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: roka shoe store in san antonio\nSecond Query: roka optical\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ncl cruises\nSecond Query: caribbean cruises\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: waukesha county wi land records search\nSecond Query: property ownership records\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: women's new england sun hat\nSecond Query: hats for women summer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mid century modern outdoor bench\nSecond Query: patio furniture\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: firstrade\nSecond Query: investment firms\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: todolist abstractspoon\nSecond Query: task management system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: dell 2408wfp specs\nSecond Query: dell e series monitor\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: top online criminal justice masters programs\nSecond Query: online criminal justice masters\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: performance bond california\nSecond Query: payment and performance bonds\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: hard plastic slide tool boxes for jeep wrangler\nSecond Query: jeep wrangler auto parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: grovemade desk mat\nSecond Query: desk mat\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: apartment size sectional sofa with chaise\nSecond Query: apartment size sleepers sofa\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ryobi battery trimmer 40v\nSecond Query: ryobi battery\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: desktops for sale\nSecond Query: buy computer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: vrbo myrtle beach sc\nSecond Query: vrbo\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: new york city guided tour packages\nSecond Query: nyc vacation\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: motor cover for 2023 ford maverick hybrid xlt\nSecond Query: ford maverick accessories\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mann maid cleaning service in eugene or\nSecond Query: home cleaning service\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: intelligent investor pdf\nSecond Query: the intelligent investor benjamin graham\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: dollywood\nSecond Query: dollywood resort\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: ed martin honda\nSecond Query: honda dealer near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: cna job hiring today jacksonville fl 32216\nSecond Query: crna position\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: best dropshipping products for 2023 for beginners\nSecond Query: drop shipping vendors\nMarket: en-c", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: luxury bus business agreement\nSecond Query: letter of agreement\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: cd rates 15 months\nSecond Query: certificate of deposit rate of return\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: karl lagerfeld\nSecond Query: designer bags\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: pentair dynein 1 2 1\nSecond Query: pentair\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: nexgen waterless wash\nSecond Query: auto car wash\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: physician assistant program\nSecond Query: health services program\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: amawaterways official site\nSecond Query: ama waterways river cruise\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: home depot pht23d7abb\nSecond Query: fridges at home depot\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: cd rate calculator tool\nSecond Query: certificates of deposit\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: modern mirror frames\nSecond Query: mirrors\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: extra wide running shoes for heavy men\nSecond Query: on running\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: criminal defense attorney austin state short\nSecond Query: austin tx cps attorney\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: 917 288516 parts\nSecond Query: replacement parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: best credit for travel\nSecond Query: visacreditcard\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: file sharing and storage sites\nSecond Query: file based storage\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: cabinet knobs richelieu\nSecond Query: richelieu\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: acqualina resort and residence on the beach\nSecond Query: miami beach resorts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: la clothing\nSecond Query: clothing store\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: leather sectional couches overstock\nSecond Query: sectional couches\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: aetna long term care policy\nSecond Query: aetna healthcare\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mortgage marketing software\nSecond Query: mortgage marketing\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: multicare indigo urgent care\nSecond Query: urgent care locations\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: ny mets com\nSecond Query: mets\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: mazda cx90 2023\nSecond Query: mazda cx90\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: capitol federal\nSecond Query: financial services\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: aftermarket pipe 2023 klr kawasaki 650\nSecond Query: exhaust klr\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: is it important to buy appliances from authorized retailers\nSecond Query: get appliances\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: repair air conditioner near me\nSecond Query: air conditioning system\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: asset tracking application\nSecond Query: manage software assets\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: pest control kingman az\nSecond Query: pest control exterminator\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: jiffy lube near me\nSecond Query: lube oil change\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: extraction and filling pump 7073 seal kit\nSecond Query: extraction filling pump\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: hsn com shopping\nSecond Query: hsn\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: fence builders wilmington\nSecond Query: fencing contractors near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: class of 2023 personalized gifts\nSecond Query: gift ideas personalized gift\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: manufactured homes dealers near me\nSecond Query: home for sale near me\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: metro laptop pc bag\nSecond Query: laptop bag\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: soldejaneiro com\nSecond Query: sol janeiro\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: american business card\nSecond Query: american express business\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: how to order amazon prime tv\nSecond Query: amazon fire tv\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: evinrude gasket sealing compound 317201\nSecond Query: evinrude marine parts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: best plantar fasciitis sandals for women\nSecond Query: womens shoes for plantar fasciitis\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: kc by keracare moisturizing curling jelly\nSecond Query: keracare curling jelly\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: tracking mutual fund performance\nSecond Query: income mutual fund\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: how to bid for city of coconut creek for janitorial contract\nSecond Query: contractor contracts\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: jjill com\nSecond Query: clothing store\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: punta gorda florida homes for sale\nSecond Query: homes for sale\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: does a infrared sauna help with high alkaline levels\nSecond Query: infrared saunas\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: symptoms of over corrected hypothyroidism in women\nSecond Query: symptoms of hypoparathyroidism\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: men s beanie\nSecond Query: mens cap\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: components of cybersecurity risk\nSecond Query: cyber risk insurance\nMarket: en-c", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: buy cabinet handles\nSecond Query: cabinet knobs and pulls\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: www ambetternhhealthyfamilies\nSecond Query: ambetter\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: triangular trade commodities\nSecond Query: trading commodities\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: fox shocks chevy express\nSecond Query: chevy express shocks\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: ollies\nSecond Query: ollie's bargain outlet discount\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: online job postings\nSecond Query: sites to post job openings\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: homes for sale ranch style with no steps price under 350 000 in dallas ga and hiram ga no townhomes\nSecond Query: property for sale\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: power conveyor\nSecond Query: conveyor flexible\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: online bsn to msn programs\nSecond Query: rn bsn msn programs\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: how to create a amazon store\nSecond Query: retail store\nMarket: en-c", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: custom engineering notebooks\nSecond Query: custom notebooks\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: percentage of cure using radiation on scalp for melanoma\nSecond Query: head cancer\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: zeeland herman miller outlet\nSecond Query: herman miller\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: amtrak chicago to indianapolis schedule\nSecond Query: amtrak indianapolis to illinois\nMarket: en-u", "choices": ["Yes", "No"], "answer": "No"}
+{"split": "test", "question": "First Query: self storage in st paul mn\nSecond Query: self storage\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: diamond dots for adults\nSecond Query: diamond painting\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}
+{"split": "test", "question": "First Query: short tip foley catheters\nSecond Query: foley catheter\nMarket: en-u", "choices": ["Yes", "No"], "answer": "Yes"}

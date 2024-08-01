@@ -1,26 +1,26 @@
 {
-    "experiment_details":"Ethos, 0.5/0.5 weight, Azure API, GPT-4-Turbo, 0.7 temperature, 5 epochs, 7 batch size, 5 mini batch size, 1 iterations, 3 beam width, 2 group frequency, 0.5 epsilon",
-    "dataset_path": "data/ethos.jsonl",
+    "experiment_details":"Code generation -- human_eval-- all samples to train",
+    "dataset_path": "",
     "mini_batch_size": 5,
     "batch_size": 7,
     "iterations": 1,
-    "epochs": 20,
-    "logging_file_path": "logs/ethos.jsonl",
+    "epochs": 10,
+    "logging_file_path": "logs/gen_tasks/human_eval/gpt_4_turbo_all_samples_to_train.jsonl",
     "epsilon": 0.5,
     "beam_width": 3,
     "group_frequency": 2,
     "papyrus": false,
     "create_sub_prompts": false,
     "num_sub_prompts": 5,
-    "cache_path": "cache/ethos.db",
-    "initial_prompt": "Given a query, you have to tell if it contains hate speech in any form or not.",
+    "cache_path": "cache/human_eval.db",
+    "initial_prompt": "You are a software engineer. You are given a function signature and a description of the function. Complete the function.",
     "metric_kwargs": {
         "type": "weighted_accuracy",
         "weights": [0.5,0.5]
     },
     "solver_llm": {
         "model_kwargs": {
-            "model": "gpt-35-turbo",
+            "model": "gpt-4-turbo",
             "temperature": 0
         },
         "api_kwargs": {

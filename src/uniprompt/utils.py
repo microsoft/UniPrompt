@@ -13,6 +13,7 @@ import yaml
 from openai import AzureOpenAI, OpenAI
 
 
+
 def load_prompts() -> Dict[str, str]:
     prompt_path = pkg_resources.resource_filename("uniprompt", os.path.join("prompts", "default.yaml"))
     with open(prompt_path) as f:
@@ -42,21 +43,32 @@ def get_confusion_matrix(y_true: Sequence[Any], y_pred: Sequence[Any], normalize
 
     return cm
 
-def chat_completion(cache_path=None, **kwargs):
-    def make_api_call(client, **kwargs):
-        while True:
-            try:
-                response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
-                return response.choices[0].message.content
-            except Exception as e:
-                print(f"Got error {e}. Sleeping for 5 seconds...")
-                time.sleep(5)
+def chat_completion(cache_path=None, papyrus=False, **kwargs):
+    def make_api_call(papyrus=False, **kwargs):
+        if papyrus is True:
+            from uniprompt.papyrus import chat_completion_papyrus
+            return chat_completion_papyrus(cache_path=cache_path, **kwargs)
 
-    api_key = os.environ.get("OPENAI_API_KEY")
-    client = OpenAI(api_key=api_key)
+        else: # OpenAI
+            api_key = os.environ.get("OPENAI_API_KEY")
+
+            if kwargs["api_kwargs"]["api_type"] == "azure":
+                client = AzureOpenAI(api_key=api_key, azure_endpoint=kwargs["api_kwargs"]["api_base"], api_version=kwargs["api_kwargs"]["api_version"])
+            else:
+                client = OpenAI(api_key=api_key)
+                # breakpoint()
+            while True:
+                try:
+                    
+                    response = client.chat.completions.create(**kwargs["model_kwargs"], messages=kwargs["messages"])
+                    print(response)
+                    return response.choices[0].message.content
+                except Exception as e:
+                    print(f"Got error {e}. Sleeping for 5 seconds...")
+                    time.sleep(5)      
 
     if not cache_path:
-        return make_api_call(client, **kwargs)
+        return make_api_call(papyrus=papyrus, **kwargs)
 
     cache_dir = os.path.dirname(cache_path)
     os.makedirs(cache_dir, exist_ok=True)
@@ -84,7 +96,7 @@ def chat_completion(cache_path=None, **kwargs):
         return cached_response[0]
 
     # If not in cache, make the API call
-    response_content = make_api_call(client, **kwargs)
+    response_content = make_api_call(papyrus=papyrus, **kwargs)
 
     # Store the response in the cache
     cursor.execute("INSERT INTO api_cache (model, messages, response) VALUES (?, ?, ?)",
@@ -94,6 +106,34 @@ def chat_completion(cache_path=None, **kwargs):
 
     return response_content
 
+def load_dataset_code(dataset_path):
+    from datasets import load_dataset
+    data = load_dataset("openai_humaneval")
+    qustions = []
+    tests = []
+    choices = []
+    for i in range(len(data['test']['task_id'])):
+        prompt = data['test']['prompt'][i]
+        test = data['test']['test'][i]
+        entry_point = data['test']['entry_point'][i]
+        soln = data['test']['canonical_solution'][i]
+        qustions.append(prompt)
+        tests.append(test + "\n" + f"check({entry_point})")
+        choices.append(soln)
+    
+    dataset_dict = {
+        "train_questions": qustions,
+        "train_answers": tests,
+        "train_choices": choices, 
+        "val_questions": qustions[100:150],
+        "val_answers": tests[100:150],
+        "val_choices": choices[100:150],
+        "test_questions": qustions[150:],
+        "test_answers": tests[150:],
+        "test_choices": choices[150:],
+    }
+    return dataset_dict
+    
 
 def load_dataset(dataset_path: str) -> Dict[str, List[Union[str, List[str]]]]:
     """
@@ -178,7 +218,7 @@ def feedback_one_example(
 
     input_prompt = prompt_template.format(prompt=prompt, examples=examples)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["expert_llm"], messages=messages)
     return output
 
 
@@ -197,7 +237,7 @@ def apply_edits(prompt: str, prompt_template: str, edits: str, config: Dict[str,
 
     input_prompt = prompt_template.format(prompt=prompt, edits=edits)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["expert_llm"], messages=messages)
     return output
 
 
@@ -251,7 +291,7 @@ def feedback_with_history(
 
     input_prompt = prompt_template.format(prompt=prompt, examples=examples, history_string=history_string)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["expert_llm"], messages=messages)
     return output
 
 
@@ -279,5 +319,5 @@ def combine_multiple_feedbacks_with_examples(
 
     input_prompt = prompt_template.format(edits=edits, wrong_examples_string=wrong_examples_string)
     messages = [{"role": "user", "content": input_prompt}]
-    output = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)
+    output = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["expert_llm"], messages=messages)
     return output

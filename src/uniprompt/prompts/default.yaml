@@ -7,6 +7,15 @@ make_prompt: |
 
   Let's think step by step.
 
+make_prompt_code: |
+  {prompt}
+
+  Output format: Give your answer as the correct code completion between <Answer></Answer> tags. Remember, do not include the code already given as the question.
+
+  Let's think step by step.
+
+  Question: {question}
+
 group_prompt: |
   You are given a set of feedbacks, you need to cluster them into five groups based on similarity, and then provide a summary of each group. You can use the following feedbacks to cluster:
   {feedbacks}
@@ -93,13 +102,6 @@ combine_multiple_feedbacks_with_examples: |
   You have to summarize the feedbacks into a final feedback.
   You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
 
-  To achieve your task, try to follow the following steps;
-  1. Identify the general problem that is being solved by all the feedbacks.
-  2. Once you have identified the problem, try to make a new feedback that covers most of the feedbacks given. Let's say the problem in the first feedback is the absence of methods to solve linear equation and in the second feedback it is the method to inverse a matrix. You know that both of these problems can be caused by adding how to solve convert a matrix into row reduced echelon form. So, add that.
-  3. Try and validate your feedback. Once, you have a feedback try to see if it covers every feedback, if it does not cover any feedback, add that to your new feedback.
-  4. See the wrong questions and try to identify what is the problem in the question. If the problem is not covered by your feedback, add that to your feedback.
-  5. You can add specifics like examples, definitions etc make sure that the feedback is enough to be directly added without any modification.
-
   You may use the following function templates-
 
   add_section(section_name)
@@ -123,13 +125,6 @@ combine_multiple_feedbacks_with_examples_add: |
   You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
   You have to summarize the feedbacks into a final feedback.
   You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
-
-  To achieve your task, try to follow the following steps;
-  1. Identify the general problem that is being solved by all the feedbacks.
-  2. Once you have identified the problem, try to make a new feedback that covers most of the feedbacks given. Let's say the problem in the first feedback is the absence of methods to solve linear equation and in the second feedback it is the method to inverse a matrix. You know that both of these problems can be caused by adding how to solve convert a matrix into row reduced echelon form. So, add that.
-  3. Try and validate your feedback. Once, you have a feedback try to see if it covers every feedback, if it does not cover any feedback, add that to your new feedback.
-  4. See the wrong questions and try to identify what is the problem in the question. If the problem is not covered by your feedback, add that to your feedback.
-  5. You can add specifics like examples, definitions etc make sure that the feedback is enough to be directly added without any modification.
 
   You may use the following function templates-
 

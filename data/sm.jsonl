@@ -1,0 +1,500 @@
+{"split": "train", "question": "QUERY: amazon orders my orders\nKEYWORD: amazonwarehousedeals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: outdoor gear\nKEYWORD: aeropostale mens fleece tops\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: hotel leopold paris france\nKEYWORD: collette worldwide holidays\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: hr text message employees examples\nKEYWORD: tatango\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: get journeyman electrician license\nKEYWORD: electrical engineering certificate\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: citizens insurance florida\nKEYWORD: wind damage insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: hario cold brew\nKEYWORD: green robusta coffee beans\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: kroger delivery services\nKEYWORD: save money groceries\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: maryland roofing companies\nKEYWORD: shingle roof installation\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: gardner\nKEYWORD: gardner gifts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: zappos amazon\nKEYWORD: men olukai shoes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: transition words conclusion\nKEYWORD: grammatical correction software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: waist support back pain\nKEYWORD: hempvana straight site\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: tv cart\nKEYWORD: tv stands mount\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: best high volume color laser printer\nKEYWORD: nn123 hp com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: professional development courses receptionist\nKEYWORD: today free udemy courses\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: health care benefits\nKEYWORD: new beginnings home health care\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: types security controls\nKEYWORD: whitehat security\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: financial advisor investments\nKEYWORD: cd rates near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: scripture ink pens\nKEYWORD: christian supplies\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: camera\nKEYWORD: olympus deals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: ranking vanderbilt medical school\nKEYWORD: medical sciences degree\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: camilla split maxi dress\nKEYWORD: women outfit sets fall\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: survival gear\nKEYWORD: patriot emergency food\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: torres del paine famous\nKEYWORD: booking luxury lodge torres del paine\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: burton appliances\nKEYWORD: nn48 gas range\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: much get ready debris\nKEYWORD: junk removal jupiter fl\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: restaurant field store tx\nKEYWORD: inventory list restaurant\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: fedex retirement plan\nKEYWORD: retirement annuity rates\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: harris county public records\nKEYWORD: texas divorce records search\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: sw clothing\nKEYWORD: yoga shorts walmart\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: amazon gift cards\nKEYWORD: gift card email delivery\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: ecotech radion lighting g4\nKEYWORD: led commercial light bulbs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: ice maker kitchenaid refrigerator\nKEYWORD: coldspot appliance parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: technical talent company\nKEYWORD: it technician hiring\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: closer\nKEYWORD: closer gift\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: petland com pets\nKEYWORD: best treats train dogs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: thinkpad lenovo\nKEYWORD: lenovo thinkpad t15g gen nn2 nn15d6 core i7 11850h vpro\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: pit boss grill classic\nKEYWORD: solo stove pi\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: anytime fitness membership price\nKEYWORD: workout benches home bar weights\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: kobra 3d printer\nKEYWORD: creality 3d ender 3d printer\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: using apostrophe\nKEYWORD: check my paragraph online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: carbide sawzall blades\nKEYWORD: grainger\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: meeting microsoft teams\nKEYWORD: archiving microsoft teams\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: airlines ecuador\nKEYWORD: delta airlines flights tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: donation nation\nKEYWORD: donate today\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: create affiliate link\nKEYWORD: affiliate system\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: bulgarian wine\nKEYWORD: justin winery events\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: free telephone number lookup\nKEYWORD: cell phone lookups\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: christian\nKEYWORD: bible store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: coupon codes noble works\nKEYWORD: coupon code finder\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: pipe wrap repair kit\nKEYWORD: use flex seal tape underwater\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: business card templates free\nKEYWORD: vista print\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: new hondas nn2023\nKEYWORD: ford f150 deals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: apply medicaid colorado\nKEYWORD: affordable health insurance colorado\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: under counter led lights\nKEYWORD: nsf led\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: ping scan windows\nKEYWORD: network traffic monitoring\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: plano community college texas\nKEYWORD: it classes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: emma email marketing\nKEYWORD: icontact competitors\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: best dental plans seniors medicare\nKEYWORD: cheap health insurance los angeles\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: best money market rates today\nKEYWORD: capital one online savings rate\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: candy boxes amazon\nKEYWORD: gift snack\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: westell r10 boxer cabinets\nKEYWORD: food holding cabinets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: ultra flex supplement\nKEYWORD: joint relief supplement\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: home depot official site\nKEYWORD: kitchen appliances\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: lending451\nKEYWORD: lendio com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: greens supplement review\nKEYWORD: nutrisystem price\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: insta nn360 x3\nKEYWORD: point shoot camera\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: sign holder channel triple action\nKEYWORD: safety signs workplace\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: all inclusive\nKEYWORD: costa rica hotels resorts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: nn2002 mitsubishi eclipse gt nn3 passenger side steering knuckle\nKEYWORD: auto parts online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: keeptruckin apps\nKEYWORD: fleet iot\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: gold price predictions next nn5 years\nKEYWORD: silver price usd\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: popeyes jobs apply online\nKEYWORD: doordash work\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: asphalt costs per ton\nKEYWORD: parking lot paving company near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: neurodegenerative diseases\nKEYWORD: dreams parkinson disease\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: kitchen towels\nKEYWORD: nn20 x nn40 towels\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: fisheries supply\nKEYWORD: boat anchor\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: pop up locations rent\nKEYWORD: office space rentals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: loper hair\nKEYWORD: find microtouch titanium max\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: lavender dress\nKEYWORD: cheap clothes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: jetblue worcester airport\nKEYWORD: cheap air flights\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: firearm license\nKEYWORD: multi state ccw permit\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: air canada all inclusive vacation packages\nKEYWORD: flights yul airport\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: full body razor\nKEYWORD: laser hair removal face\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: kusadasi turkey\nKEYWORD: kusadasi all inclusive vacation\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: gvwr nn2019 mazda cx nn5\nKEYWORD: car vana\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: concrete resurfacing\nKEYWORD: affordable concrete repair\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: new bank account promotions\nKEYWORD: highest apy rates\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: janssen select program xarelto\nKEYWORD: nn2023 medicare advantage\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: buckeye cable speed test\nKEYWORD: fiber optic internet\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: fly plane\nKEYWORD: online aviation certificate programs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: ring type gasket weights\nKEYWORD: api ring gaskets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: green velvet trousers\nKEYWORD: bandit m65 cargo pants\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: kind oil reed diffuser\nKEYWORD: bulkapothecary com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: television tonight\nKEYWORD: tv movies prime\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: united janitorial\nKEYWORD: dryvac vacuum\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: side effects depression medication\nKEYWORD: rexulti effective\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "train", "question": "QUERY: english writing improve word app\nKEYWORD: essay grammar check online free\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "train", "question": "QUERY: airweave\nKEYWORD: amazon bedding\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: discount travel flight\nKEYWORD: atl london heathrow british airways\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: beverly theater\nKEYWORD: north shore music theatre tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: sharepoint program software\nKEYWORD: open source task management software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: blackout roller blinds\nKEYWORD: budgetblinds\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: public records dyersburg tn\nKEYWORD: find people background\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: wrigley field winterland nn2023\nKEYWORD: cubs mlb tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: cloud database\nKEYWORD: customer database\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: west virginia solar installers\nKEYWORD: local solar companies near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: carmax amarillo\nKEYWORD: land rover range rover\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: facetime app\nKEYWORD: live chat\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: boat place\nKEYWORD: gifts boat lovers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: deck railing\nKEYWORD: glass railing system decks\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: quickbooks apple computers\nKEYWORD: quicken nn2023 simplifi\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: customer experiences contact center ai\nKEYWORD: constant contact\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: rodent rid services lancaster city\nKEYWORD: home paramount pest control\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: do you start 501c3 nonprofit tennessee\nKEYWORD: 501c bylaws\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: mineral oil\nKEYWORD: mineral oil nn1 gallon\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: french connection women t shirt\nKEYWORD: tank tops lace trim top\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: custom bmw 650i convertible\nKEYWORD: buy car\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: chevy dealership calgary\nKEYWORD: equinox ev canada\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: assurant insurance\nKEYWORD: assurant mobile home insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: va medicaid dmas virginia gov\nKEYWORD: molina medicare insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: budget management\nKEYWORD: nonprofit accounting software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: google\nKEYWORD: promote google\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: march lease specials\nKEYWORD: types suvs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: heritage living center conway ar\nKEYWORD: live senior caregiver\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: victorian trading company online\nKEYWORD: starcrest catalog company\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: streamlabs\nKEYWORD: best social media software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: navy federal credit union loans\nKEYWORD: penfed credit union personal loan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: ponytail wigs\nKEYWORD: revlon hair pieces\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: free standing partitions\nKEYWORD: screenflex room divider\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: arctic cat catalyst\nKEYWORD: snowmobile prices\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: smile\nKEYWORD: dental implant office\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: canada health benefits progam\nKEYWORD: medical travel insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: pure arnica gel\nKEYWORD: zo skin health\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: quinceanera accessories\nKEYWORD: quinceanera props\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: vin look up online free\nKEYWORD: accident records vin\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: majorgeeks\nKEYWORD: antivirus\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: ez appliance\nKEYWORD: coldspot appliance parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: youtube\nKEYWORD: you tube tv\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: science\nKEYWORD: abclonal science inc\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: last day nn50 off mini full hd 1080p video recorder dv camera\nKEYWORD: swann deals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: housing secure\nKEYWORD: non traditional income mortgage\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: cheap cars sale under nn3000$\nKEYWORD: subaru car dealerships\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: best lease deals under nn200 month\nKEYWORD: nn2022 honda pilot black edition\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: portrait painters destin florida\nKEYWORD: photo canvas prints\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: ha ash ticketmaster\nKEYWORD: ha ash tour\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: provident metals\nKEYWORD: best companies buy gold\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: healthy meals\nKEYWORD: my patriot supply food\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: delta air lines\nKEYWORD: delta airlines official site\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: tiaa bank cd rates official site\nKEYWORD: high interest cd\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: mid mn federal credit union\nKEYWORD: navy federal credit union motorcycle loan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: attorneys near me\nKEYWORD: workers comp attorneys\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: squarespace\nKEYWORD: best website builder online store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: surrogate models\nKEYWORD: surrogate cost\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: maui\nKEYWORD: maui things do see\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: grazing land sale oklahoma\nKEYWORD: oklahoma city ok properties sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: sports illustrated\nKEYWORD: fantasy football\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: egnyte secure govern\nKEYWORD: secure portal information\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: asphalt floor tile\nKEYWORD: shower tile\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: large holiday homes pool\nKEYWORD: miramar beach beach condos\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: rosemeade townhomes\nKEYWORD: apartments\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: spotting scope tripod head\nKEYWORD: hunting equipment online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: steel rims nn15\nKEYWORD: rentawheel\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: jcpenney formal dresses\nKEYWORD: bridesmaid dresses\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: cheapcigars4me\nKEYWORD: end table humidor\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: transporting couch pickup truck\nKEYWORD: cheap cross country movers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: abc warehouse\nKEYWORD: refridgerator sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: ford f nn150\nKEYWORD: ford wiper blades\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: subsidized housing over nn55\nKEYWORD: available grants senior citizens\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: traverse\nKEYWORD: kia niro ev test drive\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: miami mold specialist\nKEYWORD: mold remediation cost calculator\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: carewell\nKEYWORD: carerevolution com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: western art paintings\nKEYWORD: claes oldenburg auction\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: curtains\nKEYWORD: retractable screens\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: when use comma semicolon\nKEYWORD: check my paragraph online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: tiny home called when applying loan\nKEYWORD: usda property loan eligibility map\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: kitchen bath showrooms near me\nKEYWORD: cast iron sink\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: glass globe nn12 diameter clear\nKEYWORD: lightology\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: best bodybuilding diet app\nKEYWORD: best incline trainer\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: pain stiffness hands fingers\nKEYWORD: deal carpal tunnel pain\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: rocker eyeglasses\nKEYWORD: glasses look younger\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: university california berkeley\nKEYWORD: palmer college california\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: camera\nKEYWORD: mouthwatch intraoral camera dexis\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: ns builders home care\nKEYWORD: home care rate\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: family law attorney durham nc\nKEYWORD: just ask legal advice\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: autozone amelia\nKEYWORD: automotive warehouse\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: powerhouse homeschool\nKEYWORD: best online homeschool programs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: replace spray head guardian eyewash\nKEYWORD: eyewashdirect\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: quickbooks\nKEYWORD: bookkeeping payroll software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: quick check former employees\nKEYWORD: time attendance tracking\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: docent training presentation template\nKEYWORD: board packet template\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "validation", "question": "QUERY: find roommate tucson\nKEYWORD: tucson apartments rent\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: supplements central nervous system health function\nKEYWORD: luteolin capsules\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: pnc bank certificate deposit\nKEYWORD: citi bank deposit\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: pre owned nn2023 chevy blazer tyler tx\nKEYWORD: jeff buie used vehicle dealership\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: ikea locations\nKEYWORD: rta store com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: avoid using brokers that don't pay time\nKEYWORD: best online stock broker\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: ebay\nKEYWORD: amazonwarehousedeals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "validation", "question": "QUERY: seltos trailblazer\nKEYWORD: nn2021 chevy trailblazer\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: airbnb greenville sc downtown lofts\nKEYWORD: best western hotels\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tights\nKEYWORD: grey leggings\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tax refund estimator nn2023\nKEYWORD: payroll tax services near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: comal county food bank\nKEYWORD: food bank donations\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: blue corduroy pants women\nKEYWORD: women outfit sets fall\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: harrietcarter com\nKEYWORD: rugsusa\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: googl\nKEYWORD: google play store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: cambior gold stock price\nKEYWORD: forex options\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: olive tree learning center\nKEYWORD: legit online homeschool\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: hotels billings mt\nKEYWORD: all inclusive hotels\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: walmart fountain co nn80817\nKEYWORD: appliance store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: black ladder shelf\nKEYWORD: modern furniture\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: designer wallets women\nKEYWORD: lv\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: taurus tx22 rear sight\nKEYWORD: scope mounting\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: fantasy springs casino\nKEYWORD: sheryl crow fantasy springs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: soaker tub\nKEYWORD: hot tub company\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: humana gold plus hmo\nKEYWORD: nn2023 medicare advantage\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: b h photo\nKEYWORD: dslr cameras\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: amazon wide shoes women\nKEYWORD: keens women shoes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: alfa romeo giulia san francisco\nKEYWORD: carfax\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: shawn braley cards\nKEYWORD: vistaprint custom cards\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: sporting goods las vegas nevada\nKEYWORD: wall basketball hoop\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nn2023 kia sorento sale\nKEYWORD: new car negotiation\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: fuschia pink blazer\nKEYWORD: women outfit sets fall\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: munchkin cat kitten sale\nKEYWORD: chewy online pet store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: harley timing cover\nKEYWORD: hogworkz harley\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: power bi human resource dashboard\nKEYWORD: resource tracking software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: coupon discount\nKEYWORD: joinhoney com mrbeast\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nn2023 w9 forms\nKEYWORD: filing extension taxes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: st patrick day dog outfits\nKEYWORD: posh puppy\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: www costco com\nKEYWORD: small business supplies wholesale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: flat rubber washers sizes\nKEYWORD: grainger\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: aggressive plumbing\nKEYWORD: leak detection plumber\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: zillow zestimate\nKEYWORD: my home value\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: write good business proposal email\nKEYWORD: general email etiquette\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: ohio gov taxation\nKEYWORD: payroll tax services near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: credit sense\nKEYWORD: credit check\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: samsung qn75lst7tafxza terrace series nn75 class led outdoor partial sun 4k uhd smart tizen tv\nKEYWORD: new tvs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: cebupac promo\nKEYWORD: eug deals dfw\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: flights las vegas vancouver canada\nKEYWORD: skymiles airlines\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: word tune editor\nKEYWORD: rewrite other words\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: long term motel rentals kitchenette\nKEYWORD: low weekly motel rates\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: indian motorcycle shop dirt bike\nKEYWORD: motorcycle parts parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: can you get health insurance without job ct\nKEYWORD: blue cross blue shield\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: liberty online class reviews\nKEYWORD: codes udemy\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: use chronological your email proof\nKEYWORD: follow up email template\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: refurbished monitors\nKEYWORD: radiforce rx360\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: silver coin buyers\nKEYWORD: best companies buy gold\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: alpine drink lose weight\nKEYWORD: does nutrisystem have couples plan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: best throttle body nn4d6 mustang\nKEYWORD: automotive warehouse\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: screen record on pc\nKEYWORD: vidyard chrome extension\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: chicago minneapolis\nKEYWORD: sun country airlines\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: thermal scanner\nKEYWORD: thermal cameras\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: do hard money\nKEYWORD: bfs capital funding\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nhl goalie goals\nKEYWORD: nhlshop ca\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: blue sky drug pharmacy canada\nKEYWORD: viagra pills sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: army jeep parts levittown pa\nKEYWORD: highway heavy duty parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: size nn20 neck dress shirts men\nKEYWORD: joseph bank men clothing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: flannel shirt pixel\nKEYWORD: cheap clothes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: simple interest calculator\nKEYWORD: rule one calculators\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: type dentist does dentures\nKEYWORD: dental implants seniors\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: calculate your tax refund\nKEYWORD: expat efile taxes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: mobile homes\nKEYWORD: campers sale near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: ge cafe appliances\nKEYWORD: ge cafe range parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: gotranscript jobs\nKEYWORD: accountemps hiring\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: lynnfield marketplace spa\nKEYWORD: med spa rowley\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: bronze curtains\nKEYWORD: sale faux wood blinds\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: realtor agent\nKEYWORD: registered agents services\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: canadian prime\nKEYWORD: free amazon prime\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: register business name nova scotia\nKEYWORD: canadian company incorporation\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: pnc com\nKEYWORD: online business bank account\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: amazon com prime\nKEYWORD: amazonwarehousedeals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: causes high blood pressure\nKEYWORD: blood pressure kit\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: current limiter device\nKEYWORD: adjustable current switch\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nn24 port nn2d5 gbe switch poe\nKEYWORD: ubiquiti unifi switch us nn8 60w switch nn8 ports managed\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: important it keep employees happy\nKEYWORD: octanner engagement\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tampa beaches\nKEYWORD: st pete beach vacation rentals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: money ledger\nKEYWORD: accounts payable invoice processing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: national cpr foundation\nKEYWORD: cpr first aid training online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: xbox series x\nKEYWORD: gaming headphones mic\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: gen therm rv parts\nKEYWORD: rv furniture\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: ultra luxury sedans nn2023\nKEYWORD: locate xt4 dealer\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: universit\nKEYWORD: online general studies bachelors degree\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: stanford\nKEYWORD: bachelor arts strategic communication\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: online resource scheduling software\nKEYWORD: queue it\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: open lms\nKEYWORD: school management system open source\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: north carolina homes sale\nKEYWORD: raleigh nc real estate\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: reading gaming laptop rising nn5\nKEYWORD: buy microsoft laptop nn5\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: form military medals\nKEYWORD: request pertaining military records\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: jansport\nKEYWORD: soft cooler backpack\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: santa barbara bank tax products group\nKEYWORD: custom tax return folders\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: associate degree construction technology\nKEYWORD: vocational school\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: dish network\nKEYWORD: internet companies\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: movies stream tonight\nKEYWORD: stream legacy true story la lakers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: custom duffel bag\nKEYWORD: osprey packs daylite\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: madison ford\nKEYWORD: current ford lease deals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: get ce credits nursing\nKEYWORD: rn bsn\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: xbox series x\nKEYWORD: gaming desktops\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: ideas outdoor solar lights\nKEYWORD: renogy coupon code\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: carwiser\nKEYWORD: buyamazda\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: which mobile best money\nKEYWORD: military phone plan offers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: ching building construction illustrated fifth edition\nKEYWORD: amazon online bookstore\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: walmart laptop pc\nKEYWORD: lenovo thinkpad t15g gen nn2 nn15d6 core i7 11850h vpro\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: los angeles clippers vs denver nuggets sunday february nn26 nn2023\nKEYWORD: stub hub ticket\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: free plans adu homes\nKEYWORD: construction takeoff services\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: minnesota state university online degrees\nKEYWORD: rn bsn degree online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: replacement filter e6201 nn32443\nKEYWORD: air filters delivered\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: adapalene nn0d1 cream\nKEYWORD: derma correct\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: direct flights jax\nKEYWORD: delta airlines round trip\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: hp printers\nKEYWORD: printer not printing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: do you need know become cna\nKEYWORD: cna license online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: carr cookies crackers\nKEYWORD: grocery shopping service\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: black people\nKEYWORD: black history celebrating\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: continental tires contitrac suv\nKEYWORD: automotive warehouse\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: small microwaves countertops\nKEYWORD: whirlpool countertop microwave\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: russound receiver\nKEYWORD: whole house audio system\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: free government iphone nn11\nKEYWORD: lifeline phone\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: build website framework nn7\nKEYWORD: webflow vs duda\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: open sided building\nKEYWORD: steel building manufacturers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: lowest carb cereals\nKEYWORD: best lo carb meals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: whirlpool\nKEYWORD: whirlpool parts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: used fj cruiser sale owner\nKEYWORD: vroom\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: lease return cars sale near me\nKEYWORD: nn2023 range rover\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: michaels\nKEYWORD: craft paint\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: mobility demand la metro\nKEYWORD: stair lift disability railing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: plant lily seeds\nKEYWORD: grovetown flower shop\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: fc austin\nKEYWORD: stub hub\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: walmart bemidji mn\nKEYWORD: wal mart cage\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: front loop dress\nKEYWORD: benetton us\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: walmart bastrop tx\nKEYWORD: walmart terra loft rug\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: can i watch red sox spring training\nKEYWORD: peacock live sports schedule\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: floorplanner restaurant\nKEYWORD: kitchen remodeling\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: costco canada online shopping\nKEYWORD: gold online canada\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: frontal chair\nKEYWORD: milano chair\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: paralegal elk grove ca\nKEYWORD: robert half lawyer staffing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: car keys express\nKEYWORD: car key finder\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: g1x trading\nKEYWORD: top nn5 stock trading platforms\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: alfa romeo spider\nKEYWORD: buy car\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: lr0 nn61589 tail light assembly\nKEYWORD: auto headlight replacement\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: marengo il pole barn builders\nKEYWORD: restore old barn\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tres london\nKEYWORD: women outfit sets fall\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: graduation dress\nKEYWORD: cheap clothes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: health care marketplace\nKEYWORD: private health insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: bank america credit card credit score needed\nKEYWORD: penfed credit union personal loan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: best website buy cigarettes\nKEYWORD: smoking solutions\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: boston hotel\nKEYWORD: hotel aka boston\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: african print shirts men\nKEYWORD: custom t shirts\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: leg workouts\nKEYWORD: treadmill sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: dmv online\nKEYWORD: texas adult driver ed\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: john brown university programs\nKEYWORD: business online degree programs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: defragment optimize drives\nKEYWORD: pc cleaner\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: mailbox\nKEYWORD: cluster boxes\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: dominique sachse got2b hair product\nKEYWORD: pomade manufacturers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nn2538 ssmpu dst\nKEYWORD: low kitchen faucet\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: shed barn\nKEYWORD: prefab metal barn\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: google docs\nKEYWORD: document management software\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: things do cozumel day\nKEYWORD: cozumel snorkeling tour\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: bosun virtual assistant\nKEYWORD: virtual assistant services sales\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: study bachelors folklore\nKEYWORD: online general studies bachelors degree\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: sr airport tickets\nKEYWORD: cheap plane tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: peapod food\nKEYWORD: online grocery pick up\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: embassy suites seattle\nKEYWORD: embassy suites seattle airport parking\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: electricity\nKEYWORD: find electricity provider\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: wesley financial group reviews\nKEYWORD: debt relief\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: mountain home plans floor plans\nKEYWORD: home repair plans\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: perigold\nKEYWORD: danish modern furniture\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: sofia vergara pillow\nKEYWORD: hobby lobby pillow\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: north brothers ford\nKEYWORD: ford car wiper blade\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: eagles roofing constrcution llc mebane nc\nKEYWORD: gutter installation near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: arkansas treasure hunt\nKEYWORD: unclaimed assets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: jabra headsets\nKEYWORD: best wireless headphones\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: target white pasta bowl nn47 oz\nKEYWORD: wayfair\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: diesel heater\nKEYWORD: highway heavy parts com\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: map ford dealers indiana\nKEYWORD: new nn2022 f150 sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nyc taxi\nKEYWORD: uber\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nus specsavers\nKEYWORD: best vision plan insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: food poor charity\nKEYWORD: life outreach international\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: pokemon serebii\nKEYWORD: pokemon cards\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: care com\nKEYWORD: nn24 hour caregiver cost\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: contiki tours europe nn11 countries nn40 days\nKEYWORD: romantic tours italy\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: apria medical supplies\nKEYWORD: ge healthcare products\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: round ceiling mount nn11 inch 3000k light\nKEYWORD: nn800 light bulbs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: sesame street\nKEYWORD: sesame street cloth\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: odometer notarized statement\nKEYWORD: notarized bill sale form\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: aaa travel packages vacations\nKEYWORD: punta cana all inclusive vacations\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: websites buying cars\nKEYWORD: aim_carclicks autos auto\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: google passwords\nKEYWORD: lastpass chrome\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: red mile jobs\nKEYWORD: accountemps recruit hires\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: clarksburg printers\nKEYWORD: mpos receipt printer\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: mallorca tours palma\nKEYWORD: mallorca day trip\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: vmware course\nKEYWORD: today free udemy courses\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: ecuador galapagos islands flights\nKEYWORD: cheap air flights\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: alternative sources energy essay\nKEYWORD: good essay structure\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: who delivers for wayfair\nKEYWORD: wayfair business enrollment\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: ffg crossguard lightsaber\nKEYWORD: neopixel lightsaber\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: cape coral florida\nKEYWORD: houses sale cape coral fl\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: whole life insurance example\nKEYWORD: costco life insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: someone who can help you file tax\nKEYWORD: income tax filing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: door store\nKEYWORD: entry doors\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: change land loan mortgage\nKEYWORD: usda property loan map\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: cellular one cell phones\nKEYWORD: att\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: nn350000$ homes\nKEYWORD: real estate brokers temple texas\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: orange lake resort kissimmee fl\nKEYWORD: kissimmee vacation rentals\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: kitchenaid packages\nKEYWORD: fridge\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: aberdeen lofts\nKEYWORD: roomsruf\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: aws cost management\nKEYWORD: dam digital asset management\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: school near me\nKEYWORD: escoffier cooking school\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: middle caicos\nKEYWORD: all inclusive resorts turks caicos adults only\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: high end custom closet designs\nKEYWORD: costco closet\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tax forms nn2023\nKEYWORD: file income tax extension online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: small home based business opportunity\nKEYWORD: business venture capital\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: cell phone accessories\nKEYWORD: clutch v2 power bank\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: gold long gown dresses\nKEYWORD: couture mother bride dresses\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: t1 deburring wheel fine hard\nKEYWORD: grainger\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: streeteasy rentals\nKEYWORD: apartments rent lower manhattan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: kohl trumbull ct\nKEYWORD: home entertainment furniture\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: rao sauce good\nKEYWORD: marinara sauce recipe\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tax refund wrong amount\nKEYWORD: income tax return service near me\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: sentence rephraser\nKEYWORD: rewrite your text\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: montreal canadiens vs san jose sharks\nKEYWORD: vgk nhl tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: beach houses rent near bradenton fl\nKEYWORD: vacation owner\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: home depot san angelo tx\nKEYWORD: mattress store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: best mortgage rates alberta canada\nKEYWORD: mortgage broker edmonton\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: write commercial rental proposal\nKEYWORD: simple project proposal template\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: compare contrast essay examples\nKEYWORD: check my paragraph online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: findlay chevrolet\nKEYWORD: gmc invoice pricing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: ray ban\nKEYWORD: mens eyeglasses\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: chevy sonic turbo calgary sale\nKEYWORD: equinox ev nn2024\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: florida dmv permit test\nKEYWORD: florida adi course\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: wood closet hanging clothes\nKEYWORD: hangers direct\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: download speed\nKEYWORD: home internet offers\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: gemini perfume amazon\nKEYWORD: jo malone nectarine blossom honey cologne\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: dunkin online ordering\nKEYWORD: green robusta coffee beans\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: dhr international executive search\nKEYWORD: robert half executive search jobs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: writers website\nKEYWORD: check my paragraph online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: email\nKEYWORD: do you write email\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: do myeloid cells suppress\nKEYWORD: acute myelogenous leukemia symptom\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: hello smart\nKEYWORD: business security camera\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: best hair regrowth product\nKEYWORD: causes hair loss women\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: workday\nKEYWORD: workday hcm pricing\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: vulnerability management\nKEYWORD: open source software security risks best practices\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: invoices require purchase order automation\nKEYWORD: accounts payable automation benefits\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: construction tools fasteners nb\nKEYWORD: wurth products\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: farm pet orlando\nKEYWORD: get dog insurance\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: fluoroscopy injection\nKEYWORD: contrast injection\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: boston celtics vs houston rockets monday march nn13 nn2023\nKEYWORD: chicago bulls playoff tickets\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: nn2023 toyota prius sale now\nKEYWORD: toyota camry\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: used vehicles near me\nKEYWORD: alamo sat\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: southwest airlines wanna get away flights\nKEYWORD: smartfares flights\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: tesla\nKEYWORD: electric vehicle charging station\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: camrose resort casino\nKEYWORD: casino slots\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: door hardware machine shop new york\nKEYWORD: robert brooke associates\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: arrow plumbing\nKEYWORD: sewer drains\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: nomex wildland pants\nKEYWORD: aramark uniform catalog\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: maine vacation rentals lake\nKEYWORD: vacation rental bethel maine\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: passport times\nKEYWORD: getting expired passport renewed\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: spc factoring\nKEYWORD: contract factoring\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: helena montana\nKEYWORD: helena hotels\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: white pages for light house poiint florida\nKEYWORD: public records search\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: cool sculpting reviews abdomen\nKEYWORD: price tummy tuck\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: selloffvacations canada\nKEYWORD: airfare\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: 8fgu25 toyota\nKEYWORD: toyotalift northeast forklift sale\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: cell phone best deal\nKEYWORD: boost mobile prepaid payment\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: photoshop\nKEYWORD: photo editor mac\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: hockey games\nKEYWORD: free hockey games\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: adhd symptoms adult men\nKEYWORD: differences between adhd asd\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: novelty wine plates\nKEYWORD: replacements com store\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: hemophilia inherited which parent\nKEYWORD: blood tests hemophilia\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: auto zone parts store\nKEYWORD: auto parts online\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: belks women\nKEYWORD: h m floral maxi dress\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: phone number david powell\nKEYWORD: cell phone search name\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: airbnb london\nKEYWORD: best western hotels\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: air anderson port orchard\nKEYWORD: heating air conditioning service\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: my social security login account\nKEYWORD: social security card address change\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: illinois state retiree health insurance\nKEYWORD: short term health insurance pivot\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: steel siding\nKEYWORD: vinyl siding replacement\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: gmc sierra nn1500 sale spokane wa\nKEYWORD: cargurus\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: do i need get into miami university\nKEYWORD: business online degree programs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: casual flowy dresses\nKEYWORD: vestido de fiesta de plumas\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: quillbot paraphrasing\nKEYWORD: turnitin com free\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: cheap glass shower\nKEYWORD: local contractor glass shower doors\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: puerto rico resorts\nKEYWORD: luxury villas puerto rico\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: best car elderly getting out\nKEYWORD: nn2023 range rover\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: laundry wordpress\nKEYWORD: give wordpress donation plugin\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: vmf homes\nKEYWORD: repo homes my area\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: ned7200tw heating element replacement\nKEYWORD: heating air conditioning service\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: edmunds used car sale\nKEYWORD: used dealer buy here pay here\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: mohegan sun\nKEYWORD: mohegan sun arena ticket office\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: florida marriage therapist no insurance requirement\nKEYWORD: headway counseling\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: best lending services\nKEYWORD: penfed credit union personal loan\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: dave adams cards\nKEYWORD: vintage cards\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: lippert rv spring\nKEYWORD: short run springs\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: kellogg square\nKEYWORD: variant apartment rental\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: grunt style website\nKEYWORD: corporate casual\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: ace hardware paracord\nKEYWORD: nn1 nn4 paracord\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: c21 contractor\nKEYWORD: contractor license bond\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}
+{"split": "test", "question": "QUERY: mobile home parts\nKEYWORD: mobile home roof\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: boiler section welding\nKEYWORD: emergency heating repair\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: depression anxiety\nKEYWORD: major depression prescription rexulti\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Not Bad"}
+{"split": "test", "question": "QUERY: townhomes communities nn77004\nKEYWORD: lennar next gen\nMARKET: en-u", "choices": ["Bad", "Not Bad"], "answer": "Bad"}

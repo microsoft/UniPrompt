@@ -31,6 +31,8 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
 1. **Set Environment Variables**
 
+   **Papyrus Endpoint**: You need to set the `PAPYRUS_CLIENT_ID`, `PAPYRUS_CLIENT_SECRET`, `PAPYRUS_APP_ID` environment variables before running the code.
+
    **OpenAI Endpoint**: You need to set the `OPENAI_API_KEY` environment variables before running the code.
    
    ### Example Commands
@@ -53,23 +55,25 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 1. **Update the Config File**
 
    Modify the `config/dataset_name.json` file as per your use case.
+   If you are using the papyrus endpoint, ensure that `papyrus` is set to `true`. In the config, ignore the `api_kwargs` section and set `model`, `temperature`, `max_tokens` and `stream` in `model_kwargs`.
    
    If you are using an internal endpoint, make sure to set `api_type` to `azure`, `api_base` to your endpoint URL and `api_version` in your dataset config file. If you are using an OpenAI endpoint, then just set api_type to `oai`.
    
    The configuration includes the following parameters:
    ```json
-    "dataset_path": "data/gk.jsonl",
+    "dataset_path": "data/pm_search.jsonl",
     "mini_batch_size": 5,
     "batch_size": 7,
     "iterations": 1,
     "epochs": 5,
-    "logging_file_path": "logs/gk.jsonl",
+    "logging_file_path": "logs/pm.jsonl",
     "epsilon": 0.5,
     "beam_width": 3,
     "group_frequency": 2,
+    "papyrus": true,
     "create_sub_prompts": true,
     "num_sub_prompts": 5,
-    "cache_path": "cache/gk.db",
+    "cache_path": "cache/pm.db",
     "initial_prompt": "<initial_prompt>",
     "metric_kwargs": {
         "type": "weighted_accuracy",
@@ -116,7 +120,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
     }
    ```
    Metric `type` can be one of `['accuracy', 'weighted_accuracy', 'hinge_accuracy']` 
-   Example config files can be found at [config/ethos.json](config/ethos.json) and [config/gk.json](config/gk.json).
+   Example config files can be found at [config/ethos.json](config/ethos.json), [config/gk.json](config/gk.json) and [config/sm.json](config/sm.json).
    Make sure to set `api_kwargs` before using them.
 
    A brief explanations on the config parameters:
@@ -129,6 +133,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
    - `epsilon`: An exploration parameter with range [0, 1]
    - `beam_width`: Number of top-performing prompts to maintain in the beam search
    - `group_frequency`: Group questions every nth epoch
+   - `papyrus`: Boolean flag to indicate if the papyrus endpoint needs to be used
    - `create_sub_prompts`: Boolean flag to enable/disable creation of sub-prompts
    - `num_sub_prompts`: Number of sub-prompts to generate if create_sub_prompts is true
    - `cache_path`: Path to store/retrieve cached results
@@ -169,6 +174,15 @@ Or
 ```bash
 pip install datasets
 python examples/ethos.py --config=config/ethos.json
+```
+
+You can also try out the QK(SM) and PM task by running
+```bash
+python examples/main.py --config=config/sm.json
+```
+
+```bash
+python examples/main.py --config=config/pm.json
 ```
 
 ## Contributing

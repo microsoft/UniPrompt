@@ -1,0 +1,54 @@
+{
+    "dataset_path": "data/sm_search.jsonl",
+    "experiment_details": "Search relevance -- sm",
+    "mini_batch_size": 5,
+    "batch_size": 7,
+    "iterations": 1,
+    "epochs": 10,
+    "logging_file_path": "logs/sm.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 3,
+    "group_frequency": 2,
+    "papyrus": false,
+    "create_sub_prompts": true,
+    "num_sub_prompts": 5,
+    "cache_path": "cache/sm.db",
+    "initial_prompt": "You are a system that will help answer if a given KEYWORD is related to the given QUERY? The MARKET indicates what language the QUERY and KEYWORD are in, plus which country they are from. I will also give you the URL and Title of the top search results for the query. Use all of this information to come up with your answer. You will have to answer either \"Bad\" or \"Not Bad\".\n\nMeaning of the answer choice \"Bad\": The KEYWORD is not relevant to the user's search QUERY. There is no relationship between the QUERY and the KEYWORD. This includes but is not limited to: incorrect / unrelated product, unrelated topic, wrong location when location is important, cannot be used in place of query product nor are they commonly purchased together, etc.\n\nMeaning of the answer choice \"Not Bad\": The KEYWORD is relevant to the user's search QUERY. This can include: broader or narrower product selection, competitor or alternative products, accessories, products often purchased together and related topics as well as direct matches to the user's search.",
+    "metric_kwargs": {
+        "type": "weighted_accuracy",
+        "weights": [0.4, 0.6]
+    },
+    "solver_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
+    },
+    "expert_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0.0  
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
+    },
+    "grouping_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": ""
+        }
+    }
+}

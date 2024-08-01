@@ -1,0 +1,54 @@
+{
+    "dataset_path": "data/pm_search.jsonl",
+    "experiment_details":"Assing how much can we improve over already optimized prompt",
+    "mini_batch_size": 5,
+    "batch_size": 7,
+    "iterations": 1,
+    "epochs": 5,
+    "logging_file_path": "logs/pm_individual.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 3,
+    "group_frequency": 2,
+    "papyrus": false,
+    "create_sub_prompts": true,
+    "num_sub_prompts": 5,
+    "cache_path": "cache/pm.db",
+    "initial_prompt": "You are a system helping to improve the relevance of search results. You are given the first search query, second search query, and the market. The market indicates the language and the country the queries come from. I will also give you the URL and Title of the top search results for the queries. Use all of this information to come up with your answer. You have to answer either 'Yes' or 'No' to the question. \n\nUnderstanding Query Relationships: Analyzing Specific and General Queries\nWhen determining the relationship between two queries, it is essential to analyze their scopes. A specific query, such as one asking for support for a particular condition, is generally a subset of a broader query about the condition itself. However, this is not always the case; for instance, a brand-specific query does not necessarily encompass a general category. To accurately assess the relationship, consider the intent behind the queries and the context in which they are used. For example, 'mesothelioma support' is a more specific search within the general category of 'mesothelioma', whereas 'revolution flea treatment' is a product-specific search that does not cover the entire category of 'cat flea prevention treatment'.",
+    "metric_kwargs": {
+        "type": "weighted_accuracy",
+        "weights": [0.5,0.5]
+    },
+    "solver_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0
+        },
+        "api_kwargs": {
+            "api_type": "azure",
+            "api_base": "https://msri-openai-ifaq.azure-api.net/",
+            "api_version": "2023-03-15-preview"
+        }
+    },
+    "expert_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0.7
+        },
+        "api_kwargs": {
+            "api_type": "azure",
+            "api_base": "https://msri-openai-ifaq.azure-api.net/",
+            "api_version": "2023-03-15-preview"
+        }
+    },
+    "grouping_llm": {
+        "model_kwargs": {
+            "model": "gpt-4-turbo",
+            "temperature": 0.7
+        },
+        "api_kwargs": {
+            "api_type": "azure",
+            "api_base": "https://msri-openai-ifaq.azure-api.net/",
+            "api_version": "2023-03-15-preview"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniPrompt</title>
+    <link rel="stylesheet" href="stylestwo.css">
+    <!-- Include any additional CSS or libraries here -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="uniprompt.html">UniPrompt</a></li>
+            <li><a href="demo.html">Demo</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+        </ul>
+    </nav>
+        
+        <div class="content">
+            <h1>Task Facet Learning</h1>
+            <people><p>Gurusha Juneja<sup>*1</sup>, &emsp; Anush Kini<sup>*1</sup>, &emsp; Nagarajan Natrajan<sup>1</sup>, &emsp; Hua Li<sup>2</sup>,  &emsp; Jian Hiao<sup>2</sup>,  &emsp; Amit Sharma<sup>1</sup></p></people>
+            <people><p><sup>1</sup><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/?msockid=164fdc1f0834622c2c0dcf5c0966637c">Microsoft Research, India</a> &emsp; <sup>2</sup><a href="https://www.bing.com/search?q=https%3A%2F%2Fwww.mimicrosoft+redmond+bing+adscrosoft.com%2Fen-us%2Fresearch%2Flab%2Fmicrosoft-research-india%2F%3Fmsockid%3D164fdc1f0834622c2c0dcf5c0966637c&cvid=926fcc9069d74fbf90c4100f5997f264&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg6MggIAhDpBxj8VdIBCDQ0NzNqMGo0qAIAsAIA&FORM=ANAB01&PC=U531">Microsoft, Redmond</a></p></people>
+            <br>
+
+            <div class="links">
+                <div class="link-item">
+                    <a href="https://arxiv.org/pdf/2406.10504v1" target="_blank">
+                        <img src="paper_icon.png" alt="Paper Icon">
+                        <p>Paper</p>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="LINK_TO_VIDEO" target="_blank">
+                        <img src="video_icon.jpeg" alt="Video Icon">
+                        <p>Video</p>
+                    </a>
+                </div>
+                <div class="link-item">
+                    <a href="https://github.com/gurusha01/UNIPROMPT" target="_blank">
+                        <img src="github_icon.png" alt="GitHub Icon">
+                        <p>GitHub</p>
+                    </a>
+                </div>
+
+            <br>
+            
+        </div> 
+            
+        <!-- <div class="fading-line"></div> -->
+
+        <div class="content">
+            <h2>Qualitative Results</h2>
+            <!-- Add a GIF of prompt evolution and accuracy increase here -->
+            
+        </div>
+
+        <div class="content">
+            <p><em><b>Abstract:</b></em> Given a task in the form of a basic description and its training examples, prompt optimization is the problem of synthesizing the given information into a text prompt for a large language model (LLM). Humans solve this problem by also considering the different facets that define a task (e.g., counter-examples, explanations, analogies) and including them in the prompt. However, it is unclear whether existing algorithmic approaches, based on iteratively editing a given prompt or automatically selecting a few in-context examples, can cover the multiple facets required to solve a complex task. In this work, we view prompt optimization as that of learning multiple facets of a task from a set of training examples. We identify and exploit structure in the prompt optimization problem — first, we find that prompts can be broken down into loosely coupled semantic sections that have a relatively independent effect on the prompt’s performance; second, we cluster the input space and use clustered batches so that the optimization procedure can learn the different facets of a task across batches. The resulting algorithm, UniPrompt, consists of a generative model to generate initial candidates for each prompt section; and a feedback mechanism that aggregates suggested edits from multiple mini-batches into a conceptual description for the section. Empirical evaluation on multiple datasets and a real-world task shows that prompts generated using UniPrompt obtain higher accuracy than human-tuned prompts and those from state-of-the-art methods. In particular, our algorithm can generate long, complex prompts that existing methods are unable to generate.</p>
+        
+            
+        </div>
+
+        <div class="fading-line"></div>
+        
+        <div class="content">
+            <h2>Overview</h2>
+            <img src="RFppt_main.png" alt="UNIPROMPT" style="width: 75%; height: 75%;" >        
+            <p>Existing prompt optimization methods (left) versus UniPrompt (right) on the SciQ [29] dataset: [Left] State-of-the-art prompt optimization methods such as ProTeGi  [22] sample from the questions wrongly answered by the current prompt, and use an expert LLM (such as GPT-4) to obtain feedback on the mistakes made; This approach tends to overfit to specific examples, as can been seen from the proposed prompts leading to limited generalization. [Right] In contrast, UniPrompt identifies key task facets that generalize across examples by: (1) clustering examples into groups with similar task facets, and (2) employing a two-tier feedback-based update strategy. The resulting prompt updates extract generalizable concepts from the specific examples seen.</p>
+        
+        </div>
+
+        <div class="fading-line"></div>
+        <div class="content">
+            <h2>citation</h2>
+        </div>
+        
+        <pre class="code-block"><code>@misc{juneja2024taskfacetlearningstructured,
+                title={Task Facet Learning: A Structured Approach to Prompt Optimization}, 
+                author={Gurusha Juneja and Nagarajan Natarajan and Hua Li and Jian Jiao and Amit Sharma},
+                year={2024},
+                eprint={2406.10504},
+                archivePrefix={arXiv},
+                primaryClass={cs.AI},
+                url={https://arxiv.org/abs/2406.10504}, 
+}
+                </code></pre>
+  
+</body>
+
+</html>

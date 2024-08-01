@@ -3,6 +3,7 @@ import random
 import re
 import time
 from typing import Any, Dict, List, Literal, Optional, Sequence, Tuple, Union
+import sys
 
 from .logger import setup_logger
 from .utils import (
@@ -14,6 +15,7 @@ from .utils import (
     get_confusion_matrix,
     load_dataset,
     load_prompts,
+    load_dataset_code,
 )
 
 MetricType = Literal["accuracy", "weighted_accuracy", "hinge_accuracy"]
@@ -32,6 +34,41 @@ class UniPrompt:
         self.logger = setup_logger(log_file=logging_file_path)
         self.prompts = load_prompts()
 
+    def check_code(self, question: str, answer_llm: str, answer: str) -> bool:
+        '''
+        runs the test cases on the completion generated and returns True if all test cases pass, False otherwise
+
+        Args:
+            question (str): The function description.
+            answer_llm (str): The completion generated.
+            answer (str): The test cases to be checked.
+
+        Returns:
+            bool: True if all test cases pass, False otherwise.
+        '''
+        check_program = (
+            answer_llm + "\n" +
+            answer
+        )
+        try:
+            exec_globals = {}
+            exec(check_program, exec_globals)
+            print("passed")
+            return True
+        except:
+            try: 
+                check_program = (
+                question+answer_llm + "\n" +
+                answer
+                )
+                exec_globals = {}
+                exec(check_program, exec_globals)
+                print("passed")
+                return True
+            except Exception as e:
+                print(f"failed: {e}")
+                return False
+ 
     def make_prompt(self, prompt: str, question: str, choices: Sequence[List[str]]) -> str:
         """
         Create a formatted prompt for a given question and choices.
@@ -51,6 +88,26 @@ class UniPrompt:
             choices=choices,
         )
         return formatted_prompt
+    
+    def make_prompt_code(self, prompt: str, question: str, choices: Sequence[List[str]]) -> str:
+        """
+        Create a formatted prompt for a given question and choices.
+
+        Args:
+            prompt (str): The base prompt.
+            question (str): The question to be answered.
+            choices (Sequence[List[str]]): The answer choices, if any.
+
+        Returns:
+            str: The formatted prompt including the question and answer format instructions.
+        """
+        prompt_template = self.prompts.get("make_prompt_code", None)
+        formatted_prompt = prompt_template.format(
+            prompt=prompt,
+            question=question,
+            choices=choices,
+        )
+        return formatted_prompt
 
     def extract_answer(self, cot: str) -> Optional[str]:
         """
@@ -62,9 +119,10 @@ class UniPrompt:
         Returns:
             Optional[str]: The extracted answer, or None if no answer is found.
         """
+        # breakpoint()
         pattern = r"<Answer>(.*?)<\/Answer>"
-        match = re.search(pattern, cot)
-        answer = match.group(1) if match else None
+        match = re.search(pattern, cot, re.DOTALL)
+        answer = match.group(1) if match else cot
         return answer
 
     def evaluate_prompt(
@@ -92,20 +150,63 @@ class UniPrompt:
 
         y_true = []
         y_pred = []
+        i = 0
 
         for question, answer, choice in zip(questions, answers, choices):
+            i+=1
             prompt = self.make_prompt(prompt=new_prompt, question=question, choices=choice)
             messages = [{"role": "user", "content": prompt}]
-            answer_cot = chat_completion(cache_path=config["cache_path"], **config["solver_llm"], messages=messages)
+            answer_cot = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["solver_llm"], messages=messages)
             answer_llm = self.extract_answer(answer_cot)
 
             y_true.append(answer)
             y_pred.append(answer_llm)
+            print(f"{i} Answer: {answer}, Predicted: {answer_llm}")
 
         acc = self.get_metric(y_true, y_pred, config)
         eval_result =  {
             "acc": acc,
             "cm": get_confusion_matrix(y_true, y_pred, normalize=False).tolist(),
+        }
+
+        return eval_result
+
+    def evaluate_prompt_code(
+        self,
+        new_prompt: str,
+        questions: Sequence[str],
+        answers: Sequence[str],
+        choices: Sequence[List[str]],
+        config: Dict[str, Any]
+    ) -> Dict[str, Union[float, List[List[float]]]]:
+        """
+        Evaluate the prompt on a set of questions, choices, and answers.
+
+        Args:
+            new_prompt (str): The prompt to evaluate.
+            questions (Sequence[str]): The list of function definitions.
+            answers (Sequence[str]): The list of test cases.
+            choices (Sequence[List[str]]): The list of correct completion.
+            config (Dict[str, Any]): Configuration dictionary.
+
+        Returns:
+            Dict[str, Union[float, List[List[float]]]]: A dictionary containing the accuracy and confusion matrix.
+        """
+        acc = 0
+        i = 0
+        # breakpoint()
+        for question, answer, choice in zip(questions, answers, choices):
+            i+=1
+            prompt = self.make_prompt_code(prompt=new_prompt, question=question, choices=choice)
+            messages = [{"role": "user", "content": prompt}]
+            answer_cot = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["solver_llm"], messages=messages)
+            answer_llm = self.extract_answer(answer_cot)
+            if self.check_code(question, answer_llm, answer):
+                acc += 1          
+
+        eval_result =  {
+            "acc": acc/len(questions),
+            "cm": [],
         }
 
         return eval_result
@@ -214,7 +315,7 @@ class UniPrompt:
             attempts += 1
 
         return list(sub_prompts)
-
+       
     def make_groups(
         self,
         prompt: str,
@@ -236,14 +337,16 @@ class UniPrompt:
         Returns:
             Dict[int, List[int]]: A dictionary with cluster numbers as keys and lists of question indices as values.
         """
+        # breakpoint()
         self.logger.info("Starting to group questions")
         feedbacks = []
         for question, choice, answer in zip(questions, choices, answers):
-            formatted_prompt = self.make_prompt(prompt=prompt, question=question, choices=choice)
+            formatted_prompt = self.make_prompt_code(prompt=prompt, question=question, choices=choice)
             messages = [{"role": "user", "content": formatted_prompt}]
-            answer_cot = chat_completion(cache_path=config["cache_path"], **config["solver_llm"], messages=messages)
+            answer_cot = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["solver_llm"], messages=messages)
             answer_llm = self.extract_answer(answer_cot)
-            if answer_llm is not None and str(answer_llm) != str(answer):
+            # if answer_llm is not None and str(answer_llm) != str(answer):
+            if not self.check_code(question, answer_llm, answer):
                 wrong_choices = answer_llm
                 wrong_cots = answer_cot
                 correct_choices = answer
@@ -264,7 +367,7 @@ class UniPrompt:
 
         group_prompt = self.prompts.get("group_prompt", None).format(feedbacks=group_feedbacks)
         messages = [{"role": "user", "content": group_prompt}]
-        all_groups = re.findall(r"<Cluster>(.*?)</Cluster>", chat_completion(cache_path=config["cache_path"], **config["grouping_llm"], messages=messages), re.DOTALL)
+        all_groups = re.findall(r"<Cluster>(.*?)</Cluster>", chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["grouping_llm"], messages=messages), re.DOTALL)
 
         groups = {}
         groups[0] = []
@@ -278,7 +381,7 @@ class UniPrompt:
         for idx, (question, choice, answer, feedback) in enumerate(zip(questions, choices, answers, feedbacks)):
             assign_group_prompt = self.prompts.get("assign_group_prompt", None).format(groups_str=groups_str, feedback=feedback)
             messages = [{"role": "user", "content": assign_group_prompt}]
-            cluster_number = chat_completion(cache_path=config["cache_path"], **config["grouping_llm"], messages=messages)
+            cluster_number = chat_completion(cache_path=config["cache_path"], papyrus=config["papyrus"], **config["grouping_llm"], messages=messages)
             cluster_number_extracted = int(re.search(r"<Answer>(.*?)</Answer>", cluster_number).group(1))
             groups[cluster_number_extracted].append(idx)
 
@@ -287,11 +390,12 @@ class UniPrompt:
         return groups
 
     def optimize(self) -> str:
-        self.logger.info("Starting optimization process...")
         start_time = time.time()
 
+        experiment_details = self.config["experiment_details"]
         initial_prompt = self.config["initial_prompt"]
         dataset_path = self.config["dataset_path"]
+        self.logger.info(f"Starting optimization for experiment: {experiment_details}")
 
         # Hyperparameters
         mini_batch_size = self.config["mini_batch_size"]
@@ -304,7 +408,7 @@ class UniPrompt:
         create_sub_prompts = self.config["create_sub_prompts"]
         num_sub_prompts = self.config["num_sub_prompts"]
 
-        dataset_dict = load_dataset(dataset_path)
+        dataset_dict = load_dataset_code(dataset_path)
         self.logger.info(f"Loaded dataset from {dataset_path}")
 
         train_questions, train_choices, train_answers = (
@@ -322,7 +426,6 @@ class UniPrompt:
             dataset_dict["test_choices"],
             dataset_dict["test_answers"],
         )
-
         if create_sub_prompts:
             initial_prompts = self.synthesize_sub_prompts(initial_prompt, num_samples=num_sub_prompts)
         else:
@@ -332,7 +435,7 @@ class UniPrompt:
         # Initialize beam
         beam = []
         for p in initial_prompts:
-            acc = self.evaluate_prompt(p, questions=val_questions, answers=val_answers, choices=val_choices, config=self.config)["acc"]
+            acc = self.evaluate_prompt_code(p, questions=val_questions, answers=val_answers, choices=val_choices, config=self.config)["acc"]
             beam.append((-acc, p, 0))
         beam = heapq.nsmallest(beam_width, beam)
         best_acc = beam[0][0]
@@ -383,12 +486,12 @@ class UniPrompt:
 
                         # Identifying failure cases of the current prompt
                         for question, answer, choices in zip(mini_batch_questions, mini_batch_answers, mini_batch_choices):
-                            prompt = self.make_prompt(prompt=curr_prompt, question=question, choices=choices)
+                            prompt = self.make_prompt_code(prompt=curr_prompt, question=question, choices=choices)
                             messages = [{"role": "user", "content": prompt}]
-                            answer_cot = chat_completion(cache_path=self.config["cache_path"], **self.config["solver_llm"], messages=messages)
+                            answer_cot = chat_completion(cache_path=self.config["cache_path"], papyrus=self.config["papyrus"], **self.config["solver_llm"], messages=messages)
                             answer_llm = self.extract_answer(answer_cot)
 
-                            if str(answer_llm) != str(answer):
+                            if not self.check_code(question, answer_llm, answer):
                                 wrong_choices.append(answer_llm)
                                 wrong_cots.append(answer_cot)
                                 wrong_questions.append(question)
@@ -437,7 +540,7 @@ class UniPrompt:
                                 edits=final_feedback,
                                 config=self.config,
                             )
-                            eval_result = self.evaluate_prompt(new_prompt, questions=val_questions, choices=val_choices, answers=val_answers, config=self.config)
+                            eval_result = self.evaluate_prompt_code(new_prompt, questions=val_questions, choices=val_choices, answers=val_answers, config=self.config)
                             acc, cm = eval_result["acc"], eval_result["cm"]
                             new_candidates.append((-acc, new_prompt, -(beam_acc-acc)))
 
@@ -451,10 +554,11 @@ class UniPrompt:
 
                     # Log all prompts in the beam
                     for i, (acc, prompt, improvement) in enumerate(beam):
-                        train_result = self.evaluate_prompt(prompt, questions=train_questions, choices=train_choices, answers=train_answers, config=self.config)
-                        val_result = self.evaluate_prompt(prompt, questions=val_questions, choices=val_choices, answers=val_answers, config=self.config)
-                        test_result = self.evaluate_prompt(prompt, questions=test_questions, choices=test_choices, answers=test_answers, config=self.config)
+                        train_result = self.evaluate_prompt_code(prompt, questions=train_questions, choices=train_choices, answers=train_answers, config=self.config)
+                        val_result = self.evaluate_prompt_code(prompt, questions=val_questions, choices=val_choices, answers=val_answers, config=self.config)
+                        test_result = self.evaluate_prompt_code(prompt, questions=test_questions, choices=test_choices, answers=test_answers, config=self.config)
                         self.logger.debug(f"Beam {i+1}: Accuracy={-acc:.4f}, Improvement = {improvement:.4f}, Train Accuracy={train_result['acc']:.4f} {train_result['cm']}, Val Accuracy={val_result['acc']:.4f} {val_result['cm']}, Test Accuracy={test_result['acc']:.4f} {test_result['cm']}, Prompt={repr(prompt)}")
+                        # self.logger.debug(f"Beam {i+1}: Accuracy={-acc:.4f}, Improvement = {improvement:.4f}, Train Accuracy={train_result['acc']:.4f} {train_result['cm']}, Val Accuracy={val_result['acc']:.4f} {val_result['cm']}, Prompt={repr(prompt)}")
 
         end_time = time.time()
         self.logger.info(f"Optimization completed in {end_time - start_time:.2f} seconds")
@@ -463,7 +567,7 @@ class UniPrompt:
         self.logger.info(f"Final best prompt: {best_prompt}")
 
         # Final evaluation on test set
-        test_acc = self.evaluate_prompt(best_prompt, questions=test_questions, answers=test_answers, choices=test_choices, config=self.config)
+        test_acc = self.evaluate_prompt_code(best_prompt, questions=test_questions, answers=test_answers, choices=test_choices, config=self.config)
         self.logger.info(f"Final test accuracy: {test_acc['acc']:.4f}")
 
         return best_prompt

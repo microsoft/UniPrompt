@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  arial;
+}
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navigation {
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block; /* Added this line */
+    padding-bottom: 5px; /* Added this line */
+}
+
+.navigation ul li a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: rgb(12, 5, 5);
+    transition: width 0.3s ease-out; /* Changed transition duration and timing function */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.navigation ul li:hover a::after {
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: relative;
+    top:50%;
+    /* transform: translateY(-50%); */
+    /* text-align: center; */
+    color: black;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 80px;
+    text-align: center;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content p{
+    font-weight: 100px;
+    margin: 20px auto;
+    padding: 0 100px;
+} 
+.content p{
+    font-weight: 100px;
+    margin: 20px auto;
+    padding: 0 100px;
+    text-align: center;
+}
+.content img{
+    margin-bottom: 20px;
+    /* align the image in center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.fading-line {
+    width: 100%;
+    height: 2px; /* Adjust the height as needed */
+    background: linear-gradient(to right, transparent, black, transparent);
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+.code-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    overflow-x: auto;
+}
