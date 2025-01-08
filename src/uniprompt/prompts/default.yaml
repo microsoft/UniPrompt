@@ -1,0 +1,203 @@
+make_prompt: |
+  {prompt}
+
+  Question: {question}
+  Answer choices: {choices}
+  Output format: Give your answer as the correct option between <Answer></Answer> tags.
+
+  Let's think step by step.
+
+make_user_prompt: |
+  Question: {question}
+  Answer choices: {choices}
+  Output format: Give your answer as the correct option between <Answer></Answer> tags.
+
+  Let's think step by step.
+
+make_prompt_code: |
+  {prompt}
+
+  Output format: Give your answer as the correct code completion between <Answer></Answer> tags. Remember, do not include the code already given as the question.
+
+  Let's think step by step.
+
+  Question: {question}
+
+group_prompt: |
+  You are given a set of feedbacks, you need to cluster them into five groups based on similarity, and then provide a summary of each group. You can use the following feedbacks to cluster:
+  {feedbacks}
+  Provide each group summary within <Cluster></Cluster> tags.
+
+assign_group_prompt: |
+  You are given a feedback and a set of groups, you need to tell which group this feedback belongs to.
+  The groups are:
+  {groups_str}
+  The feedback is: {feedback}
+  Give your final answer as the number of the correct cluster between <Answer></Answer> tags like: <Answer>1</Answer>.
+
+feedback_one_example: |
+  You are a teacher and you have to give feedback to your students on their answers.
+
+  You are given a question and it's answer. You are also given the explanations written by your students while solving the questions.
+
+  The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
+
+  Be explicit and tell the exact information that can be dded without further modification / addition.
+
+  You can  add a section, add a subsection, set the content of a section, set the content of a subsection, delete a section or delete a subsection in the background knowledge part.
+
+  Give very granular feedbacks, like if the student has made a mistake in the calculation, then tell what is the mistake in the calculation and how to correct it, if the student has made a mistake in the concept, then tell what is the mistake in the concept and how to correct it.
+
+  You can also give examples to make the concept more clear.
+
+  ## Background Knowledge
+  {prompt}
+
+  {examples}
+
+  Now, it is your turn to give feedbacks to the students.
+
+apply_edits: |
+  You are given an input prompt and a feedback, you have to incorporate the feedback into the input prompt and output the final prompt.
+  An example of the task is given below
+
+  ### Input Prompt
+  Introduction: In this task you have to answer the given question.
+
+  ### Feedback
+  The background knowledge is incomplete, it does not include what are the factors that affect the water usage and how many water sources are there.
+  \add_subsection("Background Knowledge")
+  \add_subsection_content(water usage depends on the population, climate, economic development, and availability of water sources. There are two sources of water, surface water and groundwater.)
+
+  ### Final Prompt
+  Introduction: In this task you have to answer the given question.
+  Background Knowledge: water usage depends on the population, climate, economic development, and availability of water sources. There are two sources of water, surface water and groundwater.
+
+  Only output the final prompt nothing else. Try not to include specific examples in your prompt, instead try to summarize the specific example as an instruction.
+
+  ### INPUT PROMPT
+  {prompt}
+
+  ### FEEDBACK
+  {edits}
+
+  ### FINAL PROMPT
+
+feedback_with_history: |
+  You are a teacher and you have to give feedback to your students on their answers.
+  You are given a question, it's true answer and answer given by student. You are also given the explanations written by your students while solving the questions.
+  The questions are answered wrong by the students. You have to tell why is the solution wrong and what information is can be added to the in the Background Knowledge part that would have helped the student to write better explanations.
+
+  ### IMPORTANT: You are also given a history of changes you made to the background knowledge part and the change in student's accuracy after making the change. You have to use this history to make your feedback.
+  Be explicit and tell the exact information that can be added without further modification / addition.
+
+  ### IMPORTANT: Give feedback in form of instructions like  add a section, add a subsection, set the content of a section, set the content of a subsection, delete a section or delete a subsection in the background knowledge part.
+  Try not to include specific examples in your feedback, instead try to summarize the specific example as an instruction.
+
+  ## Background Knowledge
+  {prompt}
+
+  ## History
+  {history_string}
+
+  {examples}
+  Now, it is your turn to give feedbacks to the students.
+  You can only provide a one line feedback.
+
+combine_multiple_feedbacks_with_examples: |
+  You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
+  You have to summarize the feedbacks into a final feedback.
+  You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
+
+  You may use the following function templates-
+
+  add_section(section_name)
+  add_subsection(section_name, subsection_name)
+  set_section_content(section_name, new_content)
+  set_subsection_content(section_name, subsection_name, new_content)
+  delete_section(section_name)
+  delete_subsection(section_name, subsection_name)
+
+  Your summary cannot include more than four functions. Make sure that the content is useful, not just a very general statement. Something specific.
+
+  Instructions:
+  {edits}
+
+  Wrong Questions:
+  {wrong_examples_string}
+
+  Summary:
+
+combine_multiple_feedbacks_with_examples_add: |
+  You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
+  You have to summarize the feedbacks into a final feedback.
+  You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
+
+  You may use the following function templates-
+
+  add_section(section_name)
+  add_subsection(section_name, subsection_name)
+
+  Your summary cannot include more than four functions. Make sure that the content is useful, not just a very general statement. Something specific.
+
+  Instructions:
+  {edits}
+
+  Wrong Questions:
+  {wrong_examples_string}
+
+  Summary:
+
+combine_multiple_feedbacks_with_examples_delete: |
+  You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
+  You have to summarize the feedbacks into a final feedback.
+  You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
+
+  To achieve your task, try to follow the following steps;
+  1. Identify the general problem that is being solved by all the feedbacks.
+  2. Once you have identified the problem, try to make a new feedback that covers most of the feedbacks given. Let's say the problem in the first feedback is the absence of methods to solve linear equation and in the second feedback it is the method to inverse a matrix. You know that both of these problems can be caused by adding how to solve convert a matrix into row reduced echelon form. So, add that.
+  3. Try and validate your feedback. Once, you have a feedback try to see if it covers every feedback, if it does not cover any feedback, add that to your new feedback.
+  4. See the wrong questions and try to identify what is the problem in the question. If the problem is not covered by your feedback, add that to your feedback.
+  5. You can add specifics like examples, definitions etc make sure that the feedback is enough to be directly added without any modification.
+
+  You may use the following function templates-
+
+  delete_section(section_name)
+  delete_subsection(section_name, subsection_name)
+
+  Your summary cannot include more than four functions. Make sure that the content is useful, not just a very general statement. Something specific.
+
+  Instructions:
+  {edits}
+
+  Wrong Questions:
+  {wrong_examples_string}
+
+  Summary:
+
+combine_multiple_feedbacks_with_examples_set: |
+  You are given a set of feedbacks for some problems. The set feedbacks for each problem separated by =========== symbol.
+  You have to summarize the feedbacks into a final feedback.
+  You are also given a set of wrong questions. You need to tell which edit can be applied to aid the student in solving the wrong question.
+
+  To achieve your task, try to follow the following steps;
+  1. Identify the general problem that is being solved by all the feedbacks.
+  2. Once you have identified the problem, try to make a new feedback that covers most of the feedbacks given. Let's say the problem in the first feedback is the absence of methods to solve linear equation and in the second feedback it is the method to inverse a matrix. You know that both of these problems can be caused by adding how to solve convert a matrix into row reduced echelon form. So, add that.
+  3. Try and validate your feedback. Once, you have a feedback try to see if it covers every feedback, if it does not cover any feedback, add that to your new feedback.
+  4. See the wrong questions and try to identify what is the problem in the question. If the problem is not covered by your feedback, add that to your feedback.
+  5. You can add specifics like examples, definitions etc make sure that the feedback is enough to be directly added without any modification.
+
+  You may use the following function templates-
+
+  set_section_content(section_name, new_content)
+  set_subsection_content(section_name, subsection_name, new_content)
+
+  Your summary cannot include more than four functions. Make sure that the content is useful, not just a very general statement. Something specific.
+
+  Instructions:
+  {edits}
+
+  Wrong Questions:
+  {wrong_examples_string}
+
+  Summary:
