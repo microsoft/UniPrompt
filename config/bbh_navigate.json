@@ -1,0 +1,55 @@
+{
+    "experiment_details":"BBH (Navigate), solver-llm: gpt-3.5-turbo, expert and grouping: gpt-4, 0.7 temperature, 10 epochs, 7 batch size, 5 mini batch size, 1 iterations, 3 beam width, 2 group frequency, 0.5 epsilon",
+    "dataset_path": "data/bbh_navigate.jsonl",
+    "mini_batch_size": 5,
+    "batch_size": 7,
+    "iterations": 1,
+    "epochs": 10,
+    "logging_file_path": "logs/bbh_navigate.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 3,
+    "group_frequency": 2,
+    "content_safety": false,
+    "cache_path": "",
+    "initial_prompt": "You have to find out whether you can reach the starting point if you follow the instructions given in the query.",
+    "dataset_name": "bbh_navigate",
+    "metric_kwargs": {
+        "type": "accuracy"
+    },
+    "solver_llm": {
+        "model_kwargs": {
+            "temperature": 0,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    },
+    "expert_llm": {
+        "model_kwargs": {
+            "temperature": 0.7,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    },
+    "grouping_llm": {
+        "model_kwargs": {
+            "temperature": 0.7,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    }
+}
