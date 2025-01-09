@@ -1,7 +1,7 @@
 import argparse
 
 from uniprompt.beam_search import BeamSearch
-from uniprompt.data import load_dataset
+from uniprompt.data import create_ethos_dataset, load_data
 from uniprompt.evaluate import evaluate
 from uniprompt.grouping import Grouping
 from uniprompt.train import train
@@ -12,12 +12,11 @@ parser.add_argument("--config_path", type=str, required=True, help="Path to the 
 args = parser.parse_args()
 
 print("Loading config and dataset...")
-
-
+create_ethos_dataset("data/ethos.jsonl")
 
 # Load config and dataset
 config = load_config(args.config_path)
-train_data, val_data, test_data = load_dataset(config["dataset_name"])
+train_data, val_data, test_data = load_data(config["dataset_name"])
 
 # Initialize UniPrompt
 beam = BeamSearch(config["beam_width"])
