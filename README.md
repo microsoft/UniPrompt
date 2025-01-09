@@ -41,24 +41,23 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
    
    The configuration includes the following parameters:
    ```json
-    "dataset_path": "data/pm_search.jsonl",
+    "dataset_path": "data/ethos.jsonl",
     "mini_batch_size": 5,
     "batch_size": 7,
     "iterations": 1,
     "epochs": 5,
-    "logging_file_path": "logs/pm.jsonl",
+    "logging_file_path": "logs/ethos.jsonl",
     "epsilon": 0.5,
     "beam_width": 3,
     "group_frequency": 2,
-    "cache_path": "cache/pm.db",
+    "cache_path": "cache/ethos.db",
     "initial_prompt": "<initial_prompt>",
     "metric_kwargs": {
-        "type": "weighted_accuracy",
-        "weights": [0.4, 0.6]
+        "type": "accuracy"
     },
     "solver_llm": {
         "model_kwargs": {
-            "model": "gpt4turbo",
+            "model": "gpt-4o",
             "temperature": 0,
             "max_tokens": 512,
             "stream": false
@@ -72,7 +71,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
     },
     "expert_llm": {
         "model_kwargs": {
-            "model": "gpt4turbo",
+            "model": "gpt-4",
             "temperature": 0,
             "max_tokens": 512,
             "stream": false  
@@ -86,7 +85,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
     },
     "grouping_llm": {
         "model_kwargs": {
-            "model": "gpt4turbo",
+            "model": "gpt-4",
             "temperature": 0,
             "max_tokens": 512,
             "stream": false
@@ -133,7 +132,7 @@ UniPrompt looks at prompt optimization as that of learning multiple facets of a 
 
 For a working example, run
 ```bash
-python examples/demo1.py --config=config/ethos.json
+python examples/uniprompt_default.py --config=config/ethos.json
 ```
 
 ## Contributing

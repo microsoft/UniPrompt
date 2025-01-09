@@ -13,6 +13,8 @@ args = parser.parse_args()
 
 print("Loading config and dataset...")
 
+
+
 # Load config and dataset
 config = load_config(args.config_path)
 train_data, val_data, test_data = load_dataset(config["dataset_name"])
