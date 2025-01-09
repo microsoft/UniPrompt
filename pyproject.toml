@@ -25,6 +25,7 @@ dependencies = [
     "PyYAML>=6.0",
     "datasets>=2.20.0",
     "scikit-learn",
+    "ruamel.yaml>=0.17.21",
 ]
 
 [project.urls]
