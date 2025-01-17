@@ -191,3 +191,60 @@ combine_multiple_feedbacks_with_examples_set: |
   {wrong_examples_string}
 
   Summary:
+
+
+dataset_summary: |
+  Given several examples from a dataset please write observations about trends that hold for most or all of the samples. Some areas you may consider in your observations: topics, content, syntax, conciceness, etc. It will be useful to make an educated guess as to the nature of the task this dataset will enable. Don't be afraid to be creative.
+
+  Examples:
+  {examples}
+
+observation_summary: |
+  Given a series of observations I have made about my dataset, please summarize them into a brief 2-3 sentence summary which highlights only the most important details. Output two to Three sentence summary of only the most significant highlights of my observations
+
+  Observations:
+  {observations}
+
+add_rationale: |
+  You are given a question and the student's answer. You have to provide a rationale for the answer. The rationale should be in the form of a single sentence.
+
+  Question: {question}
+  Answer: {answer}
+
+  Rationale:
+
+generate_gradeints: |
+  I'm trying to write a zero-shot classifier prompt. My current prompt is: "{prompt}"
+  But this prompt gets the following examples wrong:
+  {error_string}
+
+  Give {num_feedbacks} reasons why the prompt could have gotten these examples wrong. Wrap each reason with <START> and <END>
+
+gradient_feedback: |
+  I'm trying to write a zero-shot classifier. My current prompt is: "{prompt}" But it gets the following examples wrong: {error_str}. Based on these examples the problem with this prompt is that {gradient}.
+  Based on the above information, I wrote {steps_per_gradient} different improved prompts. Each prompt is wrapped with <START> and <END>.
+  The {steps_per_gradient} new prompts are:
+
+semantic_similar_prompts: |
+  Generate a variation of the following instruction while keeping the semantic meaning.
+
+  Input: {prompt_instruction}
+  Output:
+
+task_type: |
+  You are given a prompt. You have to identify five different task types of the prompt.
+
+  Prompt: {prompt}
+  Task Types:
+
+opro_initial: |
+  I have some texts along with their corresponding scores. The texts are arranged in ascending order based on their scores, where higher scores indicate better quality.
+
+opro_middle: |
+  The following exemplars show how to apply your text: you replace <INS> in each input with your text, then read the question and choices and give an output. We say your output is wrong if your output is different from the given output, and we say your output is correct if they are the same.
+  
+opro_end: |
+  Generate {num_prompts} new texts with high scores. Do not include any introductory text. Each new text should be separated by <NEWLINE> tags.
+
+  Output format:
+  prompt1 <NEWLINE> prompt2 <NEWLINE> prompt3 <NEWLINE> ...

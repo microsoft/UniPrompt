@@ -1,0 +1,56 @@
+{
+    "experiment_details":"OPRO implementation, GSM8K, gpt-4o, 1 temperature, 200 steps, 8 iterations, 20 beam_width",
+    "dataset_path": "data/gsm8k.jsonl",
+    "mini_batch_size": 5,
+    "batch_size": 7,
+    "iterations": 8,
+    "epochs": 200,
+    "logging_file_path": "logs/gsm8k.jsonl",
+    "epsilon": 0.5,
+    "beam_width": 20,
+    "group_frequency": 2,
+    "content_safety": true,
+    "cache_path": "cache/gsm8k_opro.db",
+    "initial_prompt": "Let’s solve the problem.",
+    "dataset_name": "gsm8k",
+    "number_of_groups": 2, 
+    "metric_kwargs": {
+        "type": "accuracy"
+    },
+    "solver_llm": {
+        "model_kwargs": {
+            "temperature": 0,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    },
+    "expert_llm": {
+        "model_kwargs": {
+            "temperature": 0.8,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    },
+    "grouping_llm": {
+        "model_kwargs": {
+            "temperature": 0.8,
+            "model": "gpt-4o"
+        },
+        "api_kwargs": {
+            "api_type": "",
+            "api_base": "",
+            "api_version": "",
+            "api_key": ""
+        }
+    }
+}

@@ -29,6 +29,4 @@ UniPrompt has been shown to generate high-accuracy prompts for a range of tasks,
 This project is primarily designed for research and experimental purposes. We strongly recommend conducting further testing and validation before considering its application in industrial or real-world scenarios.
 
 ## Feedback and Collaboration
-We welcome feedback and collaboration from our audience. If you have suggestions, questions, or would like to contribute to the project, please feel free to contact us at amshar@microsoft.com.
-
-
+We welcome feedback and collaboration from our audience. If you have suggestions, questions, or would like to contribute to the project, please feel free to raise an [issue](https://github.com/microsoft/UniPrompt/issues) or add a [pull request](https://github.com/microsoft/UniPrompt/pulls)

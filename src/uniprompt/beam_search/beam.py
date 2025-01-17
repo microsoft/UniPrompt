@@ -53,6 +53,10 @@ class BeamSearch:
             eval_fn = evaluate_prompt
 
         eval_result = eval_fn(prompt, questions=val_questions, choices=val_choices, answers=val_answers, config = config)
+        print(f"Metrics: {eval_result}")
         new_candidate = (-eval_result["acc"], prompt, (self.beam[0][0] + (eval_result["acc"])))
         self.beam = heapq.nsmallest(self.beam_width, self.beam + [new_candidate])
         print(f"Updated Beam: {self.beam}")
+
+        return eval_result
+        

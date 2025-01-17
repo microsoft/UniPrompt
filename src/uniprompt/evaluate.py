@@ -24,11 +24,11 @@ def evaluate_prompt(
 
     for question, answer, choice in zip(questions, answers, choices):
         i+=1
-        if answer not in choice:
-            if answer == "1":
-                answer = choice[1]
-            if answer == "0":
-                answer = choice[0]
+        # if answer not in choice:
+        #     if answer == "1":
+        #         answer = choice[1]
+        #     if answer == "0":
+        #         answer = choice[0]
 
         prompt = make_prompt(prompt=new_prompt, question=question, choices=choice, template="make_prompt")
         messages = [{"role": "system", "content": "You are an expert"}, {"role": "user", "content": prompt}]

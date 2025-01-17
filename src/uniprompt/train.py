@@ -102,3 +102,16 @@ def train_batch_adaptive(mini_batch_questions, mini_batch_choices, mini_batch_an
     print(f"Wrong Questions {wrong_questions}")
 
     return feedback
+
+def opro_train(p, train_data, val_data, config, beam):
+    prompt = p
+    messages = [{"role": "user", "content": prompt}]
+    answer_cot = chat_completion(cache_path=config["cache_path"], **config["expert_llm"], messages=messages)    
+    # Split the answer_llm by <NEWLINE> and wrap each part in <Answer> tags
+    prompts_list = [f"{prompt}" for prompt in answer_cot.split("<NEWLINE>")]
+    final_prompts = []
+    for prompt in prompts_list:
+        answer_llm = extract_answer(prompt)
+        final_prompts.append(answer_llm)
+
+    return final_prompts

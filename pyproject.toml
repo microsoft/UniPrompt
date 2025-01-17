@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uniprompt"
-version = "1.0.0"
+version = "0.1.0"
 authors = [
     { name="Gautam Jajoo", email="gautamjajoo1729@gmail.com" },
     { name="Gurusha Juneja" },
@@ -36,7 +36,7 @@ Code = "https://github.com/microsoft/UniPrompt"
 dev = ["ruff ~= 0.4"]
 
 [tool.setuptools.package-data]
-uniprompt = ["prompts/*.yaml"] 
+uniprompt = ["metaprompts/*.yaml"] 
 
 [tool.ruff]
 line-length = 120
