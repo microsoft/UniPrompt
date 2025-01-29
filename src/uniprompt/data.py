@@ -3,6 +3,7 @@ from typing import Optional
 from datasets import load_dataset
 from uniprompt.utils.summary_utils import load_prompts
 import re
+from uniprompt.utils.api_utils import chat_completion
 
 def load_data(dataset_name: str, split: Optional[dict] = None) -> tuple:
     base_path = f"data/{dataset_name}"
@@ -10,45 +11,37 @@ def load_data(dataset_name: str, split: Optional[dict] = None) -> tuple:
         data = [json.loads(line) for line in f]
 
     train_questions = []
-    train_choices = []
     train_answers = []
     val_questions = []
-    val_choices = []
     val_answers = []
     test_questions = []
-    test_choices = []
     test_answers = []
 
     for question in data:
         if question["split"] == "train":
             train_questions.append(question["question"])
-            train_choices.append(question["choices"])
             train_answers.append(question["answer"])
         elif question["split"] == "validation":
             val_questions.append(question["question"])
-            val_choices.append(question["choices"])
             val_answers.append(question["answer"])
         elif question["split"] == "test":
             test_questions.append(question["question"])
-            test_choices.append(question["choices"])
             test_answers.append(question["answer"])
 
-    train_set = (list(train_questions), list(train_choices), list(train_answers))
-    val_set = (list(val_questions), list(val_choices), list(val_answers))
-    test_set = (list(test_questions), list(test_choices), list(test_answers))
+    train_set = (list(train_questions), list(train_answers))
+    val_set = (list(val_questions), list(val_answers))
+    test_set = (list(test_questions), list(test_answers))
 
     return train_set, val_set, test_set
 
 def write_to_jsonl(f, split, data):
     questions = data["text"]
     answers = data["label"]
-    choices = [["Non-Hate", "Hate"]] * len(questions)
     for i in range(len(questions)):
         write_data = {
             "split": split,
             "question": questions[i],
-            "choices": choices[i],
-            "answer": choices[i][answers[i]],
+            "answer": f"{answers[i]}",
         }
         json.dump(write_data, f)
         f.write("\n")
@@ -79,7 +72,6 @@ def default_write_to_jsonl(f, split, data):
         write_data = {
             "split": split,
             "question": questions[i],
-            "choices": "",
             "answer": extracted_answer,
         }
         json.dump(write_data, f)
@@ -110,7 +102,7 @@ def create_gsm8k_dataset(output_path):
         default_write_to_jsonl(f, "validation", val_subset)
         default_write_to_jsonl(f, "test", test_subset)
 
-def add_rationale_to_dataset(dataset_name: str):
+def add_rationale_to_dataset(dataset_name: str, config):
     prompts = load_prompts()
     add_rationale_prompt = prompts.get("add_rationale", None)
 

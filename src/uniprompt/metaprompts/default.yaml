@@ -2,14 +2,12 @@ make_prompt: |
   {prompt}
 
   Question: {question}
-  Answer choices: {choices}
   Output format: Give your answer as the correct option between <Answer></Answer> tags.
 
   Let's think step by step.
 
 make_user_prompt: |
   Question: {question}
-  Answer choices: {choices}
   Output format: Give your answer as the correct option between <Answer></Answer> tags.
 
   Let's think step by step.

@@ -13,27 +13,28 @@ class Grouping:
         self.edit_history_dict = {group: [] for group in self.groups}
 
     def create_groups(self, prompt: str, data: Tuple, config: Dict, grouping_fn: Optional[Callable] = None) -> List[List]:
-        train_questions, train_choices, train_answers = data
+        train_questions, train_answers = data
 
         if grouping_fn is None:
             grouping_fn = default_grouping_fn
 
-        self.groups = grouping_fn(prompt, train_questions, train_choices, train_answers, config)
+        self.groups = grouping_fn(prompt, train_questions, train_answers, config)
 
 def default_grouping_fn(
     prompt: str,
     questions: Sequence[str],
     answers: Sequence[str],
-    choices: Sequence[List[str]],
     config: Dict[str, Any]
 ) -> Dict[int, List[int]]:
     feedbacks = []
     prompts = load_prompts()
-    for question, choice, answer in zip(questions, choices, answers):
-        formatted_prompt = make_prompt(prompt=prompt, question=question, choices=choice)
+    for question, answer in zip(questions, answers):
+        formatted_prompt = make_prompt(prompt=prompt, question=question)
         messages = [{"role": "user", "content": formatted_prompt}]
         answer_cot = chat_completion(cache_path=config["cache_path"], **config["solver_llm"], messages=messages)
         answer_llm = extract_answer(answer_cot)
+        wrong_choices, wrong_cots, correct_choices = [], [], []
+
         if answer_llm is not None and str(answer_llm) != str(answer):
             wrong_choices = answer_llm
             wrong_cots = answer_cot
@@ -63,7 +64,7 @@ def default_grouping_fn(
         groups[i+1] = [] # i+1 because 0 is reserved for correct answers
         groups_str += f"Group {i}: {g}\n"
 
-    for idx, (question, choice, answer, feedback) in enumerate(zip(questions, choices, answers, feedbacks)):
+    for idx, (question, answer, feedback) in enumerate(zip(questions, answers, feedbacks)):
         assign_group_prompt = prompts.get("assign_group_prompt", None).format(groups_str=groups_str, feedback=feedback, number_of_groups = config["number_of_groups"])
         messages = [{"role": "user", "content": assign_group_prompt}]
         cluster_number = chat_completion(cache_path=config["cache_path"], **config["grouping_llm"], messages=messages)

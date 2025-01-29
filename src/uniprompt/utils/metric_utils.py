@@ -56,5 +56,5 @@ def get_metric(y_true: List[str], y_pred: List[str], config: Optional [Dict] = N
 
     else:
         raise ValueError(f"Metric {metric_type} not supported")
-
+    
     return metric_val

@@ -32,6 +32,8 @@ def chat_completion(cache_path=None, **kwargs):
 
     if kwargs["api_kwargs"]["api_type"] == "azure":
         client = AzureOpenAI(api_key=api_key, azure_endpoint=kwargs["api_kwargs"]["api_base"], api_version=kwargs["api_kwargs"]["api_version"])
+    elif kwargs["api_kwargs"]["api_base"]:
+        client = OpenAI(base_url=kwargs["api_kwargs"]["api_base"], api_key=api_key)
     else:
         client = OpenAI(api_key=api_key)
 

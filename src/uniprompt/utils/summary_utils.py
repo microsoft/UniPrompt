@@ -102,11 +102,11 @@ def past_prompts_with_evaluation(train_data, beam, config) -> str:
 
     middle_prompt = prompts.get("opro_middle", None)
 
-    train_questions, train_choices, train_answers = train_data
+    train_questions, train_answers = train_data
 
     random_indices = random.sample(range(len(train_questions)), min(3, len(train_questions)))
     random_examples = [
-        f"Question: {train_questions[i]}\nChoices: {train_choices[i]}\n Answer: <Answer><INS></Answer> \n Output: {train_answers[i]}"
+        f"Question: {train_questions[i]}\n Answer: <Answer><INS></Answer> \n Output: {train_answers[i]}"
         for i in random_indices
     ]
     train_data_str = "\n".join(random_examples)
