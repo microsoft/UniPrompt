@@ -5,9 +5,9 @@ from uniprompt.utils.summary_utils import load_prompts
 import re
 from uniprompt.utils.api_utils import chat_completion
 
-def load_data(dataset_name: str, split: Optional[dict] = None) -> tuple:
-    base_path = config["dataset_name"]
-    with open(f"{base_path}.jsonl") as f:
+def load_data(config, split: Optional[dict] = None) -> tuple:
+    base_path = config["dataset_path"]
+    with open(f"{base_path}") as f:
         data = [json.loads(line) for line in f]
 
     train_questions = []
