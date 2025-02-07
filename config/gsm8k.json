@@ -21,11 +21,11 @@
         "model_kwargs": {
             "temperature": 0,
             "temp_0": 0,
-            "model": "meta-llama/llama-3.3-70b-instruct"
+            "model": ""
         },
         "api_kwargs": {
-            "api_type": "openrouter",
-            "api_base": "https://openrouter.ai/api/v1",
+            "api_type": "",
+            "api_base": "",
             "api_version": "",
             "api_key": ""
         }
@@ -34,11 +34,11 @@
         "model_kwargs": {
             "temperature": 0.8,
             "temp_0": 0,
-            "model": "meta-llama/llama-3.3-70b-instruct"
+            "model": ""
         },
         "api_kwargs": {
-            "api_type": "openrouter",
-            "api_base": "https://openrouter.ai/api/v1",
+            "api_type": "",
+            "api_base": "",
             "api_version": "",
             "api_key": ""
         }
@@ -47,11 +47,11 @@
         "model_kwargs": {
             "temperature": 0.8,
             "temp_0": 0,
-            "model": "meta-llama/llama-3.3-70b-instruct"
+            "model": ""
         },
         "api_kwargs": {
-            "api_type": "openrouter",
-            "api_base": "https://openrouter.ai/api/v1",
+            "api_type": "",
+            "api_base": "",
             "api_version": "",
             "api_key": ""
         }

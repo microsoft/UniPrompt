@@ -1,0 +1,250 @@
+{"split": "train", "question": "eloquence ", "answer": "1"}
+{"split": "train", "question": "parable that loves its characters and communicates something rather beautiful about human nature . ", "answer": "1"}
+{"split": "train", "question": "the depths ", "answer": "1"}
+{"split": "train", "question": "realize that we really have n't had a good cheesy b-movie playing in theaters since ... well ... since last week 's reign of fire ", "answer": "0"}
+{"split": "train", "question": "i have returned from the beyond to warn you ", "answer": "0"}
+{"split": "train", "question": "spain 's greatest star wattage does n't overcome the tumult of maudlin tragedy . ", "answer": "0"}
+{"split": "train", "question": "because its flabbergasting principals , 14-year-old robert macnaughton , 6-year-old drew barrymore and 10-year-old henry thomas , convince us of the existence of the wise , wizened visitor from a faraway planet ", "answer": "1"}
+{"split": "train", "question": "remains brightly optimistic , ", "answer": "1"}
+{"split": "train", "question": "befuddled ", "answer": "0"}
+{"split": "train", "question": ", profane and exploitative as the most offensive action flick you 've ever seen . ", "answer": "0"}
+{"split": "train", "question": "wondrous beats ", "answer": "1"}
+{"split": "train", "question": "a minor film with major pleasures from portuguese master manoel de oliviera ... ", "answer": "1"}
+{"split": "train", "question": "is anyone else out there getting tired of the whole slo-mo , double-pistoled , ballistic-pyrotechnic hong kong action aesthetic ? ", "answer": "0"}
+{"split": "train", "question": "it is hard to resist ", "answer": "1"}
+{"split": "train", "question": "make ` cherish ' a very good ( but not great ) movie ", "answer": "1"}
+{"split": "train", "question": "the grandness ", "answer": "1"}
+{"split": "train", "question": "interesting cinematic devices ( cool visual backmasking ) , a solid cast ", "answer": "1"}
+{"split": "train", "question": "staged violence overshadows everything , ", "answer": "0"}
+{"split": "train", "question": "mr. spielberg and his company just want you to enjoy yourselves without feeling conned . ", "answer": "1"}
+{"split": "train", "question": "feminist empowerment tale thinly ", "answer": "0"}
+{"split": "train", "question": "a worthwhile documentary , whether you 're into rap or not , even if it may still leave you wanting more answers as the credits ", "answer": "1"}
+{"split": "train", "question": "the redeeming feature of chan 's films has always been the action , ", "answer": "1"}
+{"split": "train", "question": "absurd ", "answer": "0"}
+{"split": "train", "question": "there is plenty of room for editing , and a much shorter cut surely would have resulted in a smoother , more focused narrative without sacrificing any of the cultural intrigue . ", "answer": "0"}
+{"split": "train", "question": "the new insomnia is a surprisingly faithful remake of its chilly predecessor , and ", "answer": "1"}
+{"split": "train", "question": "buy is an accomplished actress , ", "answer": "1"}
+{"split": "train", "question": "lost , leaving the character of critical jim two-dimensional and pointless ", "answer": "0"}
+{"split": "train", "question": "second fiddle ", "answer": "0"}
+{"split": "train", "question": "funny , triumphant , ", "answer": "1"}
+{"split": "train", "question": "a huge disappointment coming , ", "answer": "0"}
+{"split": "train", "question": "a fascinating literary mystery story with multiple ", "answer": "1"}
+{"split": "train", "question": "is suitable summer entertainment that offers escapism without requiring a great deal of thought ", "answer": "1"}
+{"split": "train", "question": "adventure ", "answer": "1"}
+{"split": "train", "question": "charly comes off as emotionally manipulative and sadly imitative of innumerable past love story derisions . ", "answer": "0"}
+{"split": "train", "question": "wo n't find anything to get excited about on this dvd ", "answer": "0"}
+{"split": "train", "question": "allen shows he can outgag any of those young whippersnappers making moving pictures today . ", "answer": "1"}
+{"split": "train", "question": "by-the-numbers yarn . ", "answer": "0"}
+{"split": "train", "question": "exploit the comic elements of the premise , making the proceedings more bizarre than actually amusing ", "answer": "0"}
+{"split": "train", "question": "very humble ", "answer": "1"}
+{"split": "train", "question": "beautiful , self-satisfied ", "answer": "1"}
+{"split": "train", "question": "most every aggrieved father clich\u00e9 ", "answer": "0"}
+{"split": "train", "question": "satisfying well-made romantic comedy ", "answer": "1"}
+{"split": "train", "question": "exceptional film ", "answer": "1"}
+{"split": "train", "question": "attal 's hang-ups surrounding infidelity are so old-fashioned and ", "answer": "0"}
+{"split": "train", "question": "'re over 25 , have an iq over 90 , ", "answer": "0"}
+{"split": "train", "question": "dramatic arc ", "answer": "1"}
+{"split": "train", "question": "nausea ", "answer": "0"}
+{"split": "train", "question": "too heavy for the plot ", "answer": "0"}
+{"split": "train", "question": "such a dungpile ", "answer": "0"}
+{"split": "train", "question": "to win any academy awards ", "answer": "1"}
+{"split": "validation", "question": "trademark american triteness and simplicity are tossed out the window with the intelligent french drama that deftly explores the difficult relationship between a father and son . ", "answer": "1"}
+{"split": "validation", "question": "its story may be a thousand years old , but why did it have to seem like it took another thousand to tell it to us ? ", "answer": "0"}
+{"split": "validation", "question": "if your taste runs to ` difficult ' films you absolutely ca n't miss it . ", "answer": "1"}
+{"split": "validation", "question": "majidi is an unconventional storyteller , capable of finding beauty in the most depressing places . ", "answer": "1"}
+{"split": "validation", "question": "the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take . ", "answer": "0"}
+{"split": "validation", "question": "candid and comfortable ; a film that deftly balances action and reflection as it lets you grasp and feel the passion others have for their work . ", "answer": "1"}
+{"split": "validation", "question": "it 's inoffensive , cheerful , built to inspire the young people , set to an unending soundtrack of beach party pop numbers and aside from its remarkable camerawork and awesome scenery , it 's about as exciting as a sunburn . ", "answer": "0"}
+{"split": "validation", "question": "unfortunately , it 's not silly fun unless you enjoy really bad movies . ", "answer": "0"}
+{"split": "validation", "question": "hit and miss as far as the comedy goes and a big ole ' miss in the way of story . ", "answer": "0"}
+{"split": "validation", "question": "highbrow self-appointed guardians of culture need not apply , but those who loved cool as ice have at last found a worthy follow-up . ", "answer": "1"}
+{"split": "validation", "question": "worth watching for dong jie 's performance -- and for the way it documents a culture in the throes of rapid change . ", "answer": "1"}
+{"split": "validation", "question": "very psychoanalytical -- provocatively so -- and also refreshingly literary . ", "answer": "1"}
+{"split": "validation", "question": "... turns so unforgivably trite in its last 10 minutes that anyone without a fortified sweet tooth will likely go into sugar shock . ", "answer": "0"}
+{"split": "validation", "question": "a synthesis of cliches and absurdities that seems positively decadent in its cinematic flash and emptiness . ", "answer": "0"}
+{"split": "validation", "question": "this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again . ", "answer": "0"}
+{"split": "validation", "question": "a lackluster , unessential sequel to the classic disney adaptation of j.m. barrie 's peter pan . ", "answer": "0"}
+{"split": "validation", "question": "but it 's too long and too convoluted and it ends in a muddle . ", "answer": "0"}
+{"split": "validation", "question": "the plot convolutions ultimately add up to nothing more than jerking the audience 's chain . ", "answer": "0"}
+{"split": "validation", "question": "an important movie , a reminder of the power of film to move us and to make us examine our values . ", "answer": "1"}
+{"split": "validation", "question": "has all the depth of a wading pool . ", "answer": "0"}
+{"split": "validation", "question": "it has the charm of the original american road movies , feasting on the gorgeous , ramshackle landscape of the filmmaker 's motherland . ", "answer": "1"}
+{"split": "validation", "question": "indifferently implausible popcorn programmer of a movie . ", "answer": "0"}
+{"split": "validation", "question": "the affectionate loopiness that once seemed congenital to demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled hollywood post-production effects . ", "answer": "0"}
+{"split": "validation", "question": "this nickleby thing might have more homosexual undertones than an eddie murphy film . ", "answer": "0"}
+{"split": "validation", "question": "it does n't believe in itself , it has no sense of humor ... it 's just plain bored . ", "answer": "0"}
+{"split": "validation", "question": "if you 've ever entertained the notion of doing what the title of this film implies , what sex with strangers actually shows may put you off the idea forever . ", "answer": "0"}
+{"split": "validation", "question": "stealing harvard aspires to comedic grand larceny but stands convicted of nothing more than petty theft of your time . ", "answer": "0"}
+{"split": "validation", "question": "on the whole , the movie lacks wit , feeling and believability to compensate for its incessant coarseness and banality . ", "answer": "0"}
+{"split": "validation", "question": "shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere . ", "answer": "0"}
+{"split": "validation", "question": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ", "answer": "1"}
+{"split": "validation", "question": "it 's a work by an artist so in control of both his medium and his message that he can improvise like a jazzman . ", "answer": "1"}
+{"split": "validation", "question": "a rigorously structured and exquisitely filmed drama about a father and son connection that is a brief shooting star of love . ", "answer": "1"}
+{"split": "validation", "question": "hilariously inept and ridiculous . ", "answer": "1"}
+{"split": "validation", "question": "a difficult , absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear . ", "answer": "1"}
+{"split": "validation", "question": "it deserves to be seen by anyone with even a passing interest in the events shaping the world beyond their own horizons . ", "answer": "1"}
+{"split": "validation", "question": "i am sorry that i was unable to get the full brunt of the comedy . ", "answer": "0"}
+{"split": "validation", "question": "a dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going . ", "answer": "0"}
+{"split": "validation", "question": "( e ) ventually , every idea in this film is flushed down the latrine of heroism . ", "answer": "0"}
+{"split": "validation", "question": "for all its technical virtuosity , the film is so mired in juvenile and near-xenophobic pedagogy that it 's enough to make one pine for the day when godard can no longer handle the rigors of filmmaking . ", "answer": "0"}
+{"split": "validation", "question": "the movie achieves as great an impact by keeping these thoughts hidden as ... ( quills ) did by showing them . ", "answer": "1"}
+{"split": "validation", "question": "michael gerbosi 's script is economically packed with telling scenes . ", "answer": "1"}
+{"split": "validation", "question": "a working class `` us vs. them '' opera that leaves no heartstring untugged and no liberal cause unplundered . ", "answer": "1"}
+{"split": "validation", "question": "as unseemly as its title suggests . ", "answer": "1"}
+{"split": "validation", "question": "slick piece of cross-promotion . ", "answer": "1"}
+{"split": "validation", "question": "what the film lacks in general focus it makes up for in compassion , as corcuera manages to find the seeds of hope in the form of collective action . ", "answer": "1"}
+{"split": "validation", "question": "that 's pure pr hype . ", "answer": "0"}
+{"split": "validation", "question": "expect the same-old , lame-old slasher nonsense , just with different scenery . ", "answer": "0"}
+{"split": "validation", "question": "we know the plot 's a little crazy , but it held my interest from start to finish . ", "answer": "1"}
+{"split": "validation", "question": "i 'm just too bored to care . ", "answer": "0"}
+{"split": "validation", "question": "the volatile dynamics of female friendship is the subject of this unhurried , low-key film that is so off-hollywood that it seems positively french in its rhythms and resonance . ", "answer": "1"}
+{"split": "test", "question": "narc may not get an ` a ' for originality , but it wears its b-movie heritage like a badge of honor .", "answer": "-1"}
+{"split": "test", "question": "... the sum of the parts equals largely a confused mediocrity .", "answer": "-1"}
+{"split": "test", "question": "if you pitch your expectations at an all time low , you could do worse than this oddly cheerful -- but not particularly funny -- body-switching farce .", "answer": "-1"}
+{"split": "test", "question": "what will , most likely , turn out to be the most repellent movie of 2002 .", "answer": "-1"}
+{"split": "test", "question": "a quietly reflective and melancholy new zealand film about an eventful summer in a 13-year-old girl 's life .", "answer": "-1"}
+{"split": "test", "question": "daughter from danang is a film that should be seen by all , especially those who are n't aware of , or have forgotten about the unmentioned victims of war .", "answer": "-1"}
+{"split": "test", "question": "a frantic search for laughs , with a hit-to-miss ratio that does n't exactly favor the audience .", "answer": "-1"}
+{"split": "test", "question": "worth the effort to watch .", "answer": "-1"}
+{"split": "test", "question": "trivial where it should be profound , and hyper-cliched where it should be sincere .", "answer": "-1"}
+{"split": "test", "question": "uncertain in tone ... a garbled exercise in sexual politics , a junior varsity short cuts by way of very bad things .", "answer": "-1"}
+{"split": "test", "question": "it tries too hard , and overreaches the logic of its own world .", "answer": "-1"}
+{"split": "test", "question": "jagger the actor is someone you want to see again .", "answer": "-1"}
+{"split": "test", "question": "a masterpiece four years in the making .", "answer": "-1"}
+{"split": "test", "question": "a movie that , rather than skip along the seine , more or less slogs its way through soggy paris , tongue uncomfortably in cheek .", "answer": "-1"}
+{"split": "test", "question": "as it abruptly crosscuts among the five friends , it fails to lend the characters ' individual stories enough dramatic resonance to make us care about them .", "answer": "-1"}
+{"split": "test", "question": "a painfully leaden film destined for pre-dawn cable television slots .", "answer": "-1"}
+{"split": "test", "question": "despite some gulps the film is a fuzzy huggy .", "answer": "-1"}
+{"split": "test", "question": "this time out , ( sade ) is an unsettlingly familiar figure -- in turns loyal and deceitful , responsible and reckless , idealistically selfless and coldly self-interested .", "answer": "-1"}
+{"split": "test", "question": "a cop story that understands the medium amazingly well .", "answer": "-1"}
+{"split": "test", "question": "a well-made thriller with a certain level of intelligence and non-reactionary morality .", "answer": "-1"}
+{"split": "test", "question": "it has the courage to wonder about big questions with sincerity and devotion .", "answer": "-1"}
+{"split": "test", "question": "is this progress ?", "answer": "-1"}
+{"split": "test", "question": "westfeldt and juergensen exude a chemistry and comfort level that 's both saucy and endearing .", "answer": "-1"}
+{"split": "test", "question": "in his debut as a film director , denzel washington delivers a lean and engaging work .", "answer": "-1"}
+{"split": "test", "question": "watching the film is like reading a times portrait of grief that keeps shifting focus to the journalist who wrote it .", "answer": "-1"}
+{"split": "test", "question": "he simply presents his point of view that ayurveda works .", "answer": "-1"}
+{"split": "test", "question": "if you 're looking for comedy to be served up , better look elsewhere .", "answer": "-1"}
+{"split": "test", "question": "an idealistic love story that brings out the latent 15-year-old romantic in everyone .", "answer": "-1"}
+{"split": "test", "question": "strong setup and ambitious goals fade as the film descends into unsophisticated scare tactics and b-film thuggery .", "answer": "-1"}
+{"split": "test", "question": "can see where this dumbed-down concoction is going .", "answer": "-1"}
+{"split": "test", "question": "in the second half of the film , frei 's control loosens in direct proportion to the amount of screen time he gives nachtwey for self-analysis .", "answer": "-1"}
+{"split": "test", "question": "egoyan 's movie is too complicated to sustain involvement , and , if you 'll excuse a little critical heresy , too intellectually ambitious .", "answer": "-1"}
+{"split": "test", "question": "kwan makes the mix-and - match metaphors intriguing , while lulling us into torpor with his cultivated allergy to action .", "answer": "-1"}
+{"split": "test", "question": "this is a throwaway , junk-food movie whose rap soundtrack was better tended to than the film itself .", "answer": "-1"}
+{"split": "test", "question": "an involving true story of a chinese actor who takes up drugs and winds up in an institution -- acted mostly by the actual people involved .", "answer": "-1"}
+{"split": "test", "question": "this self-infatuated goofball is far from the only thing wrong with the clumsy comedy stealing harvard , but he 's the most obvious one .", "answer": "-1"}
+{"split": "test", "question": "the acting is stiff , the story lacks all trace of wit , the sets look like they were borrowed from gilligan 's island -- and the cgi scooby might well be the worst special-effects creation of the year .", "answer": "-1"}
+{"split": "test", "question": "imagine a really bad community theater production of west side story without the songs .", "answer": "-1"}
+{"split": "test", "question": "the screenplay sabotages the movie 's strengths at almost every juncture .", "answer": "-1"}
+{"split": "test", "question": "an impossible romance , but we root for the patronized iranian lad .", "answer": "-1"}
+{"split": "test", "question": "children may not understand everything that happens -- i 'm not sure even miyazaki himself does -- but they will almost certainly be fascinated , and undoubtedly delighted .", "answer": "-1"}
+{"split": "test", "question": "rather , you 'll have to wrestle disbelief to the ground and then apply the chloroform-soaked handkerchief .", "answer": "-1"}
+{"split": "test", "question": "legendary irish writer brendan behan 's memoir , borstal boy , has been given a loving screen transferral .", "answer": "-1"}
+{"split": "test", "question": "birot 's directorial debut ( she co-wrote the script with christophe honor\u00e9 ) is n't so much bad as it is bland .", "answer": "-1"}
+{"split": "test", "question": "consists of a plot and jokes done too often by people far more talented than ali g", "answer": "-1"}
+{"split": "test", "question": "the acting alone is worth the price of admission .", "answer": "-1"}
+{"split": "test", "question": "but some unexpected zigs and zags help .", "answer": "-1"}
+{"split": "test", "question": "still , it gets the job done -- a sleepy afternoon rental .", "answer": "-1"}
+{"split": "test", "question": "as conceived by mr. schaeffer , christopher and grace are little more than collections of quirky traits lifted from a screenwriter 's outline and thrown at actors charged with the impossible task of making them jell .", "answer": "-1"}
+{"split": "test", "question": "this is a particularly toxic little bonbon , palatable to only a chosen and very jaundiced few .", "answer": "-1"}
+{"split": "test", "question": "the whole cast looks to be having so much fun with the slapstick antics and silly street patois , tossing around obscure expressions like bellini and mullinski , that the compact 86 minutes breezes by .", "answer": "-1"}
+{"split": "test", "question": "as lo-fi as the special effects are , the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten .", "answer": "-1"}
+{"split": "test", "question": "even when foreign directors ... borrow stuff from hollywood , they invariably shake up the formula and make it more interesting .", "answer": "-1"}
+{"split": "test", "question": "a recipe for cinematic disaster ... part quentin tarantino , part guy ritchie , and part 1960s spy spoof , it 's all bad .", "answer": "-1"}
+{"split": "test", "question": "an often-deadly boring , strange reading of a classic whose witty dialogue is treated with a baffling casual approach", "answer": "-1"}
+{"split": "test", "question": "one of the greatest romantic comedies of the past decade .", "answer": "-1"}
+{"split": "test", "question": "a thoughtful look at a painful incident that made headlines in 1995 .", "answer": "-1"}
+{"split": "test", "question": "one of those movies where you walk out of the theater not feeling cheated exactly , but feeling pandered to , which , in the end , might be all the more infuriating .", "answer": "-1"}
+{"split": "test", "question": "like the film 's almost anthropologically detailed realization of early - '80s suburbia , it 's significant without being overstated .", "answer": "-1"}
+{"split": "test", "question": "it 's also heavy-handed and devotes too much time to bigoted views .", "answer": "-1"}
+{"split": "test", "question": "the film is often filled with a sense of pure wonderment and excitement not often seen in today 's cinema du sarcasm", "answer": "-1"}
+{"split": "test", "question": "you 'll be left with the sensation of having just witnessed a great performance and , perhaps , give in to the urge to get on your feet and shake it .", "answer": "-1"}
+{"split": "test", "question": "a fascinating and fun film .", "answer": "-1"}
+{"split": "test", "question": "despite a story predictable enough to make the sound of music play like a nail-biting thriller , its heart is so much in the right place it is difficult to get really peeved at it .", "answer": "-1"}
+{"split": "test", "question": "a remarkable 179-minute meditation on the nature of revolution .", "answer": "-1"}
+{"split": "test", "question": "too bad , but thanks to some lovely comedic moments and several fine performances , it 's not a total loss .", "answer": "-1"}
+{"split": "test", "question": "the wwii drama is well plotted , visually striking and filled with enjoyably complex characters who are never what they first appear .", "answer": "-1"}
+{"split": "test", "question": "foster nails the role , giving a tight , focused performance illuminated by shards of feeling .", "answer": "-1"}
+{"split": "test", "question": "it 's an old story , but a lively script , sharp acting and partially animated interludes make just a kiss seem minty fresh .", "answer": "-1"}
+{"split": "test", "question": "... a poignant and powerful narrative that reveals that reading writing and arithmetic are not the only subjects to learn in life .", "answer": "-1"}
+{"split": "test", "question": "there 's not much more to this adaptation of the nick hornby novel than charm -- effortless , pleasurable , featherweight charm .", "answer": "-1"}
+{"split": "test", "question": "offers a breath of the fresh air of true sophistication .", "answer": "-1"}
+{"split": "test", "question": "a movie that will touch the hearts of both children and adults , as well as bring audiences to the edge of their seats .", "answer": "-1"}
+{"split": "test", "question": "this clever caper movie has twists worthy of david mamet and is enormous fun for thinking audiences .", "answer": "-1"}
+{"split": "test", "question": "enough similarities to gymkata and howie long 's firestorm that my fingernails instinctively crawled towards my long-suffering eyeballs .", "answer": "-1"}
+{"split": "test", "question": "in the end , punch-drunk love is one of those films that i wanted to like much more than i actually did .", "answer": "-1"}
+{"split": "test", "question": "preposterous and tedious , sonny is spiked with unintentional laughter that , unfortunately , occurs too infrequently to make the film even a guilty pleasure .", "answer": "-1"}
+{"split": "test", "question": "tom green just gives them a bad odor .", "answer": "-1"}
+{"split": "test", "question": "without resorting to hyperbole , i can state that kissing jessica stein may be the best same-sex romance i have seen .", "answer": "-1"}
+{"split": "test", "question": "... an inviting piece of film .", "answer": "-1"}
+{"split": "test", "question": "god help the poor woman if attal is this insecure in real life : his fictional yvan 's neuroses are aggravating enough to exhaust the patience of even the most understanding spouse .", "answer": "-1"}
+{"split": "test", "question": "hayek is stunning as frida and ... a star-making project .", "answer": "-1"}
+{"split": "test", "question": "perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .", "answer": "-1"}
+{"split": "test", "question": "do we really need a 77-minute film to tell us exactly why a romantic relationship between a 15-year-old boy and a 40-year-old woman does n't work ?", "answer": "-1"}
+{"split": "test", "question": "i found it slow , drab , and bordering on melodramatic .", "answer": "-1"}
+{"split": "test", "question": "` abandon all hope , ye who enter here ' ... you should definitely let dante 's gloomy words be your guide .", "answer": "-1"}
+{"split": "test", "question": "feels less like it 's about teenagers , than it was written by teenagers .", "answer": "-1"}
+{"split": "test", "question": "expect to be reminded of other , better films , especially seven , which director william malone slavishly copies .", "answer": "-1"}
+{"split": "test", "question": "an endlessly fascinating , landmark movie that is as bold as anything the cinema has seen in years .", "answer": "-1"}
+{"split": "test", "question": "the film would work much better as a video installation in a museum , where viewers would be free to leave .", "answer": "-1"}
+{"split": "test", "question": "ray liotta and jason patric do some of their best work in their underwritten roles , but do n't be fooled : nobody deserves any prizes here .", "answer": "-1"}
+{"split": "test", "question": "i spy is an embarrassment , a monotonous , disjointed jumble of borrowed plot points and situations .", "answer": "-1"}
+{"split": "test", "question": "excellent acting and direction .", "answer": "-1"}
+{"split": "test", "question": "as an actor , the rock is aptly named .", "answer": "-1"}
+{"split": "test", "question": "do n't plan on the perfect ending , but sweet home alabama hits the mark with critics who escaped from a small town life .", "answer": "-1"}
+{"split": "test", "question": "a simmering psychological drama in which the bursts of sudden violence are all the more startling for the slow buildup that has preceded them .", "answer": "-1"}
+{"split": "test", "question": "this is cool , slick stuff , ready to quench the thirst of an audience that misses the summer blockbusters .", "answer": "-1"}
+{"split": "test", "question": "the film runs on equal parts of innocence and wisdom -- wisdom that comes with experience .", "answer": "-1"}
+{"split": "test", "question": "the lack of opposing viewpoints soon grows tiresome -- the film feels more like a series of toasts at a testimonial dinner than a documentary .", "answer": "-1"}
+{"split": "test", "question": "fisher has bared his soul and confronted his own shortcomings here in a way ... that feels very human and very true to life .", "answer": "-1"}
+{"split": "test", "question": "an afterschool special without the courage of its convictions .", "answer": "-1"}
+{"split": "test", "question": "here , adrian lyne comes as close to profundity as he is likely to get .", "answer": "-1"}
+{"split": "test", "question": "the kooky yet shadowy vision clooney sustains throughout is daring , inventive and impressive .", "answer": "-1"}
+{"split": "test", "question": "despite a powerful portrayal by binoche , it 's a period romance that suffers from an overly deliberate pace and uneven narrative momentum .", "answer": "-1"}
+{"split": "test", "question": "gollum 's ` performance ' is incredible !", "answer": "-1"}
+{"split": "test", "question": "suggests puns about ingredients and soup and somebody being off their noodle , but let 's just say the ingredients do n't quite add up to a meal .", "answer": "-1"}
+{"split": "test", "question": "director ferzan ozpetek creates an interesting dynamic with the members of this group , who live in the same apartment building .", "answer": "-1"}
+{"split": "test", "question": "a love for films shines through each frame and the era is recreated with obvious affection , scored to perfection with some tasty boogaloo beats .", "answer": "-1"}
+{"split": "test", "question": "it is risky , intelligent , romantic and rapturous from start to finish .", "answer": "-1"}
+{"split": "test", "question": "an absorbing trip into the minds and motivations of people under stress as well as a keen , unsentimental look at variations on the theme of motherhood .", "answer": "-1"}
+{"split": "test", "question": "there are a few stabs at absurdist comedy ... but mostly the humor is of the sweet , gentle and occasionally cloying kind that has become an iranian specialty .", "answer": "-1"}
+{"split": "test", "question": "the cast is uniformly excellent and relaxed .", "answer": "-1"}
+{"split": "test", "question": "eventually , it wins you over .", "answer": "-1"}
+{"split": "test", "question": "oft-described as the antidote to american pie-type sex comedies , it actually has a bundle in common with them , as the film diffuses every opportunity for a breakthrough", "answer": "-1"}
+{"split": "test", "question": "its scenes and sensibility are all more than familiar , but it exudes a kind of nostalgic spy-movie charm and , at the same time , is so fresh and free of the usual thriller nonsense that it all seems to be happening for the first time .", "answer": "-1"}
+{"split": "test", "question": "once the audience figure out what 's being said , the filmmaker 's relative passivity will make it tough for them to really care .", "answer": "-1"}
+{"split": "test", "question": "nolan bravely treads where few american films dare to delve -- into the world of ambivalence and ambiguity ...", "answer": "-1"}
+{"split": "test", "question": "everything that has to do with yvan and charlotte , and everything that has to do with yvan 's rambunctious , jewish sister and her non-jew husband , feels funny and true .", "answer": "-1"}
+{"split": "test", "question": "it 's all very cute , though not terribly funny if you 're more than six years old .", "answer": "-1"}
+{"split": "test", "question": "there are touching moments in etoiles , but for the most part this is a dull , dour documentary on what ought to be a joyful or at least fascinating subject .", "answer": "-1"}
+{"split": "test", "question": "a work of astonishing delicacy and force .", "answer": "-1"}
+{"split": "test", "question": "i love the way that it took chances and really asks you to take these great leaps of faith and pays off .", "answer": "-1"}
+{"split": "test", "question": "painful to watch , but viewers willing to take a chance will be rewarded with two of the year 's most accomplished and riveting film performances .", "answer": "-1"}
+{"split": "test", "question": "the unceasing sadism is so graphically excessive , the director just ends up exposing his own obsession .", "answer": "-1"}
+{"split": "test", "question": "it 's a glorious groove that leaves you wanting more .", "answer": "-1"}
+{"split": "test", "question": "the two leads chomp considerably more scenery with their acting than fire-breathing monsters barbecue with their breath ...", "answer": "-1"}
+{"split": "test", "question": "you can practically smell the patchouli oil .", "answer": "-1"}
+{"split": "test", "question": "the best way to hope for any chance of enjoying this film is by lowering your expectations .", "answer": "-1"}
+{"split": "test", "question": "i admired this work a lot .", "answer": "-1"}
+{"split": "test", "question": "an elegant , exquisitely modulated psychological thriller .", "answer": "-1"}
+{"split": "test", "question": "topkapi this is not .", "answer": "-1"}
+{"split": "test", "question": "if your senses have n't been dulled by slasher films and gorefests , if you 're a connoisseur of psychological horror , this is your ticket .", "answer": "-1"}
+{"split": "test", "question": "morton is , as usual , brilliant .", "answer": "-1"}
+{"split": "test", "question": "doug liman , the director of bourne , directs the traffic well , gets a nice wintry look from his locations , absorbs us with the movie 's spycraft and uses damon 's ability to be focused and sincere .", "answer": "-1"}
+{"split": "test", "question": "a recent favorite at sundance , this white-trash satire will inspire the affection of even those unlucky people who never owned a cassette of def leppard 's pyromania .", "answer": "-1"}
+{"split": "test", "question": "it 's just a silly black genre spoof .", "answer": "-1"}
+{"split": "test", "question": "somewhere short of tremors on the modern b-scene : neither as funny nor as clever , though an agreeably unpretentious way to spend ninety minutes .", "answer": "-1"}
+{"split": "test", "question": "`` men in black ii , '' has all the earmarks of a sequel .", "answer": "-1"}
+{"split": "test", "question": "... if you 're in a mind set for goofy comedy , the troopers will entertain with their gross outs , bawdy comedy and head games .", "answer": "-1"}
+{"split": "test", "question": "ridiculous .", "answer": "-1"}
+{"split": "test", "question": "a psychologically rich and suspenseful moral thriller with a stellar performance by al pacino .", "answer": "-1"}
+{"split": "test", "question": "bullock does a good job here of working against her natural likability .", "answer": "-1"}
+{"split": "test", "question": "julia is played with exasperating blandness by laura regan .", "answer": "-1"}
+{"split": "test", "question": "sorry , charlie", "answer": "-1"}
+{"split": "test", "question": "the movie stays afloat thanks to its hallucinatory production design .", "answer": "-1"}
+{"split": "test", "question": "... watching this film nearly provoked me to take my own life .", "answer": "-1"}
+{"split": "test", "question": "flaunts its quirky excesses like a new year 's eve drunk sporting a paper party hat .", "answer": "-1"}
+{"split": "test", "question": "almost every scene in this film is a gem that could stand alone , a perfectly realized observation of mood , behavior and intent .", "answer": "-1"}
+{"split": "test", "question": "extremely boring .", "answer": "-1"}
+{"split": "test", "question": "scotland , pa. is a strangely drab romp .", "answer": "-1"}

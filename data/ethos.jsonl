@@ -38,16 +38,16 @@
 {"split": "train", "question": "I'd get my money back if I were you. Your sex change was a complete failure.", "answer": "1"}
 {"split": "train", "question": "Fake news fake news", "answer": "0"}
 {"split": "train", "question": "Tell me now \"Whose the terrorists again \"???", "answer": "0"}
-{"split": "validation", "question": "When u two getting married? Kid in mind?", "answer": "0"}
-{"split": "validation", "question": "Pale cancer! Back to your west pacific ocean", "answer": "1"}
-{"split": "validation", "question": "This is exactly how I feel like when I see a tranny like this disgusting af", "answer": "1"}
-{"split": "validation", "question": "Trace, I would ask you to rethink the out of Africa myth. Since the out of Africa theory was proposed, there have been many discoveries that prove modern humans existed in other parts of the world much earlier than what was thought when the OOA theory was proposed. For instance, there have been skeletal remains of humans found in Asia that are many thousands of years older than the oldest found on the African Content. It amazes me that there is so much information out there that shows older humans elsewhere on Earth but people still adhere to the falls narrative that modern humans evolved on the African continent", "answer": "0"}
-{"split": "validation", "question": "its a good thing im not a commander or so in the police force,specially not during something like this,because the jail would be full of ppl waiting to be deported,if not dead", "answer": "1"}
-{"split": "validation", "question": "HE SHOT THE KID!?!? HE SHOT THE EFFIN KID!!!! BOI YOU BETTER SLEEP WITH ONE EYE OPEN BECAUSE IMMA WHOOP YOUR STUPID LITTLE BUTT TILL YOU WISH YOU WERE NEVER BORN YA HERE ME!!!! WITHERED SHALL BE AVENGED!!!!", "answer": "0"}
-{"split": "validation", "question": "we take everyone, sudanese niggers, egyptian shitskins, palirats, syrian and iraqi scums, they're all dogs that behave like niggers, they cost too much, especially syrians, there is way too many of them here, they are arrogant ungrateful backstabbing apes.", "answer": "1"}
-{"split": "validation", "question": "ADIDAS for you means \"All Day I Dream About Snacks\"", "answer": "0"}
-{"split": "validation", "question": "All girls like you should have a pimp to guide them to successful prostitution", "answer": "1"}
-{"split": "validation", "question": "You should use your time to arrest murderers not little kids", "answer": "0"}
+{"split": "train", "question": "When u two getting married? Kid in mind?", "answer": "0"}
+{"split": "train", "question": "Pale cancer! Back to your west pacific ocean", "answer": "1"}
+{"split": "train", "question": "This is exactly how I feel like when I see a tranny like this disgusting af", "answer": "1"}
+{"split": "train", "question": "Trace, I would ask you to rethink the out of Africa myth. Since the out of Africa theory was proposed, there have been many discoveries that prove modern humans existed in other parts of the world much earlier than what was thought when the OOA theory was proposed. For instance, there have been skeletal remains of humans found in Asia that are many thousands of years older than the oldest found on the African Content. It amazes me that there is so much information out there that shows older humans elsewhere on Earth but people still adhere to the falls narrative that modern humans evolved on the African continent", "answer": "0"}
+{"split": "train", "question": "its a good thing im not a commander or so in the police force,specially not during something like this,because the jail would be full of ppl waiting to be deported,if not dead", "answer": "1"}
+{"split": "train", "question": "HE SHOT THE KID!?!? HE SHOT THE EFFIN KID!!!! BOI YOU BETTER SLEEP WITH ONE EYE OPEN BECAUSE IMMA WHOOP YOUR STUPID LITTLE BUTT TILL YOU WISH YOU WERE NEVER BORN YA HERE ME!!!! WITHERED SHALL BE AVENGED!!!!", "answer": "0"}
+{"split": "train", "question": "we take everyone, sudanese niggers, egyptian shitskins, palirats, syrian and iraqi scums, they're all dogs that behave like niggers, they cost too much, especially syrians, there is way too many of them here, they are arrogant ungrateful backstabbing apes.", "answer": "1"}
+{"split": "train", "question": "ADIDAS for you means \"All Day I Dream About Snacks\"", "answer": "0"}
+{"split": "train", "question": "All girls like you should have a pimp to guide them to successful prostitution", "answer": "1"}
+{"split": "train", "question": "You should use your time to arrest murderers not little kids", "answer": "0"}
 {"split": "validation", "question": "Humiliating this Str8 guy. str8 guys like him doing dumb things", "answer": "0"}
 {"split": "validation", "question": "Id beat the fuck out of his ass if he wasnt an actor", "answer": "0"}
 {"split": "validation", "question": "They must be really suffering if they're throwing food all over the ground for the pigeons.", "answer": "0"}
@@ -58,43 +58,193 @@
 {"split": "validation", "question": "fat bitch....she need that black cucumber up her tight u know what....lmfaooo", "answer": "1"}
 {"split": "validation", "question": "Deport him in military aircraft and dump him back where he is originated from. Him and his family", "answer": "0"}
 {"split": "validation", "question": "I would pull you over for your race, if I was a cop.", "answer": "1"}
-{"split": "test", "question": "seen the way the israelis treat the palestinians? slaughter on a weekly basis, very racist are the israelis to the point of genocide.", "answer": "0"}
-{"split": "test", "question": "Ima fucking stab u up bruv. Fucking white prick bruv.. fucking racist.  Gammon", "answer": "1"}
-{"split": "test", "question": "That guys chin strap bothers me man....idk why.", "answer": "0"}
-{"split": "test", "question": "All theses people talking about Nigeria, since when have they cared about nigeria?\u00a0 They find it now to care about Nigeria to be relevenat, those who were killed were farmers and Nigeria is living peacefully with it'\u0080\u0099s Muslims.\u00a0 Sure there are terrorist attacks every now and then, but we must remember that those who do kill the innocent are not Muslims.\u00a0 Many terrorists or groups use religion as an excuse. How come Isis are killing their own people?\u00a0 How come Iraqi forces are trying to drive isis Muslims out?\u00a0 Why? Cause they are scum who are not Muslims.", "answer": "0"}
-{"split": "test", "question": "Indians are shit but burgers only have broken English and ebonics to learn and still fail. Second thread in a row where a burger can't figure out you're and your", "answer": "1"}
-{"split": "test", "question": "Enough is Enough", "answer": "0"}
-{"split": "test", "question": "I'm glad someone finally also brought light on the pay gap in asian countries (description of video) because frankly often it is only focused on the US where the pay gap is really small already compared to asian countries. (in the US it's about 6%)", "answer": "0"}
-{"split": "test", "question": "All these women have such obvious respect and admiration for each other", "answer": "0"}
-{"split": "test", "question": "Did you use the \u201a\u00c4\u00faTan\u201a\u00c4\u00f9 or \u201a\u00c4\u00faDark\u201a\u00c4\u00f9 filter?", "answer": "0"}
-{"split": "test", "question": "OMG Lucas !! Such a great kid, such a big grow", "answer": "0"}
-{"split": "test", "question": "Ugly white girls and white dudes would not get away with that.", "answer": "1"}
-{"split": "test", "question": "Let's go beat these queers!", "answer": "1"}
-{"split": "test", "question": "the only thing that annoys me is noisy neighbours and their music.", "answer": "0"}
-{"split": "test", "question": "if they hide in the engine they would get killedthat is a stupid way they can smuggle into another country", "answer": "0"}
-{"split": "test", "question": "Be aware of the girl in class who doesn't know how to control her emotions because she doesn\u2019t understand that it's not socially acceptable for someone her age to have an outburst.", "answer": "0"}
-{"split": "test", "question": "Is this world filled by those stupid female bitches?", "answer": "1"}
-{"split": "test", "question": "So how long have you lived in your mother's basement?", "answer": "0"}
-{"split": "test", "question": "Didn\u2019t know shitted coloured like you could talk", "answer": "0"}
-{"split": "test", "question": "Has anyone cried in front of their parents and feel totally ashamed and invaded afterwards ?", "answer": "0"}
-{"split": "test", "question": "Son, the greatest lesson I can teach you is this: Don't tell your troubles to others. Because if you tell ten people of the problem you are having. Seven of them won't care, two of them will laugh at you behind your back. One of them will tell you to deal with yourself.", "answer": "0"}
-{"split": "test", "question": "Depends on whether or not Ryan Reynolds is in the room", "answer": "0"}
-{"split": "test", "question": "I like big thick bitches to serve me my cocktail. They are good only for such things", "answer": "1"}
-{"split": "test", "question": "They should have beat his ass. He deserves it.", "answer": "0"}
-{"split": "test", "question": "Why the fuck would you ask Trump?", "answer": "0"}
-{"split": "test", "question": "Germans need to quit blaming themselves for the atrocities committed by the Nazi's. The same thing (shame) is happening here in the U.S. because of the past because of slavery and \"stealing\" the land from the Indians. People are getting sick of hearing that shit and the left is constantly saying how bad \"white\" Americans are.", "answer": "0"}
-{"split": "test", "question": " I just wanna make you feel okay", "answer": "0"}
-{"split": "test", "question": "I would love to watch tearing apart every christian or muslim", "answer": "1"}
-{"split": "test", "question": "People changing their genders left and right and i cant even decide on a tattoo", "answer": "0"}
-{"split": "test", "question": "So sorry about this bombing attack in Manchester. Innocent people just died", "answer": "0"}
-{"split": "test", "question": "At that point you have a right to defend yourself... But the sad thing is I bet if he would have defended finale he would have gotten in trouble... Sadly he did the right thing but sufferd greatly...", "answer": "0"}
-{"split": "test", "question": "FUCKING NIGGER GO BACK TO AFRICA", "answer": "1"}
-{"split": "test", "question": "In the US that same game was called ten little Indians. I know.. It\u2019s boring", "answer": "0"}
-{"split": "test", "question": "they could have shot him in the legs no one gets in risk of dying", "answer": "0"}
-{"split": "test", "question": "I was clinically depressed for a while and this blew my mind. Due to me having stress I don'\u0080\u0099t say '\u0080\u009coh man I'\u0080\u0099m getting anxiety'\u0080\u009d or '\u0080\u009cugh I'\u0080\u0099m so depressed'\u0080\u009d because all that does is brings attention I don'\u0080\u0099t want.\u00a0 The fact that people make these illnesses a fashion merch makes me feel like everyone is looking in my or other people'\u0080\u0099s directions. Memes are relatable,funny, and relieving. When he said '\u0080\u009cDo people who post these memes have a mental illness or are they just doing it for ..'\u0080\u009d it made me wonder alot \u00a0 Now Ik what people are capable of nowadays", "answer": "0"}
-{"split": "test", "question": "Did anybody actually know that h3h3 was a reaction channel", "answer": "0"}
-{"split": "test", "question": "To the lady that can barely speak English and then look down upon her own people, that'\u0080\u0099s disgraceful.", "answer": "0"}
-{"split": "test", "question": "the engagement ring story outrages me more than it should have.", "answer": "0"}
-{"split": "test", "question": "Huh kids like this with crazy eyes and weird moves lurking around are scary. Please mama of this creeper cuff him and sent him to an asylum\u00a0", "answer": "0"}
-{"split": "test", "question": "Anti-LGBT people ,How sad and ignorant...I cant believe it..How how ??? can they not see how STUPID they are?????", "answer": "1"}
-{"split": "test", "question": "We were taught as kids to not hit ANYONE. When did that go out the window?", "answer": "0"}
+{"split": "validation", "question": "seen the way the israelis treat the palestinians? slaughter on a weekly basis, very racist are the israelis to the point of genocide.", "answer": "0"}
+{"split": "validation", "question": "Ima fucking stab u up bruv. Fucking white prick bruv.. fucking racist.  Gammon", "answer": "1"}
+{"split": "validation", "question": "That guys chin strap bothers me man....idk why.", "answer": "0"}
+{"split": "validation", "question": "All theses people talking about Nigeria, since when have they cared about nigeria?\u00a0 They find it now to care about Nigeria to be relevenat, those who were killed were farmers and Nigeria is living peacefully with it'\u0080\u0099s Muslims.\u00a0 Sure there are terrorist attacks every now and then, but we must remember that those who do kill the innocent are not Muslims.\u00a0 Many terrorists or groups use religion as an excuse. How come Isis are killing their own people?\u00a0 How come Iraqi forces are trying to drive isis Muslims out?\u00a0 Why? Cause they are scum who are not Muslims.", "answer": "0"}
+{"split": "validation", "question": "Indians are shit but burgers only have broken English and ebonics to learn and still fail. Second thread in a row where a burger can't figure out you're and your", "answer": "1"}
+{"split": "validation", "question": "Enough is Enough", "answer": "0"}
+{"split": "validation", "question": "I'm glad someone finally also brought light on the pay gap in asian countries (description of video) because frankly often it is only focused on the US where the pay gap is really small already compared to asian countries. (in the US it's about 6%)", "answer": "0"}
+{"split": "validation", "question": "All these women have such obvious respect and admiration for each other", "answer": "0"}
+{"split": "validation", "question": "Did you use the \u201a\u00c4\u00faTan\u201a\u00c4\u00f9 or \u201a\u00c4\u00faDark\u201a\u00c4\u00f9 filter?", "answer": "0"}
+{"split": "validation", "question": "OMG Lucas !! Such a great kid, such a big grow", "answer": "0"}
+{"split": "validation", "question": "Ugly white girls and white dudes would not get away with that.", "answer": "1"}
+{"split": "validation", "question": "Let's go beat these queers!", "answer": "1"}
+{"split": "validation", "question": "the only thing that annoys me is noisy neighbours and their music.", "answer": "0"}
+{"split": "validation", "question": "if they hide in the engine they would get killedthat is a stupid way they can smuggle into another country", "answer": "0"}
+{"split": "validation", "question": "Be aware of the girl in class who doesn't know how to control her emotions because she doesn\u2019t understand that it's not socially acceptable for someone her age to have an outburst.", "answer": "0"}
+{"split": "validation", "question": "Is this world filled by those stupid female bitches?", "answer": "1"}
+{"split": "validation", "question": "So how long have you lived in your mother's basement?", "answer": "0"}
+{"split": "validation", "question": "Didn\u2019t know shitted coloured like you could talk", "answer": "0"}
+{"split": "validation", "question": "Has anyone cried in front of their parents and feel totally ashamed and invaded afterwards ?", "answer": "0"}
+{"split": "validation", "question": "Son, the greatest lesson I can teach you is this: Don't tell your troubles to others. Because if you tell ten people of the problem you are having. Seven of them won't care, two of them will laugh at you behind your back. One of them will tell you to deal with yourself.", "answer": "0"}
+{"split": "validation", "question": "Depends on whether or not Ryan Reynolds is in the room", "answer": "0"}
+{"split": "validation", "question": "I like big thick bitches to serve me my cocktail. They are good only for such things", "answer": "1"}
+{"split": "validation", "question": "They should have beat his ass. He deserves it.", "answer": "0"}
+{"split": "validation", "question": "Why the fuck would you ask Trump?", "answer": "0"}
+{"split": "validation", "question": "Germans need to quit blaming themselves for the atrocities committed by the Nazi's. The same thing (shame) is happening here in the U.S. because of the past because of slavery and \"stealing\" the land from the Indians. People are getting sick of hearing that shit and the left is constantly saying how bad \"white\" Americans are.", "answer": "0"}
+{"split": "validation", "question": " I just wanna make you feel okay", "answer": "0"}
+{"split": "validation", "question": "I would love to watch tearing apart every christian or muslim", "answer": "1"}
+{"split": "validation", "question": "People changing their genders left and right and i cant even decide on a tattoo", "answer": "0"}
+{"split": "validation", "question": "So sorry about this bombing attack in Manchester. Innocent people just died", "answer": "0"}
+{"split": "validation", "question": "At that point you have a right to defend yourself... But the sad thing is I bet if he would have defended finale he would have gotten in trouble... Sadly he did the right thing but sufferd greatly...", "answer": "0"}
+{"split": "validation", "question": "FUCKING NIGGER GO BACK TO AFRICA", "answer": "1"}
+{"split": "validation", "question": "In the US that same game was called ten little Indians. I know.. It\u2019s boring", "answer": "0"}
+{"split": "validation", "question": "they could have shot him in the legs no one gets in risk of dying", "answer": "0"}
+{"split": "validation", "question": "I was clinically depressed for a while and this blew my mind. Due to me having stress I don'\u0080\u0099t say '\u0080\u009coh man I'\u0080\u0099m getting anxiety'\u0080\u009d or '\u0080\u009cugh I'\u0080\u0099m so depressed'\u0080\u009d because all that does is brings attention I don'\u0080\u0099t want.\u00a0 The fact that people make these illnesses a fashion merch makes me feel like everyone is looking in my or other people'\u0080\u0099s directions. Memes are relatable,funny, and relieving. When he said '\u0080\u009cDo people who post these memes have a mental illness or are they just doing it for ..'\u0080\u009d it made me wonder alot \u00a0 Now Ik what people are capable of nowadays", "answer": "0"}
+{"split": "validation", "question": "Did anybody actually know that h3h3 was a reaction channel", "answer": "0"}
+{"split": "validation", "question": "To the lady that can barely speak English and then look down upon her own people, that'\u0080\u0099s disgraceful.", "answer": "0"}
+{"split": "validation", "question": "the engagement ring story outrages me more than it should have.", "answer": "0"}
+{"split": "validation", "question": "Huh kids like this with crazy eyes and weird moves lurking around are scary. Please mama of this creeper cuff him and sent him to an asylum\u00a0", "answer": "0"}
+{"split": "validation", "question": "Anti-LGBT people ,How sad and ignorant...I cant believe it..How how ??? can they not see how STUPID they are?????", "answer": "1"}
+{"split": "validation", "question": "We were taught as kids to not hit ANYONE. When did that go out the window?", "answer": "0"}
+{"split": "test", "question": "The dark cloud is the side of you that you cannot fully understand but its your alter ego that you need to accept or you\u2019\u0080\u0099ll be deprived of your superpowers.", "answer": "0"}
+{"split": "test", "question": "All I know is that my disorder ruined my fucking life.", "answer": "0"}
+{"split": "test", "question": "Responsibility is something that needs to grow inside of everyone", "answer": "0"}
+{"split": "test", "question": "Great video! Thank you \u221a\u221e\u00ac\u00fc\u00ac\u00f4\u00ac\u00e8", "answer": "0"}
+{"split": "test", "question": "Go bleach yourself black pussy doll and then come talk to me", "answer": "1"}
+{"split": "test", "question": "Well France is finally a shithole This is what happens when you do open borders now both sides are suffering", "answer": "1"}
+{"split": "test", "question": "he may be in a wheelchair but he's not at all bad looking! forget the trolls dude", "answer": "0"}
+{"split": "test", "question": "There isn't too little land, there isn't inefficient land use, there aren't too restrictive land use policies, there are TOO MANY PEOPLE.", "answer": "0"}
+{"split": "test", "question": "The Veil of Isis is also a great song by The Sword.", "answer": "0"}
+{"split": "test", "question": "this the type of dude you see on chat roulette at 2:39am", "answer": "0"}
+{"split": "test", "question": "Burn them all down and kick Islam out of EU...We support you...Fuck Islam.", "answer": "1"}
+{"split": "test", "question": "The Problem with Islam is that they think they have the right to tell other Human beings what to do or how to be a good Person. What is right and what is wrong. If for example 2 Men love each other, they hurt nobody but you think your God told you to stop them. Who are you to interfere in other ppls Life? Non of your Business! If you think they will Burn for that, then let it be at that. But no, you think you have to stop them bc your God told you. Thats the thing!", "answer": "1"}
+{"split": "test", "question": "Come and kill my wife", "answer": "1"}
+{"split": "test", "question": "That is a lot of really dumb people in one room. Wow", "answer": "0"}
+{"split": "test", "question": "You all should listen to Bill Warner PhD.....Foremost expert on Islam", "answer": "0"}
+{"split": "test", "question": "guy is low IQ af", "answer": "0"}
+{"split": "test", "question": "You said he but still not convinced this is a male. A sorely lost hipster girl maybe though", "answer": "0"}
+{"split": "test", "question": "It\u2019s not \u201cgenderless\u201d they just look like GIRLS", "answer": "0"}
+{"split": "test", "question": "I won\u2019t let your Allah fuck my life. Convert to Christian or make your self and kids a favour and return back to your homelands", "answer": "1"}
+{"split": "test", "question": "Because everyone knows this islam men is the devil", "answer": "1"}
+{"split": "test", "question": "With no legs you are just a bag of meat in your household. Do them the favour and get dead already", "answer": "1"}
+{"split": "test", "question": "Black people are the most racist people I ever met. I\u221a\u00a2\u00ac\u00c4\u00ac\u00f4m not even white, and I know this. Most blacks are racists!", "answer": "1"}
+{"split": "test", "question": "The guy should feel shame to be gay. It is such a wrong choice. Bad influence on young people. Never seen being proud of being gay. It is like saying being proud of rapist. Awful !  The only time I am so disappointed at Trump. Under political pressure, he failed to stand up for the ground, the right thing !", "answer": "1"}
+{"split": "test", "question": "He is complaining his rights are violated well maybe he shouldn' have come uninvited in our country", "answer": "0"}
+{"split": "test", "question": "Child abuse, manipulation etc. What the hell are we transforming this world into??? How sick mind can people have and how stupid can others be to send their kids there???", "answer": "0"}
+{"split": "test", "question": "Or maybe just don't follow degenerate sandnigger religions from the middle east?", "answer": "1"}
+{"split": "test", "question": "Black women are strong as hell", "answer": "0"}
+{"split": "test", "question": "Read this sentence slow", "answer": "0"}
+{"split": "test", "question": "Muslims want war! So take it to them first", "answer": "1"}
+{"split": "test", "question": "Waitresses are cunts", "answer": "1"}
+{"split": "test", "question": "No shower for two days? I bet you smell like Doritos, Mountain dew and shameful sweat.", "answer": "0"}
+{"split": "test", "question": "Beautiful in every way!", "answer": "0"}
+{"split": "test", "question": "It numbs them to the disgusting degeneracy and fruitless hedonism of faggot sex", "answer": "1"}
+{"split": "test", "question": "relax and do something...wink wink. hahahahaha! totally enjoying your videos! you both are super yummy!", "answer": "0"}
+{"split": "test", "question": "Well im glad that i live in Serbia, migrants and islamists are not welcome here!", "answer": "1"}
+{"split": "test", "question": "This documentary is on point. This helped me through class ty boy", "answer": "0"}
+{"split": "test", "question": "Two things are apparent: one, not a male and two, your ass is indeed sorry that it's been turned into a drive-in.", "answer": "1"}
+{"split": "test", "question": "Abortion is a solution for autism", "answer": "1"}
+{"split": "test", "question": "Gas should be your preferred drink", "answer": "0"}
+{"split": "test", "question": "Brown people love white countries", "answer": "0"}
+{"split": "test", "question": "lock women up at home . Female are just to stupid to understand anything .  Iam Agnostic .", "answer": "1"}
+{"split": "test", "question": "The world before white people. 1 word 8 letters. PEACEFUL", "answer": "1"}
+{"split": "test", "question": "Head is the shape of a light bulb", "answer": "0"}
+{"split": "test", "question": "Islam is  the home of terriorism .", "answer": "1"}
+{"split": "test", "question": "When your squad is complete shit in PUBG", "answer": "0"}
+{"split": "test", "question": "For the static sound - what do you use for editing? I know it'\u00ac\u00c4\u00ac\u00f4s annoying but if you use premiere pro you should be able to use decrackling to help a bit", "answer": "0"}
+{"split": "test", "question": "Women deserve to be abused, I guess.", "answer": "1"}
+{"split": "test", "question": "Just a little work on the eyebrows and you could be a waitress by day and an annoying freeloader at some dudes house at night.", "answer": "1"}
+{"split": "test", "question": "Send em home in a metal crate. They're on probation for 20 years. Crime? Straight home. Too many kids? Straight home. Bye.", "answer": "0"}
+{"split": "test", "question": "In the UK, there is a maximum of five years prison sentence for this abuse .. whether male or female!\u00a0 It is non-gender specific.\u00a0 It does not matter who abuses the most, it happens to both genders, and the law does not discriminate by gender", "answer": "0"}
+{"split": "test", "question": "Poor women", "answer": "0"}
+{"split": "test", "question": "Shemales are paranormal creatures. We shouldn't let them be free. Neither be captured. Just dead and buried already", "answer": "1"}
+{"split": "test", "question": "Her smile is SO beautiful omg! Continue being who you are!", "answer": "0"}
+{"split": "test", "question": "Lauren is SAVAGE. love her", "answer": "0"}
+{"split": "test", "question": "Our world should be ashamed, the west should live with the knowledge that we did nothing to stop this until it was far too late.", "answer": "0"}
+{"split": "test", "question": " Oh and NIki pronounced mademoiselle Maupin way better than Siri did.\"", "answer": "0"}
+{"split": "test", "question": "If your fucking with a cool female is all good but if your fucking with a bitch you need to break her ass and shake her ass", "answer": "1"}
+{"split": "test", "question": "What about a global massacre of men? Pussiezzz only girls", "answer": "1"}
+{"split": "test", "question": "stupid dumb ass", "answer": "0"}
+{"split": "test", "question": "Dirty Christianity follower creating war everywhere Iran should attack USA\u00a0 We will support Iran", "answer": "1"}
+{"split": "test", "question": "As having friends whom are part of the LGBT+ community and being a supporter of them and I think this is awsome and in middle school", "answer": "0"}
+{"split": "test", "question": "Generally speaking, most women are lazy and worthless not all, but most.", "answer": "1"}
+{"split": "test", "question": "Do you know why he is smiling because there is no \u201cexcretion law\u201d in New Zealand! The max sentence he will receive from a judge is no more than 27 years in prison! Is this justice? Or because Muslims lives don't matter!???\u00a0 :(((", "answer": "0"}
+{"split": "test", "question": "All of these clueless reporters comparing themselves to Cronkite and Edward R. Murrow and they can't even get through a teleprompter read-through without hitting the floor.", "answer": "0"}
+{"split": "test", "question": "Do not kill people.", "answer": "0"}
+{"split": "test", "question": "She'\u0080\u0099s a really courageous woman! She is one of the most impressive women I'\u0080\u0099ve ever listened to. I appreciate\u00a0 her film, and I certainly wish her continued success and happiness. She is definitely a cut above both as a filmmaker, and most especially, as a person! She is an incrediblely remarkable woman!", "answer": "0"}
+{"split": "test", "question": "build that wall deport them all", "answer": "1"}
+{"split": "test", "question": "Disability centres all around the world. That\u2019s were our money goes. Let\u2019s take em down", "answer": "1"}
+{"split": "test", "question": "You have the grace and composure of a rabid hyena", "answer": "0"}
+{"split": "test", "question": "I was hoping you'd post a new video!! I know you're busy, of course, but you're just so interesting, I wish you'd post more\u00d4\u00aa\u00f8", "answer": "0"}
+{"split": "test", "question": "I don't know but I don't trust\u00a0 this guy's... It's all about the money... Plss let the dead in their world stop making shows...with his death..couse u didn't have ballssss when he was alive...", "answer": "0"}
+{"split": "test", "question": "I want people to throw Skittles at me at my wedding", "answer": "0"}
+{"split": "test", "question": "A man'\u0099s chance of getting cancer is 44% and 23% of men will die from cancer, 38% of women get cancer and 19% die.", "answer": "0"}
+{"split": "test", "question": "because people becomes evil easily, it is in our genes", "answer": "0"}
+{"split": "test", "question": "Ill vote for you if you forbid people that cannot hear to have driver licences. They are clearly threads", "answer": "1"}
+{"split": "test", "question": "At the end you literally described yourself as a gold digger", "answer": "0"}
+{"split": "test", "question": "Stand the fuck up and take them out all you fucking lazy white males! fuck being called a racist protect your woman and children. If you find it in the street kill it and bury it right there these animals will wipe you out if your not careful", "answer": "1"}
+{"split": "test", "question": "Why are you still on the air? Shit", "answer": "0"}
+{"split": "test", "question": "What about to shove your crutch to your ass \u00a0", "answer": "1"}
+{"split": "test", "question": "On todays episode of \"Guess That Gender\"", "answer": "1"}
+{"split": "test", "question": "Don'\u0099t ever kill yourself no matter what other people think or say about you it just matters what you think about yourself and how you feel", "answer": "0"}
+{"split": "test", "question": "He has lower iq than when water freezes", "answer": "0"}
+{"split": "test", "question": "That skin colour is the funniest one in combination with your eyes is perfect stupid", "answer": "1"}
+{"split": "test", "question": "Asians have more fats so they are yellow.  So fat people are yellow?...", "answer": "1"}
+{"split": "test", "question": "jon snow the king in the north thank you for uploading this i have one small complaint he is only talking about deporting illegal immigrants not immigrants in general your title might mislead the less informed", "answer": "0"}
+{"split": "test", "question": "Isn\u2019t it awkward that only women work on public services? #lowIQ", "answer": "0"}
+{"split": "test", "question": "Women are equally as strong as men.\u00a0 \u00a0 They should be able to defend themselves.", "answer": "0"}
+{"split": "test", "question": "All these problems men have, and no one will ever care.", "answer": "0"}
+{"split": "test", "question": "Technically ISIS is a CIA/US creation so...", "answer": "0"}
+{"split": "test", "question": "I could just cuddle with him", "answer": "0"}
+{"split": "test", "question": "If i were you I would inject lethal heroin to my \u201a\u00c4\u00f2sick' child immediately!", "answer": "1"}
+{"split": "test", "question": "Every publicity is good publicity ha ? I'\u0099m here after watching leaving neverland i don'\u0099t know he is guilty or not but in music he is a legend and no one can take that from him", "answer": "0"}
+{"split": "test", "question": "who gives aa fuck about shit diamonds from the jews fuck them both", "answer": "1"}
+{"split": "test", "question": "Anyone who listens to rap and is white is not part of the ethnostate and will be put to death.", "answer": "1"}
+{"split": "test", "question": "With a face like that I bet you could scare your HIV into remission.", "answer": "1"}
+{"split": "test", "question": "Bottles are beautiful on the inside and out", "answer": "0"}
+{"split": "test", "question": "Fuck Sweden. Let it die like the degenerates they are!", "answer": "1"}
+{"split": "test", "question": "there's nowhere in the world where woman are equal. how about in all the places where they are president or prime minister or queen... how about in America, Australia, Canada, Britain, Scandinavia, France... shall I go on? Like honestly woman u live in an equal world. Stop being so self-obsessed and stop refusing to look at the facts. Women are already equal to men and have been for a long time.", "answer": "0"}
+{"split": "test", "question": "Ugh, my heart hurt for her when she was talking about how the troll comments hurt her.\u00a0 You can see the love she has for him; it radiates from her.", "answer": "0"}
+{"split": "test", "question": "What the fuck stupid people !!!", "answer": "0"}
+{"split": "test", "question": "that song is fucking awesome.", "answer": "0"}
+{"split": "test", "question": "Hindus and Muslims are same shit. They only know how to kill Peoples...See comments of Christians people no rudeness no abusing or bad words... Christians religion is the best religion in the world", "answer": "1"}
+{"split": "test", "question": "Red pill activism should be a thing.", "answer": "0"}
+{"split": "test", "question": "Most Americans are nazis or kkk members so they elected\u00a0 Trump.", "answer": "1"}
+{"split": "test", "question": "All asian people look identical to this one. He is the mother of Asia", "answer": "0"}
+{"split": "test", "question": "The wheelchaired woman was actually scary", "answer": "0"}
+{"split": "test", "question": "Beware LBGQ community Shari Law is coming you guys will have to go back in closet to save your heads.", "answer": "1"}
+{"split": "test", "question": "Feminist deserve to be miserable. What kind of man would want to live with a feminist? Silly me , of course,\u00a0 a cuck.", "answer": "1"}
+{"split": "test", "question": "There's a lot of confusion about male/female vs. masculine/feminine.  They don't always line up.   And nobody seems to ask why there are so many more male to female transexuals than female to male?", "answer": "0"}
+{"split": "test", "question": "Lmao, fucking hilarious", "answer": "0"}
+{"split": "test", "question": "FUCKING migrants need BAN . fucking animals", "answer": "1"}
+{"split": "test", "question": "Wtf I thought you had only one sibling", "answer": "0"}
+{"split": "test", "question": "Lmfao that fat slob in the wheelchair", "answer": "1"}
+{"split": "test", "question": "I liked macklemore,  not anymore , gays should fucking die motherfuckers cocksukers", "answer": "1"}
+{"split": "test", "question": "Im bisexual but im not looking to hook up with whatever. And i havent come out yet. Im scared, really scared.", "answer": "0"}
+{"split": "test", "question": "I am so sorry for all the people who disrespect all you guys and I wish I could do something\u00a0 so they wouldn'. But I can' but you guys know\u00a0 I love all you guys.\u00e2\u009d\u00a4", "answer": "0"}
+{"split": "test", "question": "The power of Christ compels you! You demonic whore, you will feel the wrath of my petrol you wench!", "answer": "1"}
+{"split": "test", "question": "Surprised that the burqa is banned in Belgium, but not in Poland where they are is much more looked-down upon. Kill them", "answer": "1"}
+{"split": "test", "question": "As an SJW, it is the right of black people to rob and kill me. To not allow them is a white privilege.", "answer": "1"}
+{"split": "test", "question": "Europe is land of white people. Don't let africans take over our home. Fuck islam. Fuck multiculturalism.", "answer": "1"}
+{"split": "test", "question": "I am white and I go to a school whare it is mostly black kids and I was made fun of just because of skin my best friend's mom dose not like me because I am white so .... I had to change schools", "answer": "0"}
+{"split": "test", "question": "lesbians cant do math fucking mood lmao", "answer": "1"}
+{"split": "test", "question": "I WANT EVERYONE ELSE TO PAY FOR MY EDUCATION AND HEALTHCARE AND HOUSING, FUCK YOU WHITE PEOPLE GIVE ME YOUR MONEY WHITE PEOPLE FUCK", "answer": "1"}
+{"split": "test", "question": "Really, I hope she get raped in the future. Raping women should be legal I think", "answer": "1"}
+{"split": "test", "question": "Just look at that crowd!!! ALL FAT WHITE TRASH OR METH ADDICTS", "answer": "1"}
+{"split": "test", "question": "deport these cunt asians", "answer": "1"}
+{"split": "test", "question": "Equal pay message, um, says the guy who want socialism in the United States of America", "answer": "0"}
+{"split": "test", "question": "Congratulations. You figured out you were a moron and decided not to be a moron anymore. You'\u0099re a freakin hero.", "answer": "0"}
+{"split": "test", "question": "Are you mentally handicapped or this is your normal form? Both ways kill yourself please.", "answer": "1"}
+{"split": "test", "question": "Look at these gay ass niggas. lol. Acting like they some bitches.", "answer": "1"}
+{"split": "test", "question": "This people are treating women like dogs!!!!!!", "answer": "0"}
+{"split": "test", "question": "People with barbaric cultures and desert religions are all the same.", "answer": "0"}
+{"split": "test", "question": "Only a fag doesn't want to see two chicks do it, you don't want your son to grow up to be a fag right?", "answer": "1"}
+{"split": "test", "question": "I love deaf people. I can scream on them and I can scold them", "answer": "1"}
+{"split": "test", "question": "This sick, disgusting, white terrorist/fascist killed more than 50 innocent people.", "answer": "1"}
+{"split": "test", "question": "Crazy fat religious bitch. Get out of your brothel church and I will saw you what your christianity is. You\u2019ll meet your christ to heavens and hells\u00a0", "answer": "1"}
+{"split": "test", "question": "STOP. DRINKING. COW. MILK.\u00a0 Do people realize that for a cow to produce milk it has to get pregnant? and for people to have such milk the calf cant consume any of it? Do they realize that puss and blood is found in milk and that the milk at the grocery store is only 5 to 10% milk and the rest is just powder and water?\u00a0 Gross.", "answer": "0"}
+{"split": "test", "question": "Kill these basterds, son of sluts who attack u in name of religion. Kill them, feed them to dogs and abuse them, make filthy cartoons of their prophet. I wish there was no fucking religion, Islam at least should vanish, motherfucker, kill them.", "answer": "1"}
+{"split": "test", "question": "Everyone hates you because you're gay", "answer": "1"}
+{"split": "test", "question": "This is considered WHITE in Sweden. No wonder they accepted all those black and muslim immigrants. They are literally color blind.", "answer": "1"}
+{"split": "test", "question": "I wish him the best, as well as his children.", "answer": "0"}
+{"split": "test", "question": "Moving from France to Spain will be a motherfucking big change", "answer": "0"}
+{"split": "test", "question": "Salute to this woman in Hollywood! You are so human, my lady. I love you", "answer": "0"}
+{"split": "test", "question": "God,my humble question to u almighty... Y u send them to earth to suffer?", "answer": "0"}
+{"split": "test", "question": "You guys I fell so bad, I hope this don\u2019t happen again. Im a Islam", "answer": "0"}
+{"split": "test", "question": "If they see the bully bulling her i would be \u00a0 \u00a0 Hey here is the middle finger and i would record what they did so the can get in real trouble", "answer": "0"}
+{"split": "test", "question": "Time to nuke China or Unleash a plague.", "answer": "1"}
+{"split": "test", "question": "Fat lesbians", "answer": "1"}
+{"split": "test", "question": "You look like someone who would do an electric wheelchair race with Stephen Hawking.", "answer": "0"}
+{"split": "test", "question": "Come out of the closet, we know you're in there, we'll bury you. ", "answer": "1"}

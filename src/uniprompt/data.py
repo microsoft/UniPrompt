@@ -6,7 +6,7 @@ import re
 from uniprompt.utils.api_utils import chat_completion
 
 def load_data(dataset_name: str, split: Optional[dict] = None) -> tuple:
-    base_path = f"data/{dataset_name}"
+    base_path = config["dataset_name"]
     with open(f"{base_path}.jsonl") as f:
         data = [json.loads(line) for line in f]
 
@@ -53,14 +53,13 @@ def create_ethos_dataset(output_path):
                 trust_remote_code=True, split="train",
             ).shuffle(seed=4)
 
-    dataset = dataset.select(range(100))
-    train_ratio, val_ratio = 0.4, 0.2
-    train_len = int(len(dataset) * train_ratio)
-    val_len = int(len(dataset) * val_ratio)
+    dataset = dataset.select(range(250))
+    train_len = 50
+    val_len = 50
     with open(output_path, "w") as f:
         write_to_jsonl(f, "train", dataset[:train_len])
-        write_to_jsonl(f, "validation", dataset[train_len : train_len + val_len])
-        write_to_jsonl(f, "test", dataset[train_len + val_len :])
+        write_to_jsonl(f, "validation", dataset[train_len:train_len + val_len])
+        write_to_jsonl(f, "test", dataset[train_len + val_len:])
 
 def default_write_to_jsonl(f, split, data):
     questions = data["question"]

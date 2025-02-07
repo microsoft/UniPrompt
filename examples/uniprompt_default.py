@@ -16,7 +16,7 @@ create_ethos_dataset("data/ethos.jsonl")
 
 # Load config and dataset
 config = load_config(args.config_path)
-train_data, val_data, test_data = load_data(config["dataset_name"])
+train_data, val_data, test_data = load_data(config)
 
 # Initialize UniPrompt
 beam = BeamSearch(config["beam_width"])

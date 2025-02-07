@@ -11,7 +11,7 @@
     "group_frequency": 2,
     "content_safety": true,
     "cache_path": "",
-    "initial_prompt": "Given a query, you have to tell if it contains hate speech in any form or not. Output 0 means Non-Hate and 1 means Hate.",
+    "initial_prompt": "Let's think step by step.",
     "dataset_name": "ethos",
     "number_of_groups": 2, 
     "metric_kwargs": {
