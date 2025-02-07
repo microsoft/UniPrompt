@@ -10,8 +10,8 @@
     "beam_width": 3,
     "group_frequency": 2,
     "content_safety": true,
-    "cache_path": "cache/ethos.db",
-    "initial_prompt": "Given a query, you have to tell if it contains hate speech in any form or not.",
+    "cache_path": "",
+    "initial_prompt": "Given a query, you have to tell if it contains hate speech in any form or not. Output 0 means Non-Hate and 1 means Hate.",
     "dataset_name": "ethos",
     "number_of_groups": 2, 
     "metric_kwargs": {
@@ -38,7 +38,7 @@
             "api_type": "",
             "api_base": "",
             "api_version": "",
-            "api_key": ""
+            "api_key": ""        
         }
     },
     "grouping_llm": {
@@ -50,7 +50,7 @@
             "api_type": "",
             "api_base": "",
             "api_version": "",
-            "api_key": ""
+            "api_key": ""        
         }
     }
 }

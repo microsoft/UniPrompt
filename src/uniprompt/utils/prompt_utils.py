@@ -5,23 +5,21 @@ import pkg_resources
 import yaml
 from ruamel.yaml import YAML
 
-def make_prompt(prompt: str, question: str, choices: Sequence[List[str]], template="make_prompt") -> str:
+def make_prompt(prompt: str, question: str, template="make_prompt") -> str:
     prompts = load_prompts()
     prompt_template = prompts.get(template, None)
     formatted_prompt = prompt_template.format(
         prompt=prompt,
         question=question,
-        choices=choices,
     )
     return formatted_prompt
 
-def make_prompt_code(prompt: str, question: str, choices: Sequence[List[str]]) -> str:
+def make_prompt_code(prompt: str, question: str) -> str:
     prompts = load_prompts()
     prompt_template = prompts.get("make_prompt_code", None)
     formatted_prompt = prompt_template.format(
         prompt=prompt,
         question=question,
-        choices=choices,
     )
     return formatted_prompt
 

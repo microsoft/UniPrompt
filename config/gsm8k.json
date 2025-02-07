@@ -20,11 +20,12 @@
     "solver_llm": {
         "model_kwargs": {
             "temperature": 0,
-            "model": "gpt-4o"
+            "temp_0": 0,
+            "model": "meta-llama/llama-3.3-70b-instruct"
         },
         "api_kwargs": {
-            "api_type": "",
-            "api_base": "",
+            "api_type": "openrouter",
+            "api_base": "https://openrouter.ai/api/v1",
             "api_version": "",
             "api_key": ""
         }
@@ -32,11 +33,12 @@
     "expert_llm": {
         "model_kwargs": {
             "temperature": 0.8,
-            "model": "gpt-4o"
+            "temp_0": 0,
+            "model": "meta-llama/llama-3.3-70b-instruct"
         },
         "api_kwargs": {
-            "api_type": "",
-            "api_base": "",
+            "api_type": "openrouter",
+            "api_base": "https://openrouter.ai/api/v1",
             "api_version": "",
             "api_key": ""
         }
@@ -44,11 +46,12 @@
     "grouping_llm": {
         "model_kwargs": {
             "temperature": 0.8,
-            "model": "gpt-4o"
+            "temp_0": 0,
+            "model": "meta-llama/llama-3.3-70b-instruct"
         },
         "api_kwargs": {
-            "api_type": "",
-            "api_base": "",
+            "api_type": "openrouter",
+            "api_base": "https://openrouter.ai/api/v1",
             "api_version": "",
             "api_key": ""
         }

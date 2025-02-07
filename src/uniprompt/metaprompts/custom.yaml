@@ -2,14 +2,12 @@ make_prompt: |
   {prompt}
 
   Question: {question}
-  Answer choices: {choices}
   Output format: Give your answer as the correct option between <Answer></Answer> tags.
 
   Let's think step by step.
 
 make_user_prompt: |
   Question: {question}
-  Answer choices: {choices}
   Output format: Give your answer as the correct option between <Answer></Answer> tags.
 
   Let's think step by step.
@@ -241,7 +239,7 @@ opro_initial: |
   I have some texts along with their corresponding scores. The texts are arranged in ascending order based on their scores, where higher scores indicate better quality.
 
 opro_middle: |
-  The following exemplars show how to apply your text: you replace <INS> in each input with your text, then read the question and choices and give an output. We say your output is wrong if your output is different from the given output, and we say your output is correct if they are the same.
+  The following exemplars show how to apply your text: you replace <INS> in each input with your text, then read the question and give an output. We say your output is wrong if your output is different from the given output, and we say your output is correct if they are the same.
   
 opro_end: |
   Generate {num_prompts} new texts with high scores. Do not include any introductory text. Each new text should be separated by <NEWLINE> tags.

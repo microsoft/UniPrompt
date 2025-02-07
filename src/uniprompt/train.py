@@ -10,7 +10,7 @@ from uniprompt.utils.sampling_utils import mini_batch_indices, random_batch
 def train(train_data, val_data, config, beam, grouping):
     prompts = load_prompts()
     groups = grouping.groups
-    train_questions, train_choices, train_answers = train_data
+    train_questions, train_answers = train_data
     for group in groups:
         if(len(groups[group]) == 0):
             continue
@@ -26,7 +26,6 @@ def train(train_data, val_data, config, beam, grouping):
         batch_size = config["batch_size"] * mini_batch_size
         selected_indices = random_batch(groups[group], batch_size)
         batch_questions = [train_questions[index] for index in selected_indices]
-        batch_choices = [train_choices[index] for index in selected_indices]
         batch_answers = [train_answers[index] for index in selected_indices]
 
         global_feedback = ""
@@ -38,10 +37,9 @@ def train(train_data, val_data, config, beam, grouping):
             mini_batch_ranges = mini_batch_indices(len(batch_questions), mini_batch_size)
             for start, end in mini_batch_ranges: # Mini-batch loop
                 mini_batch_questions = batch_questions[start:end]
-                mini_batch_choices = batch_choices[start:end]
                 mini_batch_answers = batch_answers[start:end]
                 # Use a list for the feedback to be able to append to it since strings are immutable and we need to append for each mini batch
-                feedback = train_batch_adaptive(mini_batch_questions, mini_batch_choices, mini_batch_answers, curr_prompt, feedback, correct_answers, group, total_wrong_questions, config, grouping)
+                feedback = train_batch_adaptive(mini_batch_questions, mini_batch_answers, curr_prompt, feedback, correct_answers, group, total_wrong_questions, config, grouping)
             global_feedback = " ".join(feedback)
 
             # Adding randomization to the feedback to force the model to explore more options
@@ -56,7 +54,7 @@ def train(train_data, val_data, config, beam, grouping):
                     config=config,)
 
         else:
-            global_feedback = train_batch_adaptive(batch_questions, batch_choices, batch_answers, curr_prompt, global_feedback, correct_answers, group, total_wrong_questions, config, grouping)
+            global_feedback = train_batch_adaptive(batch_questions, batch_answers, curr_prompt, global_feedback, correct_answers, group, total_wrong_questions, config, grouping)
             final_feedback = " ".join(global_feedback)
 
         # apply edit to all prompts in the beam
@@ -64,12 +62,12 @@ def train(train_data, val_data, config, beam, grouping):
 
     return beam
 
-def train_batch_adaptive(mini_batch_questions, mini_batch_choices, mini_batch_answers, p, feedback, correct_answers, group, total_wrong_questions, config, grouping):
+def train_batch_adaptive(mini_batch_questions, mini_batch_answers, p, feedback, correct_answers, group, total_wrong_questions, config, grouping):
     prompts = load_prompts()
     wrong_questions, wrong_choices, wrong_cots, correct_choices = [], [], [], []
     acc = 0
-    for question, answer, choices in zip(mini_batch_questions, mini_batch_answers, mini_batch_choices):
-        prompt = make_prompt(prompt=p, question=question, choices=choices)
+    for question, answer in zip(mini_batch_questions, mini_batch_answers):
+        prompt = make_prompt(prompt=p, question=question)
         messages = [{"role": "user", "content": prompt}]
         answer_cot = chat_completion(cache_path=config["cache_path"], **config["solver_llm"], messages=messages)
         answer_llm = extract_answer(answer_cot)

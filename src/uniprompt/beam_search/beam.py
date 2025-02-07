@@ -13,10 +13,10 @@ class BeamSearch:
         self.beam = []
 
     def initialize_candidates(self, initial_prompt: str, data: Tuple, config: Dict, eval_fn: Optional[Callable] = None) -> List[Tuple[float, str, float]]:
-        val_questions, val_choices, val_answers = data
+        val_questions, val_answers = data
         if eval_fn is None:
             eval_fn = evaluate_prompt
-        eval_result = eval_fn(initial_prompt, val_questions, val_answers, val_choices, config)
+        eval_result = eval_fn(initial_prompt, val_questions, val_answers, config)
         self.beam.append((-eval_result["acc"], initial_prompt, 0))
 
     def get_best_prompt(self) -> str:
@@ -31,7 +31,7 @@ class BeamSearch:
     def apply_edits_to_beam(self, final_feedback: str, val_data: Tuple, config) -> None:
         new_candidates = []
         prompts = load_prompts()
-        val_questions, val_choices, val_answers = val_data
+        val_questions, val_answers = val_data
         for beam_acc, beam_prompt, _ in self.beam:
             new_prompt = apply_edits(
                 prompt=beam_prompt,
@@ -39,7 +39,7 @@ class BeamSearch:
                 edits=final_feedback,
                 config=config,
             )
-            eval_result = evaluate_prompt(new_prompt, questions=val_questions, choices=val_choices, answers=val_answers, config=config)
+            eval_result = evaluate_prompt(new_prompt, questions=val_questions, answers=val_answers, config=config)
             acc, cm = eval_result["acc"], eval_result["cm"]
             new_candidates.append((-acc, new_prompt, -(beam_acc-acc)))
 
@@ -48,11 +48,11 @@ class BeamSearch:
         return self.beam
 
     def add_prompt_to_beam(self, prompt: str, val_data: Tuple, config: Dict, eval_fn: Optional[Callable] = None) -> None:
-        val_questions, val_choices, val_answers = val_data
+        val_questions, val_answers = val_data
         if eval_fn is None:
             eval_fn = evaluate_prompt
 
-        eval_result = eval_fn(prompt, questions=val_questions, choices=val_choices, answers=val_answers, config = config)
+        eval_result = eval_fn(prompt, questions=val_questions, answers=val_answers, config = config)
         print(f"Metrics: {eval_result}")
         new_candidate = (-eval_result["acc"], prompt, (self.beam[0][0] + (eval_result["acc"])))
         self.beam = heapq.nsmallest(self.beam_width, self.beam + [new_candidate])

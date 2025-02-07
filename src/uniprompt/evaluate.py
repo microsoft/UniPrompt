@@ -6,14 +6,13 @@ from uniprompt.utils.prompt_utils import make_prompt
 
 
 def evaluate(data, prompt, config):
-    questions, choices, answers = data
-    return evaluate_prompt(prompt, questions, answers, choices, config)
+    questions, answers = data
+    return evaluate_prompt(prompt, questions, answers, config)
 
 def evaluate_prompt(
     new_prompt: str,
     questions: Sequence[str],
     answers: Sequence[str],
-    choices: Sequence[List[str]],
     config: Dict[str, Any],
 ) -> Dict[str, Union[float, List[List[float]]]]:
     acc = 0
@@ -22,7 +21,7 @@ def evaluate_prompt(
     y_pred = []
     i = 0
 
-    for question, answer, choice in zip(questions, answers, choices):
+    for question, answer in zip(questions, answers):
         i+=1
         # if answer not in choice:
         #     if answer == "1":
@@ -30,7 +29,7 @@ def evaluate_prompt(
         #     if answer == "0":
         #         answer = choice[0]
 
-        prompt = make_prompt(prompt=new_prompt, question=question, choices=choice, template="make_prompt")
+        prompt = make_prompt(prompt=new_prompt, question=question, template="make_prompt")
         messages = [{"role": "system", "content": "You are an expert"}, {"role": "user", "content": prompt}]
         answer_cot = chat_completion(cache_path=config["cache_path"], **config["solver_llm"], messages=messages)
         answer_llm = extract_answer(answer_cot)
