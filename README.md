@@ -150,3 +150,17 @@ To ensure your code follows the style guidelines, install `ruff ~= 4.0`
 ```shell
 ruff check --fix
 ```
+
+## Citation
+
+```bibtex
+@misc{juneja2025taskfacetlearningstructured,
+      title={Task Facet Learning: A Structured Approach to Prompt Optimization}, 
+      author={Gurusha Juneja and Gautam Jajoo and Nagarajan Natarajan and Hua Li and Jian Jiao and Amit Sharma},
+      year={2025},
+      eprint={2406.10504},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2406.10504}, 
+}
+```
